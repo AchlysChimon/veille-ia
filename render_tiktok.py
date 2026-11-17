@@ -6,18 +6,23 @@ Sortie : 00.png, 01.png… (carrousel), flash_ia.mp4 (vidéo avec GIF animés), 
 
 Champs lus dans news.json (en plus de ceux de render.py) :
   "tiktok": [3, 1, 7, ...]       indices (à partir de 1) des news retenues, dans l'ordre. Absent : les 7 premières.
-  "couverture_tiktok": "Les 7 news IA [[à ne pas rater]]"   ([[...]] = tuiles jaunes)
+  "couverture_tiktok": "Les jeux vidéo de demain [[tiennent dans une page web]] ?"
+            accroche qui TEASE une news précise ([[...]] = tuiles jaunes) ; "teaser": indice (à partir de 1, dans
+            items) de la news teasée : elle est placée en avant-dernière news pour qu'on swipe jusqu'à la réponse,
+            et son image sert de fond à la couverture.
   "memes": [ {"apres": 3, "image": "giphy:mind blown", "legende": "Moi quand [[ChatGPT]] paie à ma place"} ]
             slide mème plein écran insérée après la 3e news TikTok (GIF animé dans la vidéo).
   Par news :
     "titre_tiktok": "ChatGPT fait [[tes achats]]"   titre des tuiles. Absent : "titre".
-    "texte_tiktok": "..."                          ≤ 220 caractères. Absent : "texte".
-    "bemol": "Pas encore dispo en France"          ligne d'avertissement (optionnelle).
+    "texte_tiktok": "..."                          texte de la slide (≤ 380 caractères). Absent : "texte".
+    "bemol": "Gratuit dans 6 pays, pas encore de date pour la France."  phrase ajoutée à la fin du texte.
+    "ou": "github.com/emilkowalski/skills"         où trouver l'outil / le skill / le post : affiché en étiquette.
     "image_tiktok": "https://…"                    image dédiée à TikTok (sinon "image", sinon og:image du lien).
-    "cadrage": "plein" | "carte"                   force le cadrage. Par défaut : automatique
-                                                   (paysage, capture d'écran ou image claire → carte entière sur fond flouté).
-    "meme": "giphy:shut up and take my money"     mème en sticker (coins arrondis, contour blanc, sans légende) : URL directe, ou « giphy:mots » / « tenor:mots »
-                                                   (premier GIF trouvé ; animé dans la vidéo).
+    "cadrage": "plein" | "carte" | "entier"        plein : l'image remplit l'écran ; carte : grand panneau pleine largeur
+                                                   (recadré) sur fond flouté ; entier : image affichée en entier (interface,
+                                                   schéma). Par défaut : automatique (paysage ou image claire → carte).
+    "meme": "tenor:this is fine dog"              mème en sticker DÉTOURÉ (fond supprimé, contour blanc), à réserver
+                                                   aux news où il fait vraiment rire ; animé dans la vidéo.
     "recherche_image": "California lawsuit OpenAI" mots-clés (en anglais de préférence) pour trouver une illustration
                                                    si la source n'a pas d'image exploitable.
     L'image peut aussi valoir « recherche:mots » (illustration trouvée sur Bing Images).
@@ -49,11 +54,13 @@ body.carte .sh{background:linear-gradient(180deg,rgba(0,0,0,.3),transparent 20%,
 .w{display:inline-block;background:#0A0A0A;color:#fff;font-family:'Anton';font-size:1em;line-height:1;text-transform:uppercase;padding:.07em .15em .09em;margin:0 .07em .08em 0;border-radius:10px;border-top:3px solid #333;box-shadow:0 10px 30px rgba(0,0,0,.6)}
 .w.y{background:#FFE600;color:#000;border-top-color:#fff59a}
 p{font:500 36px/1.42 'Inter';color:#e4e4e4}
+p.t{font-size:var(--pf,36px)}
 .b{font:700 26px/1.3 'JetBrains Mono';color:#FFE600}
 .swipe{position:absolute;bottom:120px;right:100px;font:700 34px 'JetBrains Mono';color:#fff}
-.meme{position:absolute;top:300px;right:80px;width:400px;transform:rotate(7deg);z-index:5;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55))}
-.meme img{width:100%;height:auto;display:block;border-radius:34px;outline:9px solid #fff;outline-offset:-1px}
-body.carte .meme{top:820px;right:60px;width:330px}
+.meme{position:absolute;top:260px;right:50px;width:420px;transform:rotate(6deg);z-index:5;filter:drop-shadow(0 14px 24px rgba(0,0,0,.55))}
+.meme img{width:100%;height:auto;display:block}
+.meme img.rond{border-radius:34px;outline:9px solid #fff;outline-offset:-1px}
+.ou{display:inline-block;align-self:flex-start;background:#FFE600;color:#000;font:700 30px/1.2 'JetBrains Mono';padding:12px 20px;border-radius:10px}
 .mfull{position:absolute;top:560px;left:40px;right:40px;bottom:120px;display:flex;align-items:center;justify-content:center}
 .mfull img{max-width:100%;max-height:100%;border-radius:24px;display:block}
 """
@@ -72,7 +79,7 @@ PREP = """async (mode) => {
     try { const c = document.createElement('canvas'); c.width = 24; c.height = 24; const x = c.getContext('2d');
       x.drawImage(im, 0, 0, 24, 24); const d = x.getImageData(0, 0, 24, 24).data; let s = 0;
       for (let k = 0; k < d.length; k += 4) s += (d[k] + d[k+1] + d[k+2]) / 3; clair = s / (d.length / 4) > 185; } catch (e) {}
-    if (mode === 'carte' || r > 0.8 || clair) document.body.classList.add('carte');
+    if (mode === 'carte' || mode === 'entier' || r > 0.8 || clair) document.body.classList.add('carte');
   }
   for (const g of document.querySelectorAll('.mfull img, body.carte .frame img')) {   // agrandit en gardant les proportions
     const P = g.parentElement, bw = P.clientWidth - 12, bh = P.clientHeight - 12;
@@ -83,11 +90,28 @@ PREP = """async (mode) => {
   const h = document.querySelector('.h');
   if (h) { const max = parseInt(h.dataset.max || '720'); let s = parseInt(getComputedStyle(h).fontSize);
     while ((h.offsetHeight > max || h.scrollWidth > h.clientWidth + 2) && s > 70) { s -= 4; h.style.fontSize = s + 'px'; } }
+  const col = document.querySelector('.col'), p = document.querySelector('p.t');
+  if (col && p) { let f = 36; while (col.getBoundingClientRect().top < 900 && f > 28) { f -= 2; p.style.fontSize = f + 'px'; } }
+  const fr = document.querySelector('body.carte .frame');
+  if (fr && col) { const top = 200, bot = col.getBoundingClientRect().top - 40; fr.style.top = top + 'px'; fr.style.height = Math.max(380, bot - top) + 'px';
+    const g2 = fr.querySelector('img');
+    if (mode === 'entier') {   // image affichée en entier (capture d'interface, schéma)
+      const k2 = Math.min((fr.clientWidth - 12) / g2.naturalWidth, (fr.clientHeight - 12) / g2.naturalHeight);
+      g2.style.width = Math.round(g2.naturalWidth * k2) + 'px'; g2.style.height = Math.round(g2.naturalHeight * k2) + 'px';
+    } else {                   // grand panneau : toute la largeur, recadré si besoin, jamais une petite vignette
+      g2.style.width = fr.clientWidth + 'px'; g2.style.height = Math.min(fr.clientHeight, Math.round(fr.clientWidth * 1.25)) + 'px';
+      g2.style.objectFit = 'cover'; g2.style.maxWidth = 'none'; g2.style.maxHeight = 'none';
+    } }
+  const st = document.querySelector('.meme');
+  if (st && col) { const sb = st.getBoundingClientRect(), ct = col.getBoundingClientRect().top;
+    if (sb.bottom > ct - 20) st.style.top = Math.max(170, parseFloat(getComputedStyle(st).top) - (sb.bottom - ct + 40)) + 'px';
+    if (st.getBoundingClientRect().bottom > ct - 20) { st.style.width = '300px'; } }
   const g = document.querySelector('img.anim');
   if (!g) return null;
   const b = g.getBoundingClientRect();
   return {cx: b.left + b.width / 2, cy: b.top + b.height / 2, w: g.offsetWidth, h: g.offsetHeight,
-          a: parseFloat(g.dataset.angle || '0'), r: parseFloat(getComputedStyle(g).borderTopLeftRadius) || 0};
+          a: parseFloat(g.dataset.angle || '0'), r: parseFloat(getComputedStyle(g).borderTopLeftRadius) || 0,
+          seq: g.dataset.seq || ''};
 }"""
 
 
@@ -104,15 +128,15 @@ def plain(t):
     return re.sub(r"\[\[|\]\]", "", t)
 
 
-def fetch(url, dest_stem):
+def fetch(url, dest_stem, sticker=False):
     """Télécharge un mème ; renvoie (data_uri, chemin_local, est_gif)."""
-    url = R.resolve_meme(url)
+    url = R.resolve_meme(url, sticker)
     if not url:
         return None, None, False
     try:
         r = R.get(url); b = r.read(15_000_000)
         ct = r.headers.get_content_type()
-        gif = ct == "image/gif" or b[:6] in (b"GIF87a", b"GIF89a")
+        gif = ct == "image/gif" or b[:6] in (b"GIF87a", b"GIF89a") or (b[:4] == b"RIFF" and b"ANIM" in b[:64])
         if not ct.startswith("image/"):
             ct = "image/gif" if gif else "image/jpeg"
         path = Path(f"{dest_stem}.{'gif' if gif else 'img'}"); path.write_bytes(b)
@@ -120,6 +144,56 @@ def fetch(url, dest_stem):
     except Exception as e:
         print("mème KO", url, e)
         return None, None, False
+
+
+_SESSION = {}
+
+def sticker(raw, dest):
+    """Détoure un mème (GIF ou image) : fond supprimé, contour blanc façon sticker.
+    Renvoie (data_uri de la 1re image, dossier des PNG pour la vidéo, images/seconde ou 0) ou None."""
+    try:
+        import io
+        from PIL import Image, ImageSequence, ImageFilter
+        from rembg import remove, new_session
+        im = Image.open(io.BytesIO(raw))
+        n = getattr(im, "n_frames", 1); step = max(1, math.ceil(n / 24))
+        dur = (im.info.get("duration") or 80) * step
+        dest.mkdir(parents=True, exist_ok=True)
+        frames = []
+        f0 = im.convert("RGBA"); hist = f0.split()[3].histogram()
+        deja = sum(hist[:250]) > 0.08 * sum(hist)   # déjà détouré (sticker transparent) : pas besoin de supprimer le fond
+        if not deja and "s" not in _SESSION:
+            _SESSION["s"] = new_session("isnet-general-use")
+        for k, f in enumerate(ImageSequence.Iterator(im)):
+            if k % step: continue
+            f = f.convert("RGBA"); f.thumbnail((440, 440))
+            o = f if deja else remove(f.convert("RGB"), session=_SESSION["s"])
+            a = o.split()[3].point(lambda v: 255 if v > 110 else 0)
+            cov = sum(a.histogram()[255:]) / (a.size[0] * a.size[1])
+            if a.getbbox() is None or (k == 0 and not deja and not 0.12 < cov < 0.97):
+                print("détourage raté, sticker arrondi à la place"); return None
+            pad = 14; W, H = o.size
+            can = Image.new("RGBA", (W + 2 * pad, H + 2 * pad), (0, 0, 0, 0))
+            can.paste(Image.new("RGBA", (W, H), (255, 255, 255, 255)), (pad, pad), a.filter(ImageFilter.MaxFilter(19)))
+            o = o.copy(); o.putalpha(a); can.paste(o, (pad, pad), o)
+            frames.append(can)
+        for k, f in enumerate(frames):
+            f.save(dest / f"{k:03d}.png")
+        b = io.BytesIO(); frames[0].save(b, "PNG")
+        fps = max(1, round(1000 / dur)) if len(frames) > 1 else 0
+        return "data:image/png;base64," + base64.b64encode(b.getvalue()).decode(), dest, fps
+    except Exception as e:
+        print("sticker KO", e)
+        return None
+
+
+def dims(uri):
+    try:
+        import io
+        from PIL import Image
+        return Image.open(io.BytesIO(base64.b64decode(uri.split(",", 1)[1]))).size
+    except Exception:
+        return (0, 0)
 
 
 def bg(img):
@@ -142,6 +216,9 @@ def main(src, out):
     tmp = out / "_tmp"; tmp.mkdir(exist_ok=True)
     items = data["items"]
     idx = data.get("tiktok") or list(range(1, min(7, len(items)) + 1))
+    tz = data.get("teaser")
+    if tz in idx and len(idx) > 2:   # la news teasée en couverture passe en avant-dernière position
+        idx = [i for i in idx if i != tz]; idx.insert(len(idx) - 1, tz)
     sel = [items[i - 1] for i in idx if 0 < i <= len(items)]
     n = len(sel)
 
@@ -153,32 +230,52 @@ def main(src, out):
         img = R.image_for({"image": it.get("image_tiktok")}) if it.get("image_tiktok") else None
         if not img and it.get("image") is not False:
             img = R._image_for(it)
-        if not img:   # jamais de slide sans image : illustration trouvée à partir du titre, puis capture de la page
+        if not img:   # jamais de slide sans image : illustration trouvée à partir du sujet, puis capture de la page
             img = R.search_image(it.get("recherche_image") or plain(it.get("titre_tiktok") or it["titre"]))
+        w, h = dims(img) if img else (0, 0)
+        if not img or w < 500:
+            # image absente ou minuscule : on cherche une vraie image verticale sur le sujet
+            alt = R.search_image(it.get("recherche_image") or plain(it.get("titre_tiktok") or it["titre"]), tall=True)
+            if alt:
+                img = alt; it["cadrage"] = it.get("cadrage") or "plein"
         if not img and it.get("lien"):
             img = R.screenshot(it["lien"])
         imgs.append(img)
-    cov = R.image_for({"image": data.get("image_couverture")}) or next((x for x in imgs if x), None)
+    cov = None
+    if tz in idx:
+        cov = imgs[idx.index(tz)]
+    cov = cov or (R.image_for({"image": data.get("image_couverture")}) if data.get("image_couverture") else None)
+    cov = cov or next((x for x in imgs if x), None)
 
     slides = []   # (html, durée, cadrage, gif local ou None)
     hook = data.get("couverture_tiktok") or f"Les {n} news IA [[à ne pas rater]]"
     slides.append((page(bg(cov) + CORN + top(data["date"]) +
         f'<div class=col><div class=h data-max=900 style="font-size:180px">{tiles(hook)}</div>'
-        f'<p>IA, tech et design : l\'essentiel en {n} slides.</p></div><div class=swipe>SWIPE →</div>'),
+        f'<p>La réponse, et {n - 1} autres news IA, tech et design, dans ce carrousel.</p></div><div class=swipe>SWIPE →</div>'),
         DUR["cover"], "plein", None))
 
     memes = {m.get("apres"): m for m in data.get("memes", [])}
     for i, (it, img) in enumerate(zip(sel, imgs), 1):
-        uri, gpath, gif = fetch(it.get("meme"), tmp / f"m{i}")
-        sticker = ""
+        uri, gpath, gif = fetch(it.get("meme"), tmp / f"m{i}", sticker=True)
+        stk = ""; anim = None
         if uri:
-            sticker = f'<div class=meme><img class="{"anim" if gif else ""}" data-angle=7 src="{uri}"></div>'
-        bem = it.get("bemol")
-        slides.append((page(bg(img) + CORN + top(f"{i:02d}/{n:02d}") + sticker +
-            f'<div class=col><div class=h data-max=640>{tiles(it.get("titre_tiktok") or it["titre"])}</div>'
-            f'<p>{html.escape(it.get("texte_tiktok") or it["texte"])}</p>'
-            + (f'<div class=b>⚠ {html.escape(bem.upper())}</div>' if bem else "") + '</div>'),
-            DUR["news"], it.get("cadrage") or "auto", gpath if gif else None))
+            cut = sticker(gpath.read_bytes(), tmp / f"seq{i}")
+            if cut:
+                uri, seqdir, fps = cut
+                stk = f'<div class=meme><img class="{"anim" if fps else ""}" data-angle=6 src="{uri}"></div>'
+                anim = (seqdir, fps) if fps else None
+            else:
+                stk = f'<div class=meme><img class="rond {"anim" if gif else ""}" data-angle=6 src="{uri}"></div>'
+                anim = gpath if gif else None
+        txt = (it.get("texte_tiktok") or it["texte"]).strip()
+        if it.get("bemol"):
+            txt += " " + it["bemol"].strip()
+        ou = it.get("ou")
+        slides.append((page(bg(img) + CORN + top(f"{i:02d}/{n:02d}") + stk +
+            f'<div class=col><div class=h data-max=520>{tiles(it.get("titre_tiktok") or it["titre"])}</div>'
+            f'<p class=t>{html.escape(txt)}</p>'
+            + (f'<div class=ou>→ {html.escape(ou)}</div>' if ou else "") + '</div>'),
+            DUR["news"], it.get("cadrage") or "auto", anim))
         m = memes.get(i)
         if m:
             uri, gpath, gif = fetch(m.get("image"), tmp / f"full{i}")
@@ -208,7 +305,17 @@ def main(src, out):
         for k, (png, dur, gpath, box) in enumerate(segs):
             seg = tmp / f"s{k:02d}.mp4"
             enc = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-pix_fmt", "yuv420p", "-r", "30", "-t", str(dur)]
-            if gpath and box:
+            if isinstance(gpath, tuple) and box:   # sticker détouré : suite d'images PNG avec transparence
+                seqdir, fps = gpath
+                a = math.radians(box["a"]); w, hh = round(box["w"]), round(box["h"])
+                rw = w * abs(math.cos(a)) + hh * abs(math.sin(a)); rh = w * abs(math.sin(a)) + hh * abs(math.cos(a))
+                x, y = round(box["cx"] - rw / 2), round(box["cy"] - rh / 2)
+                fc = (f"[1:v]scale={w}:{hh},format=rgba,rotate={a}:c=none:ow=rotw({a}):oh=roth({a})[m];"
+                      f"[0:v][m]overlay={x}:{y}:shortest=0,format=yuv420p")
+                cmd = ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(png),
+                       "-stream_loop", "-1", "-framerate", str(fps), "-i", str(Path(seqdir) / "%03d.png"),
+                       "-filter_complex", fc] + enc + [str(seg)]
+            elif gpath and box:
                 a = math.radians(box["a"]); w, hh = round(box["w"]), round(box["h"])
                 rw = w * abs(math.cos(a)) + hh * abs(math.sin(a)); rh = w * abs(math.sin(a)) + hh * abs(math.cos(a))
                 x, y = round(box["cx"] - rw / 2), round(box["cy"] - rh / 2)
@@ -234,12 +341,12 @@ def main(src, out):
 
     lines = [plain(hook) + " 👇", ""]
     for i, it in enumerate(sel, 1):
-        lines.append(f"{i}. {plain(it.get('titre_tiktok') or it['titre'])} — {it.get('lien', '')}")
+        lines.append(f"{i}. {plain(it.get('titre_tiktok') or it['titre'])} — {it.get('lien', '')}"
+                     + (f"\n   👉 Où le trouver : {it['ou']}" if it.get("ou") else ""))
     lines += ["", "#ia #intelligenceartificielle #veilleia #chatgpt #claude #design #techtok"]
     (out / "legende_tiktok.txt").write_text("\n".join(lines))
-    for f in tmp.iterdir():
-        f.unlink()
-    tmp.rmdir()
+    import shutil
+    shutil.rmtree(tmp, ignore_errors=True)
     print(f"{len(segs)} slides TikTok dans {out}")
 
 

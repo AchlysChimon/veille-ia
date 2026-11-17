@@ -57,25 +57,42 @@ def data_uri(url):
 
 SHOT = {"page": None}
 
-def search_image(terms):
-    """« recherche:mots » → première grande image trouvée par Bing Images."""
+def search_image(terms, tall=False):
+    """« recherche:mots » → première grande image trouvée par Bing Images (tall=True : format vertical)."""
     try:
         q = urllib.parse.quote(terms)
-        h = get(f"https://www.bing.com/images/search?q={q}&form=HDRSC2&first=1").read(2_000_000).decode("utf-8", "ignore")
+        f = "&qft=+filterui:aspect-tall+filterui:imagesize-large" if tall else ""
+        h = get(f"https://www.bing.com/images/search?q={q}&form=HDRSC2&first=1{f}").read(2_000_000).decode("utf-8", "ignore")
         for u in re.findall(r'murl&quot;:&quot;(https?://[^&]+?)&quot;', h)[:8]:
             d = data_uri(html.unescape(u))
             if d and len(d) > 40_000: return d
     except Exception as e:
         print("recherche image KO", terms, e)
 
-def resolve_meme(spec):
-    """URL directe, ou « giphy:mots » / « tenor:mots » → URL du premier GIF trouvé."""
+def tenor_sticker(terms):
+    """Sticker Tenor (fond transparent) le plus proche des mots-clés → URL du .webp animé 498 px."""
+    slug = re.sub(r"[^a-z0-9]+", "-", terms.lower()).strip("-")
+    try:
+        h = get(f"https://tenor.com/search/{slug}-stickers").read(3_000_000).decode("utf-8", "ignore")
+        urls = list(dict.fromkeys(re.findall(r'https://media1?\.tenor\.com/([A-Za-z0-9_-]+?)AAAAm/([^"\'\s/]+)\.webp', h)))
+        mots = set(slug.split("-"))
+        urls.sort(key=lambda u: -len(mots & set(u[1].split("-"))))   # le nom du sticker qui colle le mieux à la recherche
+        if urls:
+            return f"https://media.tenor.com/{urls[0][0]}AAAAl/{urls[0][1]}.webp"
+    except Exception as e:
+        print("sticker tenor KO", terms, e)
+
+def resolve_meme(spec, sticker=False):
+    """URL directe, ou « tenor:mots » / « giphy:mots » / « sticker:mots » → URL du mème.
+    sticker=True : on cherche d'abord un sticker Tenor déjà détouré."""
     if not spec or spec.startswith("http"): return spec
     src, _, terms = spec.partition(":")
+    if sticker or src == "sticker":
+        u = tenor_sticker(terms)
+        if u: return u
     slug = re.sub(r"[^a-z0-9]+", "-", terms.lower()).strip("-")
-    pages = [("https://giphy.com/search/" + slug, r'https://media\d?\.giphy\.com/media/(?:v1\.[^/]+/)?([A-Za-z0-9]+)/giphy\.gif'),
-             ("https://tenor.com/search/" + slug + "-gifs", r'https://media1?\.tenor\.com/[A-Za-z0-9_-]+/[^"\'\s]+?\.gif')]
-    if src == "tenor": pages.reverse()
+    pages = [("https://tenor.com/search/" + slug + "-gifs", r'https://media1?\.tenor\.com/[A-Za-z0-9_-]+/[^"\'\s]+?\.gif'),
+             ("https://giphy.com/search/" + slug, r'https://media\d?\.giphy\.com/media/(?:v1\.[^/]+/)?([A-Za-z0-9]+)/giphy\.gif')]
     for url, pat in pages:
         try:
             h = get(url).read(3_000_000).decode("utf-8", "ignore")

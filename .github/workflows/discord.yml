@@ -10,10 +10,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
+      - name: Cache du modèle de détourage
+        uses: actions/cache@v4
+        with:
+          path: ~/.rembg
+          key: rembg-isnet-v1
       - name: Outils (Chrome + polices)
         run: |
           sudo apt-get install -y -qq ffmpeg >/dev/null
-          pip install playwright pillow >/dev/null && python -m playwright install --with-deps chromium >/dev/null
+          pip install playwright pillow rembg onnxruntime >/dev/null && python -m playwright install --with-deps chromium >/dev/null
           mkdir -p ~/.local/share/fonts
           for w in Regular Medium SemiBold Bold ExtraBold; do
             curl -sfL -o ~/.local/share/fonts/Poppins-$w.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-$w.ttf
