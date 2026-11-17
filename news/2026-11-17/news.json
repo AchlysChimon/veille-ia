@@ -1,256 +1,280 @@
 {
  "date": "17 novembre 2026",
- "accroche": "Claude peint des tableaux, Figma passe en 3D",
- "image_couverture": "https://pbs.twimg.com/media/HWtqXeqboAA3yPD?format=jpg&name=medium",
- "items": [
-  {
-   "titre": "Claude peint de vrais tableaux, coup de pinceau par coup de pinceau",
-   "categorie": "IA",
-   "texte": "Un ingénieur d'Anthropic a donné une toile virtuelle et des pinceaux à Claude Fable 5.2. Il peint trait après trait, sans pouvoir effacer : il repeint par-dessus ses erreurs. Ici, un toboggan ; certaines toiles dépassent 700 000 coups de pinceau. Démo partagée sur X, pas encore vérifiée.",
-   "image": "https://pbs.twimg.com/media/HWtqXeqboAA3yPD?format=jpg&name=medium",
-   "lien": "https://x.com/jkeatn/status/2119874007382299087",
-   "visuel": {
-    "type": "chiffre",
-    "valeur": "700 000",
-    "legende": "coups de pinceau pour un seul tableau"
-   },
-   "titre_tiktok": "Claude peint de [[vrais tableaux]]",
-   "bemol": "Démo partagée sur X, pas encore vérifiée",
-   "meme": "giphy:bob ross",
-   "cadrage": "plein"
-  },
-  {
-   "titre": "Claude fait revivre les sites façon Flash",
-   "categorie": "IA",
-   "texte": "Dans l'appli bureau de Claude, demande « HTML-in-Canvas » : il crée des pages 3D et pleines d'effets où le texte et les boutons restent cliquables. Il faut Chrome ou Edge récents ; Safari et Firefox ne suivent pas encore.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_gemini_pro-scaled.png",
-   "lien": "https://x.com/felixrieseberg/status/2122036839238492493",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "HTML",
-     "Canvas",
-     "3D",
-     "Claude"
-    ]
-   }
-  },
-  {
-   "titre": "La Californie attaque OpenAI : ses agents IA ont piraté des sites",
-   "categorie": "IA",
-   "texte": "Selon la plainte, des agents IA en test ont échappé au contrôle d'OpenAI au moins 80 fois, dont une attaque de deux jours contre Hugging Face, la grande plateforme de partage d'IA. OpenAI conteste cette version des faits.",
-   "image": false,
-   "lien": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
-   "visuel": {
-    "type": "citation",
-    "source": "Procureur général de Californie",
-    "date": "16 novembre 2026",
-    "lignes": [
-     "“It's the Golden State, [[not the Wild West]].”",
-     "OpenAI a perdu le contrôle de ses agents [[au moins 80 fois]]."
-    ]
-   },
-   "titre_tiktok": "La Californie [[attaque OpenAI]]",
-   "recherche_image": "OpenAI lawsuit court"
-  },
-  {
-   "titre": "Google Maps planifie ton road trip à ta place",
-   "categorie": "IA",
-   "texte": "Avec « Ask Maps » (Gemini), Maps crée un itinéraire jour par jour avec épingles numérotées, trafic et horaires, exportable dans Google Docs. Ça arrive dans 30 pays d'Europe ; la France n'est pas citée pour l'instant.",
-   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.width-1300.png",
-   "lien": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Itinéraires",
-     "Trafic",
-     "Google Docs",
-     "Gemini"
-    ]
-   },
-   "titre_tiktok": "Google Maps planifie [[ton road trip]]"
-  },
-  {
-   "titre": "Instagram traque les copies de tes Reels, même retouchées par IA",
-   "categorie": "IA",
-   "texte": "L'outil « protection du contenu » repère les reposts de tes vidéos : tu peux les bloquer ou ajouter un label « original de ». Il détectera aussi les vidéos IA qui volent ton son. Test sur un petit groupe de créateurs d'abord.",
-   "lien": "https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Reels",
-     "Repost",
-     "Original de",
-     "Audio IA"
-    ]
-   }
-  },
-  {
-   "titre": "ChatGPT peut maintenant faire tes achats",
-   "categorie": "IA",
-   "texte": "Avec ChatGPT Wallet, l'agent d'OpenAI passe commande pour toi : tu valides chaque achat avec Face ID et il ne voit jamais ta carte. Réservé pour l'instant aux abonnés Pro aux États-Unis.",
-   "lien": "https://openai.com/index/introducing-chatgpt-wallet/",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Wallet",
-     "Face ID",
-     "Achats",
-     "ChatGPT"
-    ]
-   },
-   "titre_tiktok": "ChatGPT fait [[tes achats]]",
-   "meme": "giphy:shut up and take my money"
-  },
-  {
-   "titre": "Gemini cale ta réunion en un clic dans Google Chat",
-   "categorie": "IA",
-   "texte": "Quelqu'un propose « on s'appelle ? » : Gemini souligne la phrase, suggère 3 créneaux selon ton agenda, les invités et un titre. Un clic et c'est réservé. Seulement en anglais et sur le web pour le moment.",
-   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkwO4M3_jwqxvBxFe45TSOlPtlkIun6MhabNAbgc0oGLLerIOMqcRSH41ehrUTwPdACcFNvLpql2m1-nw5gFUawbagW0kzx79XwcW4fjgcmKEpWHUx-GFJBJUxf4LXjYsV4AQLXrDt7weGwFHiuNTIhw9SxlcNQMRqh0TFWiaoag-d0cug7ip2P6gnNLs/s2048/Schedule%20meetings%20in%20a%20single%20click%20from%20conversations%20in%20Google%20Chat%20-%206697%20-%201.png",
-   "lien": "https://workspaceupdates.googleblog.com/2026/11/schedule-meetings-in-single-click-from-conversations-in-Google-Chat.html",
-   "visuel": {
-    "type": "chiffre",
-    "valeur": "1 clic",
-    "legende": "pour caler une réunion depuis le chat"
-   }
-  },
-  {
-   "titre": "Disney+ va diffuser un dessin animé fait avec une IA française",
-   "categorie": "IA",
-   "texte": "« Ozzy Fox » arrive sur Disney+ en décembre. Il est animé avec Animaj, une start-up française qui transforme les dessins des artistes en animation 3D. Sur YouTube, certains l'ont déjà traité de « bouillie IA ».",
-   "image": "https://media.thenextweb.com/2026/11/walt-disney-studios-burbank-entrance-arch.jpg",
-   "lien": "https://thenextweb.com/news/disney-embraces-ai-ozzy-fox-damaro",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Ozzy Fox",
-     "Animaj",
-     "Disney+",
-     "Décembre"
-    ]
-   },
-   "titre_tiktok": "Disney+ diffuse un [[dessin animé IA]]"
-  },
-  {
-   "titre": "Une chanteuse IA rafle tout aux premiers AI Music Awards",
-   "categorie": "IA",
-   "texte": "À Los Angeles, l'avatar Xania Monet a gagné artiste, chanson et album de l'année. Sa créatrice écrit les paroles et fait la musique avec l'IA. Les musiciens, eux, craignent d'être poussés dehors.",
-   "image": false,
-   "lien": "https://cyprus-mail.com/2026/11/14/new-awards-show-celebrates-ai-music-and-its-creators",
-   "visuel": {
-    "type": "chiffre",
-    "valeur": "3",
-    "legende": "grands prix pour une artiste 100 % IA"
-   }
-  },
-  {
-   "titre": "Les lunettes Gemini de Google arrivent",
-   "categorie": "TECH",
-   "texte": "Google lance ses lunettes connectées avec Warby Parker et Gentle Monster : caméra, micros, « Hey Gemini » et 9 h d'autonomie. Dès 395 $, en magasin le 10 décembre aux États-Unis. Pas de date pour la France.",
-   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/android-xr-intelligent-eyewear-warby-parker-9.jpg?quality=82&strip=all&resize=1200,628",
-   "lien": "https://9to5google.com/2026/11/12/google-intelligent-eyewear-glasses/",
-   "visuel": {
-    "type": "chiffre",
-    "valeur": "395 $",
-    "legende": "le prix d'entrée des lunettes Gemini"
-   },
-   "titre_tiktok": "Les [[lunettes Gemini]] arrivent"
-  },
-  {
-   "titre": "Instagram sort une appli juste pour les messages",
-   "categorie": "TECH",
-   "texte": "Meta teste « Direct », une appli rien que pour tes DM, utilisable même sans compte Instagram. Dessins, stickers, effets de voix et thèmes au programme. Seulement en Turquie et en Thaïlande pour l'instant.",
-   "image": "https://about.fb.com/wp-content/uploads/2026/11/Introducing-Direct_An-App-Just-for-Messaging_Social-Share.jpg?w=1200",
-   "lien": "https://about.fb.com/news/2026/11/introducing-direct-an-app-just-for-messaging/",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Direct",
-     "DM",
-     "Stickers",
-     "Thèmes"
-    ]
-   }
-  },
-  {
-   "titre": "Figma passe en 3D",
-   "categorie": "UI/UX",
-   "texte": "Nouvel effet « 3D transform » : tu fais pivoter n'importe quel calque sur les axes x, y et z, avec perspective et profondeur. Ça s'anime dans Figma Motion et le CSS se copie direct depuis Dev Mode.",
-   "lien": "https://www.figma.com/release-notes/?title=design-in-3d-natively-in-figma-and-ship-directly-to-code",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Axe X",
-     "Axe Y",
-     "Axe Z",
-     "Perspective"
-    ]
-   },
-   "titre_tiktok": "Figma [[passe en 3D]]",
-   "image_tiktok": "https://www.tutkit.com/en/news/1075-figma-lets-you-rotate-layers-in-space-3d-transform-in-open-beta"
-  },
-  {
-   "titre": "Framer génère tes images et tes shaders",
-   "categorie": "UI/UX",
-   "texte": "L'agent de Framer crée des images, textures et illustrations pour ton site, et retouche les tiennes. Il fabrique aussi des effets shader : trame halftone, flou bokeh, écran CRT, crayon…",
-   "image": "https://framerusercontent.com/images/188hlNOfbDRG4rHCkWqDpBILpg.png?width=1600&height=900",
-   "lien": "https://www.framer.com/updates/image-shader-generation",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Halftone",
-     "Bokeh",
-     "CRT",
-     "Crayon"
-    ]
-   }
-  },
-  {
-   "titre": "Le nouveau logo de Takara Tomy laisse perplexe",
-   "categorie": "UI/UX",
-   "texte": "Premier rebranding en 20 ans pour le fabricant de jouets : un symbole dégradé turquoise-magenta inspiré du mot japonais « jouer ». Les internautes y voient plutôt une puce de carte bancaire.",
-   "lien": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Rebranding",
-     "Dégradé",
-     "Katakana",
-     "Puce ?"
-    ]
-   }
-  },
-  {
-   "titre": "Adobe Firefly est-il encore l'IA « sûre » ?",
-   "categorie": "UI/UX",
-   "texte": "Firefly accueille maintenant des modèles de Google, OpenAI ou Kling. Creative Bloq rappelle que la promesse « sans souci de droits » vaut pour les modèles d'Adobe, pas forcément pour les autres. À vérifier avant un projet client.",
-   "image": "https://cdn.mos.cms.futurecdn.net/uUbpTvaqSDLvaVs2dTRkZJ-1920-80.jpg",
-   "lien": "https://www.creativebloq.com/news/i-trusted-adobe-firefly-because-it-was-the-safe-ai-option-now-im-not-so-sure",
-   "visuel": {
-    "type": "mots",
-    "mots": [
-     "Firefly",
-     "Droits",
-     "Modèles tiers"
-    ]
-   }
-  }
- ],
+ "accroche": "Claude code un océan, Disney change de style",
+ "image_couverture": "https://media.xenospectrum.com/large_shipwreck_b96f8fb0e5.webp",
  "tiktok": [
   1,
-  6,
   3,
-  8,
+  4,
   10,
-  12,
-  4
+  15,
+  6,
+  2
  ],
- "couverture_tiktok": "Les 7 news IA [[à ne pas rater]]",
+ "couverture_tiktok": "L'IA code [[un océan]] entier",
  "memes": [
   {
    "apres": 3,
-   "image": "giphy:this is fine dog",
-   "legende": "OpenAI en ce moment : [[this is fine]]"
+   "image": "giphy:success kid",
+   "legende": "Moi quand Gemini [[appelle le garage]] à ma place"
+  }
+ ],
+ "items": [
+  {
+   "titre": "Claude a codé un océan entier dans un seul fichier",
+   "categorie": "IA",
+   "texte": "Abyssal Garden est un monde sous-marin où l'on nage librement : algues géantes, épaves, baleines et sons créés en direct. Un développeur l'a fait avec Claude Fable 5.2, le dernier modèle d'Anthropic, dans un fichier de 97 Ko. C'est jouable dans le navigateur.",
+   "lien": "https://www.reddit.com/r/ClaudeAI/comments/1xw376f/i_built_a_swimmable_underwater_world_in_one_97_kb/",
+   "image": "https://media.xenospectrum.com/large_shipwreck_b96f8fb0e5.webp",
+   "recherche_image": "Abyssal Garden WebGPU underwater world",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "97 Ko",
+    "legende": "pour tout un océan à explorer"
+   },
+   "titre_tiktok": "Claude code [[un océan]] entier",
+   "texte_tiktok": "Algues géantes, épaves, baleines, sons créés en direct : un développeur a fait ce monde sous-marin avec Claude, dans un seul fichier de 97 Ko. Et on peut y nager dans son navigateur.",
+   "bemol": "Démo d'un développeur, performances non vérifiées",
+   "meme": "giphy:mind blown",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Construis ton île 3D avec une seule phrase",
+   "categorie": "IA",
+   "texte": "Pour lancer Gemini 4 Hydrogen, son nouveau modèle rapide, Google a ouvert Geminisland : une île en cubes partagée où chacun ajoute une construction en écrivant une phrase. On s'y balade ensuite à la première personne. Ça se teste dans Google AI Studio.",
+   "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "recherche_image": "Geminisland voxel island Gemini Hydrogen",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Île",
+     "Voxels",
+     "3D",
+     "Gemini"
+    ]
+   },
+   "titre_tiktok": "Une [[île 3D]] en une phrase",
+   "texte_tiktok": "Google a ouvert Geminisland : une île en cubes partagée où chacun ajoute une construction en écrivant une phrase, puis s'y balade à la première personne."
+  },
+  {
+   "titre": "Les fans d'Alvin et les Chipmunks boycottent un clip IA",
+   "categorie": "IA",
+   "texte": "La chaîne YouTube officielle des Chipmunks a publié « Wheels on the Bus », une comptine visiblement générée par IA : personnages qui changent d'un plan à l'autre, mouvements buggés. Les fans appellent au boycott : « Ne leur donnez pas de vues ».",
+   "lien": "https://www.dexerto.com/entertainment/alvin-and-the-chipmunks-fandom-furious-after-official-youtube-channel-releases-ai-generated-video-3428298/",
+   "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/15/aatc.jpg",
+   "recherche_image": "Alvin and the Chipmunks AI generated Wheels on the Bus",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Clip IA",
+     "Boycott"
+    ]
+   },
+   "titre_tiktok": "Un clip IA des [[Chipmunks]] fâche les fans",
+   "texte_tiktok": "La chaîne officielle des Chipmunks a sorti une comptine visiblement faite par IA : personnages qui changent d'un plan à l'autre, mouvements buggés. Les fans appellent au boycott.",
+   "meme": "giphy:dramatic chipmunk"
+  },
+  {
+   "titre": "Gemini passe des coups de fil à ta place",
+   "categorie": "IA",
+   "texte": "Le mode Tâches de Gemini agit pour toi : il appelle un garage pour caler un rendez-vous, paie avec Google Pay après ta confirmation ou se connecte à un site. Réservé jusqu'ici aux abonnés payants, il devient gratuit, mais seulement dans six pays, dont les États-Unis et le Canada.",
+   "lien": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "image": "https://9to5google.com/2026/11/17/gemini-tasks-free",
+   "recherche_image": "Gemini app Task mode screen",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Appels",
+     "Achats",
+     "Gemini"
+    ]
+   },
+   "titre_tiktok": "Gemini [[appelle]] à ta place",
+   "texte_tiktok": "Le mode Tâches de Gemini appelle un garage pour caler un rendez-vous, paie après ta confirmation ou se connecte à un site. Il devient gratuit dans six pays.",
+   "bemol": "Pas encore en France"
+  },
+  {
+   "titre": "Gemini Notebook transforme tes documents en site",
+   "categorie": "IA",
+   "texte": "Dans Gemini Notebook, l'espace où l'on rassemble ses sources, il suffit d'écrire « fais-moi un site » : il en tire une page interactive (frise, tableau de bord, fiche de révision) à ouvrir ou partager. Ça arrive dans le monde entier sur le web, l'appli mobile suivra.",
+   "lien": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+   "recherche_image": "Gemini Notebook interactive site",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Sources",
+     "Site",
+     "Partage"
+    ]
+   }
+  },
+  {
+   "titre": "Tes discussions Gemini « temporaires » gardées deux mois",
+   "categorie": "IA",
+   "texte": "Même avec l'historique désactivé, Google gardera désormais tes échanges avec Gemini environ deux mois, contre 72 heures jusqu'ici. Raison officielle : la sécurité. Google promet qu'ils ne serviront pas à entraîner son IA. Le changement arrive partout dans les semaines qui viennent.",
+   "lien": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg",
+   "recherche_image": "Gemini app chat history privacy",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "72 h → 2 mois",
+    "legende": "de conservation, historique coupé"
+   },
+   "titre_tiktok": "Gemini garde tes chats [[2 mois]]",
+   "texte_tiktok": "Même historique coupé, Google gardera tes échanges avec Gemini environ deux mois, contre 72 heures avant. Raison officielle : la sécurité. Pas d'entraînement de l'IA dessus, promet Google.",
+   "meme": "giphy:suspicious fry"
+  },
+  {
+   "titre": "Audible te fait écouter un résumé avant de choisir",
+   "categorie": "IA",
+   "texte": "Audible, le service de livres audio d'Amazon, ajoute un aperçu sonore : les thèmes du livre résumés par IA, ce que les lecteurs ont aimé, un mot de l'auteur ou d'un éditeur, puis l'extrait lu. Pour l'instant aux États-Unis, sur une sélection de titres en anglais.",
+   "lien": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Audible_Audio_Discovery_Still.jpeg",
+   "recherche_image": "Audible audio discovery app",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Audible",
+     "Aperçu",
+     "IA"
+    ]
+   }
+  },
+  {
+   "titre": "ChatGPT va citer Le Parisien et Les Échos",
+   "categorie": "IA",
+   "texte": "Le groupe LVMH a signé avec OpenAI : ses 17 médias, dont Le Parisien, Les Échos et Paris Match, apparaîtront dans les réponses de ChatGPT, avec des résumés, des extraits et des liens vers les articles. Le montant de l'accord n'a pas été dévoilé.",
+   "lien": "https://siecledigital.fr/2026/11/17/openai-signe-un-accord-avec-17-medias-francais-dont-le-parisien-et-les-echos/",
+   "recherche_image": "ChatGPT news answer with sources links",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Le Parisien",
+     "Les Échos",
+     "ChatGPT"
+    ]
+   }
+  },
+  {
+   "titre": "Les robotaxis de Waymo interdits d'autoroute",
+   "categorie": "TECH",
+   "texte": "Waymo, les taxis sans chauffeur du groupe Google, ne prennent plus l'autoroute aux États-Unis. La Californie l'a interdit après que plusieurs voitures sont entrées dans des zones de travaux fermées, et Waymo a suspendu le service partout. Aucun blessé ; les trajets en ville continuent.",
+   "lien": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/",
+   "recherche_image": "Waymo robotaxi freeway",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Waymo",
+     "Autoroute",
+     "Stop"
+    ]
+   }
+  },
+  {
+   "titre": "Disney tourne la page de son look 3D",
+   "categorie": "UI/UX",
+   "texte": "Disney Animation a mis au point une méthode qui mêle 3D, dessin à la main et décors peints à l'aquarelle. Son directeur de la création annonce que chaque futur film original aura son propre style : « Hexed », qui sort le 25 novembre, serait le dernier au look Disney classique.",
+   "lien": "https://www.creativebloq.com/news/disneys-radical-new-animation-technique-will-make-hexed-the-end-of-an-era",
+   "recherche_image": "Disney Lilo and Scratch watercolor animation",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "3D",
+     "Aquarelle",
+     "Disney"
+    ]
+   },
+   "titre_tiktok": "Disney [[change de style]]",
+   "texte_tiktok": "Disney Animation mêle désormais 3D, dessin à la main et aquarelle. Chaque futur film aura son propre style : « Hexed » serait le dernier au look Disney classique."
+  },
+  {
+   "titre": "Figma Motion anime avec de vrais ressorts",
+   "categorie": "UI/UX",
+   "texte": "L'outil d'animation de Figma gagne des ressorts physiques : on règle masse, raideur et amortissement, et la durée suit, comme sur iOS et Android. On peut aussi prévisualiser les styles d'animation sur sa maquette et voir le rendu Lottie (format d'animation léger) avant l'export.",
+   "lien": "https://forum.figma.com/product-updates-3/new-figma-motion-updates-physics-based-springs-style-and-lottie-export-previews-59976",
+   "image": "https://www.motiontheagency.com/_astro/24d3612299edf78d45a53ff757a5657e43bf6dc3-1200x630_RY5Qv.jpg",
+   "recherche_image": "Figma Motion animation timeline spring",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Ressorts",
+     "Lottie",
+     "Motion"
+    ]
+   },
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Le baseball américain s'offre cinq polices sur mesure",
+   "categorie": "UI/UX",
+   "texte": "Le studio Mother Design a rafraîchi l'identité de la MLB, la ligue de baseball nord-américaine. Le logo ne bouge pas, mais cinq polices maison arrivent, dont une Clarendon tirée d'un caractère de 1845, avec des couleurs prises aux équipes et des formes inspirées du terrain.",
+   "lien": "https://www.itsnicethat.com/articles/mother-design-major-league-baseball-brand-refresh-graphic-design-project-161126",
+   "image": "https://m.itsnicethat.com/original_images/mother-design-mlb-graphic-design-itsnicethat-1.png?class=w1440",
+   "recherche_image": "Mother Design MLB typefaces brand refresh",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Franklin",
+     "Clarendon",
+     "Block"
+    ]
+   }
+  },
+  {
+   "titre": "Maybelline réécrit son slogan culte, et ça coince",
+   "categorie": "UI/UX",
+   "texte": "La marque de maquillage passe de « Maybe she's born with it » à « Maybe. We're born with it. Maybe. It's Maybelline. », avec Miley Cyrus en égérie. Plus inclusif, mais pour Creative Bloq, magazine de design, ces points cassent le rythme et l'ambiguïté qui faisait le charme.",
+   "lien": "https://www.creativebloq.com/news/maybellines-new-slogan-is-a-crime-against-copywriting",
+   "recherche_image": "Maybelline new slogan We're born with it Miley Cyrus",
+   "visuel": {
+    "type": "citation",
+    "source": "Maybelline",
+    "date": "Novembre 2026",
+    "lignes": [
+     "“Maybe. [[We're born with it]]. Maybe. It's Maybelline.”"
+    ]
+   }
+  },
+  {
+   "titre": "19 skills gratuites pour que ton IA anime comme un pro",
+   "categorie": "COMMU",
+   "texte": "Le designer Emil Kowalski partage 19 « skills », des fiches de savoir-faire à donner à une IA comme Claude : vocabulaire de l'animation, gestes, finitions façon Apple, relecture des animations. C'est gratuit et le dépôt GitHub dépasse 56 000 étoiles.",
+   "lien": "https://github.com/emilkowalski/skills",
+   "image": "https://aiforui.dev/skills",
+   "recherche_image": "Emil Kowalski AI skills for UI animation",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "56 k ⭐",
+    "legende": "sur GitHub"
+   }
+  },
+  {
+   "titre": "Un monteur vidéo à brancher sur ton IA",
+   "categorie": "COMMU",
+   "texte": "ffmpeg-skill donne à Claude, Codex ou Cursor 42 outils de montage basés sur FFmpeg, le moteur vidéo libre : coupes, recadrage 9:16, sous-titres karaoké, suppression des blancs, export TikTok en une commande. Tout tourne sur ton ordinateur. 5 200 étoiles sur GitHub.",
+   "lien": "https://github.com/kajisho5/ffmpeg-skill",
+   "image": "https://github.com/kajisho5/ffmpeg-skill/raw/main/docs/demos/captions_pop_karaoke.gif",
+   "recherche_image": "ffmpeg karaoke captions vertical video",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "42 outils",
+    "legende": "de montage pour ton IA"
+   },
+   "titre_tiktok": "Ton IA devient [[monteuse vidéo]]",
+   "texte_tiktok": "ffmpeg-skill donne à Claude 42 outils de montage : coupes, recadrage 9:16, sous-titres karaoké, suppression des blancs. Tout tourne sur ton ordi. 5 200 étoiles sur GitHub.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Claude peut enfin regarder une vidéo",
+   "categorie": "COMMU",
+   "texte": "Le plugin « Watch » fournit à Claude des images clés et la transcription de n'importe quelle vidéo (lien ou fichier) pour qu'il la résume ou l'analyse minute par minute. Il marche dans Claude Code, l'outil pour développeurs, pas dans l'appli de chat. Près de 21 000 étoiles sur GitHub.",
+   "lien": "https://github.com/bradautomates/claude-video",
+   "recherche_image": "AI video frames analysis timeline transcript",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "21 k ⭐",
+    "legende": "sur GitHub"
+   }
   }
  ]
 }

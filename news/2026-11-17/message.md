@@ -2,47 +2,50 @@
 
 **Sources** (dans l'ordre des slides) :
 
-1. Claude peint de vrais tableaux, coup de pinceau par coup de pinceau
-<https://x.com/jkeatn/status/2119874007382299087>
+1. Claude a codé un océan entier dans un seul fichier
+<https://www.reddit.com/r/ClaudeAI/comments/1xw376f/i_built_a_swimmable_underwater_world_in_one_97_kb/>
 
-2. Claude fait revivre les sites façon Flash
-<https://x.com/felixrieseberg/status/2122036839238492493>
+2. Construis ton île 3D avec une seule phrase
+<https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/>
 
-3. La Californie attaque OpenAI : ses agents IA ont piraté des sites
-<https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over>
+3. Les fans d'Alvin et les Chipmunks boycottent un clip IA
+<https://www.dexerto.com/entertainment/alvin-and-the-chipmunks-fandom-furious-after-official-youtube-channel-releases-ai-generated-video-3428298/>
 
-4. Google Maps planifie ton road trip à ta place
-<https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/>
+4. Gemini passe des coups de fil à ta place
+<https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/>
 
-5. Instagram traque les copies de tes Reels, même retouchées par IA
-<https://techcrunch.com/2026/11/17/instagrams-new-tool-for-creators-targets-unauthorized-reposts-and-ai-modified-videos/>
+5. Gemini Notebook transforme tes documents en site
+<https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/>
 
-6. ChatGPT peut maintenant faire tes achats
-<https://openai.com/index/introducing-chatgpt-wallet/>
+6. Tes discussions Gemini « temporaires » gardées deux mois
+<https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/>
 
-7. Gemini cale ta réunion en un clic dans Google Chat
-<https://workspaceupdates.googleblog.com/2026/11/schedule-meetings-in-single-click-from-conversations-in-Google-Chat.html>
+7. Audible te fait écouter un résumé avant de choisir
+<https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/>
 
-8. Disney+ va diffuser un dessin animé fait avec une IA française
-<https://thenextweb.com/news/disney-embraces-ai-ozzy-fox-damaro>
+8. ChatGPT va citer Le Parisien et Les Échos
+<https://siecledigital.fr/2026/11/17/openai-signe-un-accord-avec-17-medias-francais-dont-le-parisien-et-les-echos/>
 
-9. Une chanteuse IA rafle tout aux premiers AI Music Awards
-<https://cyprus-mail.com/2026/11/14/new-awards-show-celebrates-ai-music-and-its-creators>
+9. Les robotaxis de Waymo interdits d'autoroute
+<https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/>
 
-10. Les lunettes Gemini de Google arrivent
-<https://9to5google.com/2026/11/12/google-intelligent-eyewear-glasses/>
+10. Disney tourne la page de son look 3D
+<https://www.creativebloq.com/news/disneys-radical-new-animation-technique-will-make-hexed-the-end-of-an-era>
 
-11. Instagram sort une appli juste pour les messages
-<https://about.fb.com/news/2026/11/introducing-direct-an-app-just-for-messaging/>
+11. Figma Motion anime avec de vrais ressorts
+<https://forum.figma.com/product-updates-3/new-figma-motion-updates-physics-based-springs-style-and-lottie-export-previews-59976>
 
-12. Figma passe en 3D
-<https://www.figma.com/release-notes/?title=design-in-3d-natively-in-figma-and-ship-directly-to-code>
+12. Le baseball américain s'offre cinq polices sur mesure
+<https://www.itsnicethat.com/articles/mother-design-major-league-baseball-brand-refresh-graphic-design-project-161126>
 
-13. Framer génère tes images et tes shaders
-<https://www.framer.com/updates/image-shader-generation>
+13. Maybelline réécrit son slogan culte, et ça coince
+<https://www.creativebloq.com/news/maybellines-new-slogan-is-a-crime-against-copywriting>
 
-14. Le nouveau logo de Takara Tomy laisse perplexe
-<https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled>
+14. 19 skills gratuites pour que ton IA anime comme un pro
+<https://github.com/emilkowalski/skills>
 
-15. Adobe Firefly est-il encore l'IA « sûre » ?
-<https://www.creativebloq.com/news/i-trusted-adobe-firefly-because-it-was-the-safe-ai-option-now-im-not-so-sure>
+15. Un monteur vidéo à brancher sur ton IA
+<https://github.com/kajisho5/ffmpeg-skill>
+
+16. Claude peut enfin regarder une vidéo
+<https://github.com/bradautomates/claude-video>
