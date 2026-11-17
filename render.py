@@ -113,7 +113,7 @@ def _image_for(it):
             d = data_uri(u)
             if d: return d
 
-ACCENTS = {"IA": "#8b5cf6", "TECH": "#22c55e", "UI/UX": "#f59e0b"}
+ACCENTS = {"IA": "#8b5cf6", "TECH": "#22c55e", "UI/UX": "#f59e0b", "COMMU": "#38bdf8"}
 
 CSS = """
 *{margin:0;padding:0;box-sizing:border-box}
