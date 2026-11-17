@@ -10,6 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Outils (Chrome + polices)
         run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null
           pip install playwright >/dev/null && python -m playwright install --with-deps chromium >/dev/null
           mkdir -p ~/.local/share/fonts
           for w in Regular Medium SemiBold Bold ExtraBold; do
@@ -76,5 +77,9 @@ jobs:
             code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" "${args[@]}"); echo "tiktok $i -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
             sleep 1
           done
+          if [ -f "${dir}tiktok/flash_ia.mp4" ]; then
+            code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -F "payload_json={\"content\":\"🎬 Version vidéo (GIF animés)\"}" -F "files[0]=@${dir}tiktok/flash_ia.mp4"); echo "vidéo -> HTTP $code"; [ "$code" -lt 300 ] || cat /tmp/r.txt
+            sleep 1
+          fi
           python3 -c "import json,sys;t=open(sys.argv[1]).read();print(json.dumps({'content':'**Légende TikTok :**\n```\n'+t[:1850]+'\n```','flags':4}))" "${dir}tiktok/legende_tiktok.txt" > /tmp/l.json
           code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/l.json); echo "légende -> HTTP $code"

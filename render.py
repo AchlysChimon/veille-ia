@@ -56,6 +56,34 @@ def data_uri(url):
 
 SHOT = {"page": None}
 
+def search_image(terms):
+    """« recherche:mots » → première grande image trouvée par Bing Images."""
+    try:
+        q = urllib.parse.quote(terms)
+        h = get(f"https://www.bing.com/images/search?q={q}&form=HDRSC2&first=1").read(2_000_000).decode("utf-8", "ignore")
+        for u in re.findall(r'murl&quot;:&quot;(https?://[^&]+?)&quot;', h)[:8]:
+            d = data_uri(html.unescape(u))
+            if d and len(d) > 40_000: return d
+    except Exception as e:
+        print("recherche image KO", terms, e)
+
+def resolve_meme(spec):
+    """URL directe, ou « giphy:mots » / « tenor:mots » → URL du premier GIF trouvé."""
+    if not spec or spec.startswith("http"): return spec
+    src, _, terms = spec.partition(":")
+    slug = re.sub(r"[^a-z0-9]+", "-", terms.lower()).strip("-")
+    pages = [("https://giphy.com/search/" + slug, r'https://media\d?\.giphy\.com/media/(?:v1\.[^/]+/)?([A-Za-z0-9]+)/giphy\.gif'),
+             ("https://tenor.com/search/" + slug + "-gifs", r'https://media1?\.tenor\.com/[A-Za-z0-9_-]+/[^"\'\s]+?\.gif')]
+    if src == "tenor": pages.reverse()
+    for url, pat in pages:
+        try:
+            h = get(url).read(3_000_000).decode("utf-8", "ignore")
+            m = re.search(pat, h)
+            if m:
+                return f"https://media.giphy.com/media/{m.group(1)}/giphy.gif" if "giphy" in url else m.group(0)
+        except Exception as e:
+            print("mème KO", spec, e)
+
 def screenshot(url):
     """Dernier recours : capture d'écran du haut de la page source."""
     pg = SHOT["page"]
@@ -77,6 +105,9 @@ def image_for(it):
     return d
 
 def _image_for(it):
+    if str(it.get("image") or "").startswith("recherche:"):
+        d = search_image(it["image"].split(":", 1)[1])
+        if d: return d
     for u in [it.get("image")] + ([og_image(it["lien"])] if it.get("lien") else []):
         if u:
             d = data_uri(u)
