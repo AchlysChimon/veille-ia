@@ -49,14 +49,34 @@ def data_uri(url):
         r = get(url); b = r.read(8_000_000)
         ct = r.headers.get_content_type()
         if not ct.startswith("image/"): ct = mimetypes.guess_type(url)[0] or "image/jpeg"
-        if len(b) < 5000: return None   # icônes, pixels de tracking
+        if len(b) < 3000 or "svg" in ct: return None   # icônes, pixels de tracking
         return f"data:{ct};base64,{base64.b64encode(b).decode()}"
     except Exception as e:
         print("image KO", url, e)
 
+SHOT = {"page": None}
+
+def screenshot(url):
+    """Dernier recours : capture d'écran du haut de la page source."""
+    pg = SHOT["page"]
+    if not pg or not url: return None
+    try:
+        pg.goto(url, wait_until="domcontentloaded", timeout=25000); pg.wait_for_timeout(3500)
+        pg.evaluate("""() => { for (const el of document.querySelectorAll('[id*=cookie],[class*=cookie],[id*=consent],[class*=consent],[class*=banner],[role=dialog]')) el.remove(); }""")
+        b = pg.screenshot(type="jpeg", quality=85)
+        return "data:image/jpeg;base64," + base64.b64encode(b).decode()
+    except Exception as e:
+        print("capture KO", url, e)
+
 def image_for(it):
     if it.get("image") is False:   # pas de photo voulue (ex. portrait d'une personne) : visuel graphique
         return None
+    d = _image_for(it)
+    if not d and it.get("lien"):
+        d = screenshot(it["lien"]); print("capture d'écran utilisée :", it["lien"]) if d else None
+    return d
+
+def _image_for(it):
     for u in [it.get("image")] + ([og_image(it["lien"])] if it.get("lien") else []):
         if u:
             d = data_uri(u)
@@ -126,6 +146,9 @@ def main(src, out):
     data = json.loads(Path(src).read_text())
     out = Path(out); out.mkdir(parents=True, exist_ok=True)
     items = data["items"]; n = len(items)
+    pw = sync_playwright().start(); b = pw.chromium.launch()
+    ctx = b.new_context(viewport={"width": 1280, "height": 760}, user_agent=UA["User-Agent"], locale="fr-FR")
+    SHOT["page"] = ctx.new_page()
     imgs = [image_for(it) for it in items]
     print(f"{sum(1 for x in imgs if x)}/{n} images récupérées")
     cov = image_for({"image": data.get("image_couverture")}) or next((x for x in imgs if x), None)
@@ -140,13 +163,11 @@ def main(src, out):
                 f'<h1>{i}. {html.escape(it["titre"])}</h1><p class="txt">{html.escape(it["texte"])}</p>'
                 f'<div class="media">{f"<img src=\'{img}\'>" if img else media(it.get("visuel", {"type":"mots","mots":[it.get("categorie","IA")]}), a)}</div></div>{BRAND}')
         pages.append(page(body, a))
-    with sync_playwright() as p:
-        b = p.chromium.launch()
-        pg = b.new_page(viewport={"width": 1080, "height": 1350})
-        for k, h in enumerate(pages):
-            pg.set_content(h); pg.wait_for_timeout(150)
-            pg.screenshot(path=str(out / f"{k:02d}.png"))
-        b.close()
+    pg = b.new_page(viewport={"width": 1080, "height": 1350})
+    for k, h in enumerate(pages):
+        pg.set_content(h); pg.wait_for_timeout(150)
+        pg.screenshot(path=str(out / f"{k:02d}.png"))
+    b.close(); pw.stop()
     print(f"{len(pages)} visuels dans {out}")
 
 if __name__ == "__main__":

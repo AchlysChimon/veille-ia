@@ -20,12 +20,18 @@ jobs:
         run: |
           dir=$(ls -d news/*/ | sort | tail -1)
           python render.py "${dir}news.json" "$dir"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: carrousel
+          path: news/*/*.png
+          retention-days: 7
       - name: Envoyer le dernier récap
         env:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           dir=$(ls -d news/*/ | sort | tail -1)
           echo "Dossier : $dir"
+          [ -n "$WEBHOOK" ] || { echo "Secret DISCORD_WEBHOOK_URL vide"; exit 1; }
           # Texte (découpé en blocs de 1900 caractères, limite Discord 2000)
           python3 - "${dir}message.md" > /tmp/parts.txt <<'PY'
           import sys, json
@@ -41,10 +47,10 @@ jobs:
           for ((i=0; i<${#imgs[@]}; i+=10)); do
             args=(); k=0
             for f in "${imgs[@]:i:10}"; do args+=(-F "files[$k]=@$f"); k=$((k+1)); done
-            curl -sf -X POST "$WEBHOOK" "${args[@]}" > /dev/null && echo "images $i ok"
+            code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" "${args[@]}"); echo "images $i -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
             sleep 1
           done
           while IFS= read -r line; do
-            curl -sf -X POST "$WEBHOOK" -H "Content-Type: application/json" -d "$line" > /dev/null && echo "texte ok"
+            code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d "$line"); echo "texte -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
             sleep 1
           done < /tmp/parts.txt
