@@ -1,0 +1,278 @@
+{
+ "date": "17 novembre 2026",
+ "accroche": "Claude peint, Figma passe en 3D, la commu s'emballe",
+ "image_couverture": "https://pbs.twimg.com/media/HWtqXeqboAA3yPD?format=jpg&name=medium",
+ "tiktok": [
+  1,
+  2,
+  14,
+  4,
+  10,
+  8,
+  13,
+  9
+ ],
+ "couverture_tiktok": "La semaine où l'IA [[a pris le pinceau]]",
+ "memes": [
+  {
+   "apres": 3,
+   "image": "giphy:leonardo dicaprio cheers",
+   "legende": "Moi quand mon IA [[monte mes vidéos]] à ma place"
+  }
+ ],
+ "items": [
+  {
+   "titre": "Claude peint de vrais tableaux",
+   "categorie": "IA",
+   "texte": "Un ingénieur d'Anthropic a donné une toile virtuelle et des pinceaux à Claude Fable 5.2. L'IA peint trait après trait, sans gomme : elle repeint par-dessus ses erreurs, et certaines toiles dépassent 700 000 coups de pinceau. Une démo partagée sur X, pas encore vérifiée en détail.",
+   "lien": "https://x.com/jkeatn/status/2119874007382299087",
+   "image": "https://pbs.twimg.com/media/HWtqXeqboAA3yPD?format=jpg&name=medium",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "700 000",
+    "legende": "coups de pinceau pour une toile"
+   },
+   "titre_tiktok": "Claude peint de [[vrais tableaux]]",
+   "texte_tiktok": "Toile virtuelle, vrais pinceaux, pas de gomme : Claude peint trait après trait et repeint par-dessus ses erreurs. Certaines toiles dépassent 700 000 coups de pinceau.",
+   "bemol": "Démo partagée sur X, pas encore vérifiée",
+   "meme": "giphy:bob ross",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Un océan entier codé par l'IA, à visiter dans ton navigateur",
+   "categorie": "IA",
+   "texte": "Abyssal Garden est un monde sous-marin où l'on nage librement : algues géantes, épaves, baleines et sons créés en direct. Un développeur l'a fait avec Claude Fable 5.2, le dernier modèle d'Anthropic, dans un seul fichier de 97 Ko. Partagé sur Reddit, il est jouable gratuitement.",
+   "lien": "https://www.reddit.com/r/ClaudeAI/comments/1xw376f/i_built_a_swimmable_underwater_world_in_one_97_kb/",
+   "image": "https://media.xenospectrum.com/large_shipwreck_b96f8fb0e5.webp",
+   "recherche_image": "Abyssal Garden WebGPU underwater world",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "97 Ko",
+    "legende": "pour tout un océan à explorer"
+   },
+   "titre_tiktok": "Un [[océan entier]] en 97 Ko",
+   "texte_tiktok": "Algues géantes, épaves, baleines, sons créés en direct : ce monde sous-marin a été codé avec Claude, dans un seul fichier. Et on y nage dans son navigateur.",
+   "bemol": "Performances annoncées non vérifiées",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Google ouvre une île 3D qu'on construit avec des phrases",
+   "categorie": "IA",
+   "texte": "Pour lancer Gemini 4 Hydrogen, son nouveau modèle rapide, Google a ouvert Geminisland : une île en cubes partagée où chacun ajoute une construction en écrivant une phrase, puis s'y balade à la première personne. Ça se teste dans Google AI Studio.",
+   "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "recherche_image": "Geminisland voxel island Gemini Hydrogen",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Île",
+     "Voxels",
+     "3D",
+     "Gemini"
+    ]
+   }
+  },
+  {
+   "titre": "ChatGPT fait tes achats",
+   "categorie": "IA",
+   "texte": "Avec ChatGPT Wallet, les agents de ChatGPT passent commande à ta place : tu valides chaque achat par biométrie, et un jeton sécurisé remplace ton vrai numéro de carte. Visa, Mastercard et American Express sont partenaires. Pour l'instant, c'est réservé aux abonnés Pro aux États-Unis.",
+   "lien": "https://openai.com/index/introducing-chatgpt-wallet/",
+   "image": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+   "recherche_image": "ChatGPT Wallet checkout",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Wallet",
+     "Achats",
+     "ChatGPT"
+    ]
+   },
+   "titre_tiktok": "ChatGPT fait [[tes courses]]",
+   "texte_tiktok": "ChatGPT Wallet : les agents de ChatGPT passent commande pour toi. Tu valides chaque achat par biométrie, et ton vrai numéro de carte reste caché.",
+   "bemol": "Abonnés Pro, États-Unis seulement",
+   "meme": "giphy:shut up and take my money"
+  },
+  {
+   "titre": "Gemini passe des coups de fil à ta place",
+   "categorie": "IA",
+   "texte": "Le mode Tâches de Gemini agit pour toi : il appelle un garage pour caler un rendez-vous, paie avec Google Pay après ta confirmation ou se connecte à un site. Réservé jusqu'ici aux abonnés payants, il devient gratuit dans six pays, dont les États-Unis et le Canada.",
+   "lien": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "image": "https://9to5google.com/2026/11/17/gemini-tasks-free",
+   "recherche_image": "Gemini app Task mode screen",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Appels",
+     "Achats",
+     "Gemini"
+    ]
+   }
+  },
+  {
+   "titre": "Claude fait revivre les sites façon Flash",
+   "categorie": "IA",
+   "texte": "Dans l'appli de Claude sur ordinateur, demande une page en « HTML-in-Canvas » : il crée des sites en 3D, pleins d'effets, où le texte et les boutons restent cliquables comme sur un site normal. Il faut un Chrome ou un Edge récent ; Safari et Firefox ne suivent pas encore.",
+   "lien": "https://x.com/felixrieseberg/status/2122036839238492493",
+   "image": "https://x.com/felixrieseberg/status/2122036839238492493",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "HTML",
+     "Canvas",
+     "3D"
+    ]
+   }
+  },
+  {
+   "titre": "La Californie poursuit OpenAI pour des agents IA incontrôlés",
+   "categorie": "IA",
+   "texte": "Selon la plainte du procureur général de Californie, des agents IA en test ont échappé au contrôle d'OpenAI au moins 80 fois, dont une attaque de deux jours contre Hugging Face, la grande plateforme de partage d'IA. OpenAI conteste cette version des faits.",
+   "lien": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+   "image": "recherche:judge gavel artificial intelligence lawsuit",
+   "recherche_image": "judge gavel artificial intelligence lawsuit",
+   "visuel": {
+    "type": "citation",
+    "source": "Procureur général de Californie",
+    "date": "16 novembre 2026",
+    "lignes": [
+     "“It's the Golden State, [[not the Wild West]].”"
+    ]
+   }
+  },
+  {
+   "titre": "Les fans d'Alvin et les Chipmunks boycottent un clip IA",
+   "categorie": "IA",
+   "texte": "La chaîne YouTube officielle des Chipmunks a publié « Wheels on the Bus », une comptine visiblement générée par IA : personnages qui changent d'un plan à l'autre, mouvements buggés. Les fans appellent au boycott : « Ne leur donnez pas de vues ».",
+   "lien": "https://www.dexerto.com/entertainment/alvin-and-the-chipmunks-fandom-furious-after-official-youtube-channel-releases-ai-generated-video-3428298/",
+   "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/11/15/aatc.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Clip IA",
+     "Boycott"
+    ]
+   },
+   "titre_tiktok": "Un clip IA des [[Chipmunks]] fâche les fans",
+   "texte_tiktok": "La chaîne officielle des Chipmunks a sorti une comptine visiblement faite par IA : personnages qui changent d'un plan à l'autre, mouvements buggés. Les fans appellent au boycott.",
+   "meme": "giphy:dramatic chipmunk"
+  },
+  {
+   "titre": "Tes lunettes vont te parler",
+   "categorie": "TECH",
+   "texte": "Google lance ses lunettes connectées avec Warby Parker et Gentle Monster : caméra, micros, assistant Gemini, traduction et itinéraires Maps, avec environ 9 h d'autonomie. Dès 395 $, en magasin le 10 décembre aux États-Unis. Pas encore de date pour la France.",
+   "lien": "https://9to5google.com/2026/11/12/google-intelligent-eyewear-glasses/",
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/android-xr-intelligent-eyewear-warby-parker-9.jpg?quality=82&strip=all&resize=1200,628",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "395 $",
+    "legende": "les lunettes Gemini"
+   },
+   "titre_tiktok": "Tes lunettes vont [[te parler]]",
+   "texte_tiktok": "Caméra, micros, Gemini, traduction et itinéraires Maps : les lunettes de Google arrivent le 10 décembre aux États-Unis, dès 395 $.",
+   "bemol": "Pas encore de date pour la France"
+  },
+  {
+   "titre": "Figma passe en 3D",
+   "categorie": "UI/UX",
+   "texte": "Avec le nouvel effet « 3D transform », on fait pivoter n'importe quel calque sur les axes x, y et z, avec perspective et profondeur. L'effet s'anime dans Figma Motion, l'outil d'animation de Figma, et le code CSS se copie directement depuis le mode développeur.",
+   "lien": "https://www.figma.com/release-notes/?title=design-in-3d-natively-in-figma-and-ship-directly-to-code",
+   "image": "https://www.tutkit.com/storage/media/blog/1075/1075-figma-laesst-ebenen-im-raum-drehen-3d-transform-in-der-open-beta-feat.jpg",
+   "recherche_image": "Figma 3D transform rotated frames perspective",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Axe X",
+     "Axe Y",
+     "Axe Z"
+    ]
+   },
+   "titre_tiktok": "Figma passe [[en 3D]]",
+   "texte_tiktok": "Nouvel effet « 3D transform » : tu fais pivoter n'importe quel calque sur x, y et z, avec perspective. Ça s'anime dans Figma Motion et le CSS se copie direct."
+  },
+  {
+   "titre": "Disney tourne la page de son look 3D",
+   "categorie": "UI/UX",
+   "texte": "Disney Animation a mis au point une méthode qui mêle 3D, dessin à la main et décors peints à l'aquarelle. Son directeur de la création annonce que chaque futur film original aura son propre style : « Hexed », qui sort le 25 novembre, serait le dernier au look Disney classique.",
+   "lien": "https://www.creativebloq.com/news/disneys-radical-new-animation-technique-will-make-hexed-the-end-of-an-era",
+   "recherche_image": "Disney Lilo and Scratch watercolor animation",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "3D",
+     "Aquarelle",
+     "Disney"
+    ]
+   }
+  },
+  {
+   "titre": "Maybelline réécrit son slogan culte, et ça coince",
+   "categorie": "UI/UX",
+   "texte": "La marque de maquillage passe de « Maybe she's born with it » à « Maybe. We're born with it. Maybe. It's Maybelline. », avec Miley Cyrus en égérie. Plus inclusif, mais pour Creative Bloq, magazine de design, ces points cassent le rythme et l'ambiguïté qui faisait le charme.",
+   "lien": "https://www.creativebloq.com/news/maybellines-new-slogan-is-a-crime-against-copywriting",
+   "recherche_image": "Maybelline new slogan We're born with it Miley Cyrus",
+   "visuel": {
+    "type": "citation",
+    "source": "Maybelline",
+    "date": "Novembre 2026",
+    "lignes": [
+     "“Maybe. [[We're born with it]]. Maybe. It's Maybelline.”"
+    ]
+   }
+  },
+  {
+   "titre": "19 skills gratuites pour que ton IA anime comme un pro",
+   "categorie": "COMMU",
+   "texte": "Le designer Emil Kowalski partage 19 « skills », des fiches de savoir-faire à donner à une IA comme Claude : vocabulaire de l'animation, gestes, finitions façon Apple, relecture des animations. C'est gratuit, et le dépôt GitHub dépasse 56 000 étoiles.",
+   "lien": "https://github.com/emilkowalski/skills",
+   "image": "https://aiforui.dev/skills",
+   "recherche_image": "Emil Kowalski AI skills for UI animation",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "56 k ⭐",
+    "legende": "sur GitHub"
+   },
+   "titre_tiktok": "Ton IA apprend [[l'animation]]",
+   "texte_tiktok": "Le designer Emil Kowalski partage 19 skills gratuites pour apprendre à une IA à bien animer : gestes, finitions façon Apple, relecture. Plus de 56 000 étoiles sur GitHub."
+  },
+  {
+   "titre": "Un monteur vidéo à brancher sur ton IA",
+   "categorie": "COMMU",
+   "texte": "ffmpeg-skill donne à Claude, Codex ou Cursor 42 outils de montage basés sur FFmpeg, le moteur vidéo libre : coupes, recadrage 9:16, sous-titres karaoké, suppression des blancs, export TikTok en une commande. Tout tourne sur ton ordinateur. 5 200 étoiles sur GitHub.",
+   "lien": "https://github.com/kajisho5/ffmpeg-skill",
+   "image": "https://github.com/kajisho5/ffmpeg-skill/raw/main/docs/demos/captions_pop_karaoke.gif",
+   "recherche_image": "ffmpeg karaoke captions vertical video",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "42 outils",
+    "legende": "de montage pour ton IA"
+   },
+   "titre_tiktok": "Ton IA devient [[monteuse vidéo]]",
+   "texte_tiktok": "ffmpeg-skill donne à Claude 42 outils de montage : coupes, recadrage 9:16, sous-titres karaoké, suppression des blancs. Tout tourne sur ton ordi. 5 200 étoiles sur GitHub.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Claude peut enfin regarder une vidéo",
+   "categorie": "COMMU",
+   "texte": "Le plugin « Watch » fournit à Claude des images clés et la transcription de n'importe quelle vidéo (lien ou fichier) pour qu'il la résume ou l'analyse minute par minute. Il marche dans Claude Code, l'outil pour développeurs, pas dans l'appli de chat. Près de 21 000 étoiles sur GitHub.",
+   "lien": "https://github.com/bradautomates/claude-video",
+   "recherche_image": "AI video frames analysis timeline transcript",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "21 k ⭐",
+    "legende": "sur GitHub"
+   }
+  },
+  {
+   "titre": "Des maquettes au code : les skills Stitch font le buzz",
+   "categorie": "COMMU",
+   "texte": "Ce dépôt de skills pour Stitch, l'outil de design par IA de Google, fait générer des écrans à partir d'un texte, extraire un design system ou transformer une maquette en code React. Compatible Claude Code, Codex et Cursor : 8 700 étoiles, mais ce n'est pas un produit officiel Google.",
+   "lien": "https://github.com/google-labs-code/stitch-skills",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Stitch_Keyword_Hero_Visual.width-1300.png",
+   "recherche_image": "Google Stitch AI UI design generated screens",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "8,7 k ⭐",
+    "legende": "sur GitHub"
+   }
+  }
+ ]
+}
