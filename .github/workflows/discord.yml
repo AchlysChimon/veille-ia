@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - name: Outils (Chrome + polices)
         run: |
           sudo apt-get install -y -qq ffmpeg >/dev/null
@@ -23,7 +25,7 @@ jobs:
           fc-cache -f >/dev/null
       - name: Fabriquer le carrousel (avec les vraies images des sources)
         run: |
-          dir=$(ls -d news/*/ | sort | tail -1)
+          dir=$(git diff --name-only HEAD~1 HEAD -- 'news/*/news.json' 2>/dev/null | tail -1 | xargs -r dirname); dir=${dir:+$dir/}; [ -n "$dir" ] || dir=$(ls -d news/*/ | sort | tail -1)
           python render.py "${dir}news.json" "$dir"
           python render_tiktok.py "${dir}news.json" "${dir}tiktok"
       - uses: actions/upload-artifact@v4
@@ -37,7 +39,7 @@ jobs:
         env:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          dir=$(ls -d news/*/ | sort | tail -1)
+          dir=$(git diff --name-only HEAD~1 HEAD -- 'news/*/news.json' 2>/dev/null | tail -1 | xargs -r dirname); dir=${dir:+$dir/}; [ -n "$dir" ] || dir=$(ls -d news/*/ | sort | tail -1)
           echo "Dossier : $dir"
           [ -n "$WEBHOOK" ] || { echo "Secret DISCORD_WEBHOOK_URL vide"; exit 1; }
           # Texte (découpé en blocs de 1900 caractères, limite Discord 2000)
@@ -66,7 +68,7 @@ jobs:
         env:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          dir=$(ls -d news/*/ | sort | tail -1)
+          dir=$(git diff --name-only HEAD~1 HEAD -- 'news/*/news.json' 2>/dev/null | tail -1 | xargs -r dirname); dir=${dir:+$dir/}; [ -n "$dir" ] || dir=$(ls -d news/*/ | sort | tail -1)
           [ -d "${dir}tiktok" ] || exit 0
           python3 -c "import json;print(json.dumps({'content':'📱 **Version TikTok FLASH IA — à valider**','flags':4}))" > /tmp/h.json
           curl -s -o /dev/null -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/h.json; sleep 1

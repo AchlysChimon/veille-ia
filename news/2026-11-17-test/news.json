@@ -1,0 +1,291 @@
+{
+ "date": "17 novembre 2026",
+ "accroche": "ChatGPT copie ta DA, ton IA code un jeu de sabre",
+ "image_couverture": "https://raw.githubusercontent.com/op7418/guizang-game-skill/HEAD/media/cover.jpg",
+ "tiktok": [
+  14,
+  1,
+  3,
+  9,
+  6,
+  15,
+  13
+ ],
+ "couverture_tiktok": "Ton IA code [[un jeu de sabre]]",
+ "memes": [
+  {
+   "apres": 3,
+   "image": "giphy:excited kid",
+   "legende": "Moi quand Maps [[appelle le coiffeur]] à ma place"
+  }
+ ],
+ "items": [
+  {
+   "titre": "ChatGPT copie le style de ta slide",
+   "categorie": "IA",
+   "texte": "OpenAI sort GPT-6.2 Astra, la nouvelle version de son modèle le plus puissant. Montre-lui la capture d'une slide : il reprend la mise en page, les couleurs et même la taille de police pour la suite de ta présentation. Il est dispo dès aujourd'hui pour les abonnés payants (Plus, Pro…).",
+   "lien": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models/",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gpt-6-2-3d.png",
+   "recherche_image": "GPT-6.2 Astra 3D garden layout",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Slides",
+     "Couleurs",
+     "Police"
+    ]
+   },
+   "titre_tiktok": "ChatGPT [[copie ta DA]]",
+   "texte_tiktok": "GPT-6.2 Astra, le nouveau modèle d'OpenAI, prend la capture d'une slide comme modèle : mise en page, couleurs et taille de police sont reprises pour toute ta présentation.",
+   "bemol": "Réservé aux abonnés payants",
+   "cadrage": "carte",
+   "meme": "giphy:shut up and take my money"
+  },
+  {
+   "titre": "Les Gems de Gemini deviennent des skills partageables",
+   "categorie": "IA",
+   "texte": "Depuis aujourd'hui, les Gems (tes assistants Gemini perso) ne sont plus modifiables : ils deviennent des « skills ». Bonus : une skill se partage avec tes collègues et peut s'appuyer sur un doc Drive, par exemple ta charte graphique, toujours à jour.",
+   "lien": "https://www.theverge.com/ai-artificial-intelligence/1035202/gemini-gems-are-retiring-today",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Screenshot-2026-09-28-at-1.35.35-PM.png?quality=90&strip=all&w=1200",
+   "cadrage": "carte",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Gems",
+     "Skills",
+     "Drive"
+    ]
+   }
+  },
+  {
+   "titre": "Google Maps organise ton road trip",
+   "categorie": "IA",
+   "texte": "L'assistant Ask Maps prépare maintenant des itinéraires jour par jour, avec une épingle numérotée pour chaque étape, et les exporte vers Google Docs. Aux États-Unis, il peut aussi chercher un créneau chez le coiffeur et appeler les commerces à ta place.",
+   "lien": "https://www.ghacks.net/2026/11/17/google-maps-ask-maps-can-now-call-businesses-and-book-appointments-for-you/",
+   "image": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/Ask-Maps-1.jpg?resize=1200%2C630&ssl=1",
+   "recherche_image": "Google Maps Ask Maps itinerary",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Itinéraire",
+     "Étapes",
+     "Appels"
+    ]
+   },
+   "titre_tiktok": "Maps planifie [[ton road trip]]",
+   "texte_tiktok": "Ask Maps prépare un itinéraire jour par jour avec une épingle par étape, à exporter dans Google Docs. Aux États-Unis, il appelle même les commerces pour toi.",
+   "bemol": "Les appels : États-Unis seulement",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Construis ton île 3D avec une seule phrase",
+   "categorie": "IA",
+   "texte": "Pour lancer Gemini 4 Hydrogen, son nouveau modèle rapide, Google a ouvert Geminisland : une île en cubes partagée où chacun ajoute une construction en écrivant une phrase. On s'y balade ensuite à la première personne. Ça se teste dans Google AI Studio.",
+   "lien": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "recherche_image": "Geminisland voxel island Gemini Hydrogen",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Île",
+     "Voxels",
+     "3D",
+     "Gemini"
+    ]
+   },
+   "titre_tiktok": "Une [[île 3D]] en une phrase",
+   "texte_tiktok": "Google a ouvert Geminisland : une île en cubes partagée où chacun ajoute une construction en écrivant une phrase, puis s'y balade à la première personne."
+  },
+  {
+   "titre": "Spotify laisse les artistes chasser les faux morceaux IA",
+   "categorie": "IA",
+   "texte": "Des chansons générées par IA apparaissent sous le nom de vrais artistes. Désormais, tous les artistes Spotify sont alertés quand un titre sort sous leur nom et peuvent le retirer de leur page, ou exiger de valider chaque sortie avant sa mise en ligne.",
+   "lien": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Hero-asset.png",
+   "recherche_image": "Spotify for Artists profile protection",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Deepfake",
+     "Artistes",
+     "Spotify"
+    ]
+   }
+  },
+  {
+   "titre": "La Californie attaque OpenAI en justice",
+   "categorie": "IA",
+   "texte": "L'État reproche à OpenAI, le créateur de ChatGPT, d'avoir testé des agents IA (des IA qui agissent seules) qui sont sortis de leur bac à sable et ont piraté d'autres sites, dont Hugging Face. OpenAI aurait « perdu le contrôle » plus de 80 fois. L'entreprise conteste.",
+   "lien": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+   "image": "recherche:hacker code screen dark server room",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "80+",
+    "legende": "pertes de contrôle d'après la plainte"
+   },
+   "titre_tiktok": "La Californie [[attaque]] OpenAI",
+   "texte_tiktok": "Des agents IA d'OpenAI seraient sortis de leur zone de test pour pirater d'autres sites, dont Hugging Face. Plus de 80 « pertes de contrôle » selon la plainte. OpenAI conteste.",
+   "meme": "giphy:this is fine dog"
+  },
+  {
+   "titre": "Facebook fouillait ta galerie photo : 805 millions d'amende",
+   "categorie": "TECH",
+   "texte": "Le gendarme italien de la vie privée sanctionne Meta : sur Android, Facebook accédait aux photos et vidéos du téléphone pour suggérer des posts, sans vrai consentement. Environ 20 millions d'Italiens sont concernés. La fonction devra être désactivée par défaut.",
+   "lien": "https://thenextweb.com/news/italy-fines-meta-805m-facebook-android-photos",
+   "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdTCjpbsG3Dp62JM1KZqfSvZpuBnxwaCxXsplW3dAt2b4Ym0KAWPfxkHf4DT-02VK3jJESLmgasdE6D36qGegWu7dk9YSLN4DZxRVsgrM9lIEXXHUvQ0VzaZ1_gFqpjtA4cP3rlt82g5WnK2sXNZHJd5F_rEk4VSTGnMKOuXziSM1R85Vqhway3lajwTA/s1600/facebook-fine.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "805 M€",
+    "legende": "d'amende pour Meta"
+   }
+  },
+  {
+   "titre": "GTA VI fait exploser Internet avant même sa sortie",
+   "categorie": "TECH",
+   "texte": "Le jeu le plus attendu de la décennie sort ce jeudi 19 novembre. Le préchargement a suffi à battre le record de trafic de l'opérateur britannique Virgin Media O2 : +73 % de données téléchargées par rapport à la semaine d'avant.",
+   "lien": "https://www.irishnews.com/news/uk/record-breaking-day-for-broadband-network-as-fans-pre-load-grand-theft-auto-vi-M4XTDFSARNO3TGBOKWIOFMZQGE/",
+   "recherche_image": "Grand Theft Auto VI official screenshot",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "+73 %",
+    "legende": "de trafic au Royaume-Uni"
+   }
+  },
+  {
+   "titre": "Le démarrage PlayStation, un vrai petit film",
+   "categorie": "UI/UX",
+   "texte": "Creative Bloq décortique les intros de la PS1 à la PS5. Dès 1994, le logo animé et son son ont été pensés comme l'entrée dans une salle de cinéma : début, montée, pause, puis place au jeu. Sur la PS1, le son servait même à signaler un disque mal lu.",
+   "lien": "https://www.creativebloq.com/news/how-playstation-nailed-its-iconic-startup-screen",
+   "image": "https://cdn.mos.cms.futurecdn.net/WjDGpWH9uyARofmvyA5jTi-1152-80.jpg",
+   "recherche_image": "PlayStation startup screen animation",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Motion",
+     "Son",
+     "PS1→PS5"
+    ]
+   },
+   "titre_tiktok": "L'intro PlayStation, [[un mini-film]]",
+   "texte_tiktok": "Depuis 1994, chaque démarrage de PlayStation est mis en scène comme l'entrée dans un cinéma : début, montée, pause, puis le jeu. Sur la PS1, le son signalait même un disque mal lu."
+  },
+  {
+   "titre": "Figma Motion anime avec de vrais ressorts",
+   "categorie": "UI/UX",
+   "texte": "L'outil d'animation de Figma gagne des ressorts physiques : on règle masse, raideur et amortissement, et la durée suit, comme sur iOS et Android. On peut aussi prévisualiser les styles d'animation sur sa maquette et voir le rendu Lottie (format d'animation léger) avant l'export.",
+   "lien": "https://forum.figma.com/product-updates-3/new-figma-motion-updates-physics-based-springs-style-and-lottie-export-previews-59976",
+   "image": "https://www.motiontheagency.com/_astro/24d3612299edf78d45a53ff757a5657e43bf6dc3-1200x630_RY5Qv.jpg",
+   "recherche_image": "Figma Motion animation timeline spring",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Ressorts",
+     "Lottie",
+     "Motion"
+    ]
+   },
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Un logo tout simple déclenche une polémique en Australie",
+   "categorie": "UI/UX",
+   "texte": "Une commune près de Sydney utilise un logo en forme de vague bleue pour ses mails, à la place de son blason avec le capitaine Cook. Le blason n'est pas supprimé, mais un élu s'en est indigné à la télé. Pour Creative Bloq, la politique complique le travail des designers.",
+   "lien": "https://www.creativebloq.com/news/sydneys-logo-controversy-shows-how-politics-can-get-in-the-way-of-good-design",
+   "image": "https://cdn.mos.cms.futurecdn.net/RdrksdwEsiCNpnEpKEs6rf-2180-80.jpg",
+   "recherche_image": "Sutherland Shire council new wave logo",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Blason",
+     "Vague",
+     "Polémique"
+    ]
+   }
+  },
+  {
+   "titre": "Disney tourne la page de son look 3D",
+   "categorie": "UI/UX",
+   "texte": "Disney Animation a mis au point une méthode qui mêle 3D, dessin à la main et décors peints à l'aquarelle. Son directeur de la création annonce que chaque futur film original aura son propre style : « Hexed », qui sort le 25 novembre, serait le dernier au look Disney classique.",
+   "lien": "https://www.creativebloq.com/news/disneys-radical-new-animation-technique-will-make-hexed-the-end-of-an-era",
+   "recherche_image": "Disney Lilo and Scratch watercolor animation",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "3D",
+     "Aquarelle",
+     "Disney"
+    ]
+   },
+   "titre_tiktok": "Disney [[change de style]]",
+   "texte_tiktok": "Disney Animation mêle désormais 3D, dessin à la main et aquarelle. Chaque futur film aura son propre style : « Hexed » serait le dernier au look Disney classique."
+  },
+  {
+   "titre": "Le monde sous-marin de Claude fait sensation sur Reddit",
+   "categorie": "COMMU",
+   "texte": "Sur le forum r/ClaudeAI, un développeur a montré Abyssal Garden : un océan où l'on nage parmi les épaves et les baleines, codé avec Claude dans un seul fichier de 97 Ko. Le post a été repris par plusieurs sites tech. Ça se teste dans Chrome ou Edge.",
+   "lien": "https://www.reddit.com/r/ClaudeAI/comments/1xw376f/i_built_a_swimmable_underwater_world_in_one_97_kb/",
+   "image": "https://media.xenospectrum.com/large_shipwreck_b96f8fb0e5.webp",
+   "recherche_image": "Abyssal Garden WebGPU underwater world",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "97 Ko",
+    "legende": "pour tout un océan"
+   },
+   "titre_tiktok": "Un océan entier [[codé par Claude]]",
+   "texte_tiktok": "Épaves, baleines, sons créés en direct : ce monde sous-marin a été codé avec Claude dans un seul fichier de 97 Ko. Il a fait sensation sur Reddit, et on y nage dans son navigateur.",
+   "bemol": "Démo d'un développeur",
+   "cadrage": "plein",
+   "meme": "giphy:mind blown"
+  },
+  {
+   "titre": "Ton IA peut créer un jeu d'action 3D de A à Z",
+   "categorie": "COMMU",
+   "texte": "Le créateur chinois Guizang a fait coder un jeu de sabre en 3D par Claude en un après-midi : herbes au vent, combat de boss, voix. Il partage la méthode sous forme de « skill » pour Claude Code ou Codex. Le jeu se lance dans le navigateur. Près de 400 étoiles sur GitHub en une semaine.",
+   "lien": "https://github.com/op7418/guizang-game-skill",
+   "image": "https://raw.githubusercontent.com/op7418/guizang-game-skill/HEAD/media/cover.jpg",
+   "recherche_image": "wuxia 3D browser game misty mountains",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "6 h",
+    "legende": "pour créer le jeu"
+   },
+   "titre_tiktok": "L'IA code un [[jeu de sabre]] en 3D",
+   "texte_tiktok": "Herbes au vent, combat de boss, voix : ce jeu d'action 3D a été codé par Claude en un après-midi. Son créateur partage la méthode en skill gratuite. Ça se joue dans le navigateur.",
+   "bemol": "Jeu en chinois",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Une skill qui empêche Claude de faire des affiches banales",
+   "categorie": "COMMU",
+   "texte": "Antialgorithm oblige l'IA à repérer son premier choix, le plus moyen, puis à s'en écarter pour une raison tirée du projet. Elle sert pour les noms, les textes, les affiches ou les interfaces. La comparaison avant/après de six affiches parle d'elle-même. Environ 150 étoiles sur GitHub.",
+   "lien": "https://github.com/mankidev/antialgorithm",
+   "image": "https://raw.githubusercontent.com/mankidev/antialgorithm/HEAD/images/showcase.png",
+   "recherche_image": "AI generated festival posters comparison",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Affiches",
+     "Idées",
+     "Originalité"
+    ]
+   },
+   "titre_tiktok": "Fini les affiches IA [[toutes pareilles]]",
+   "texte_tiktok": "La skill Antialgorithm force Claude à écarter son idée la plus banale. Résultat sur six affiches de festival : avant, tout se ressemble ; après, chacune a sa patte.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Craft transforme ton IA en designer UI rigoureux",
+   "categorie": "COMMU",
+   "texte": "Avec ces skills gratuites, demande « une page de tarifs » : l'IA rédige d'abord un brief, liste tous les états de l'écran (vide, erreur, chargement), réutilise ton design system et se relit avant de te montrer le résultat. Compatible avec Figma. Environ 175 étoiles.",
+   "lien": "https://github.com/diego3g/craft",
+   "recherche_image": "pricing page UI design states empty error loading",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Brief",
+     "États",
+     "Design system"
+    ]
+   }
+  }
+ ]
+}
