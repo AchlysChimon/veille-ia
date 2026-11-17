@@ -31,6 +31,7 @@ from playwright.sync_api import sync_playwright
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"}
 
 def get(url, timeout=15):
+    url = urllib.parse.quote(url, safe=":/?&=%#+,;@!$'()*~[]")   # espaces et accents dans les URL
     return urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=timeout)
 
 def og_image(url):

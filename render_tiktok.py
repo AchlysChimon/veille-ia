@@ -115,6 +115,51 @@ PREP = """async (mode) => {
 }"""
 
 
+PREP_BOX = """() => { const g = document.querySelector('img.anim'); if (!g) return null;
+  const b = g.getBoundingClientRect();
+  return {cx: b.left + b.width / 2, cy: b.top + b.height / 2, w: g.offsetWidth, h: g.offsetHeight,
+          a: parseFloat(g.dataset.angle || '0'), r: parseFloat(getComputedStyle(g).borderTopLeftRadius) || 0}; }"""
+
+
+def place_sticker(pg):
+    """Pose le sticker là où il gêne le moins : zone la plus calme de l'image (peu de détails),
+    jamais sur le titre ni le texte, et en débord du panneau image quand il y en a un."""
+    import io
+    from PIL import Image, ImageFilter
+    info = pg.evaluate("""() => { const m = document.querySelector('.meme'); m.style.visibility = 'hidden';
+      const c = document.querySelector('.col').getBoundingClientRect();
+      const f = document.querySelector('body.carte .frame img');
+      const fr = f ? f.getBoundingClientRect() : null;
+      return {w: m.offsetWidth, h: m.offsetHeight, colTop: c.top,
+              frame: fr ? [fr.left, fr.top, fr.right, fr.bottom] : null}; }""")
+    shot = Image.open(io.BytesIO(pg.screenshot())).convert("L").resize((270, 480))
+    edges = shot.filter(ImageFilter.FIND_EDGES).load()
+    k = 4   # échelle 1080 → 270
+    w, h = info["w"], info["h"]
+    best = None
+    for y in range(170, int(info["colTop"] - h - 20) + 1, 30):
+        for x in range(30, 1080 - w - 30 + 1, 30):
+            tot = 0; n = 0
+            for yy in range(y // k, (y + h) // k, 2):
+                for xx in range(x // k, (x + w) // k, 2):
+                    tot += edges[xx, yy]; n += 1
+            score = tot / max(1, n)
+            fr = info["frame"]
+            if fr:   # dans un panneau image : on préfère déborder sur le bord plutôt que couvrir l'image
+                ix = max(0, min(x + w, fr[2]) - max(x, fr[0])); iy = max(0, min(y + h, fr[3]) - max(y, fr[1]))
+                inside = ix * iy / (w * h)
+                score += 40 * max(0, inside - 0.45)
+            if best is None or score < best[0]:
+                best = (score, x, y)
+    if best is None:   # pas la place au-dessus du texte : sticker plus petit, en haut à droite
+        pg.evaluate("() => { const m = document.querySelector('.meme'); m.style.width = '280px'; m.style.top = '170px'; m.style.right = '40px'; m.style.visibility = 'visible'; }")
+        return
+    _, x, y = best
+    pg.evaluate(f"() => {{ const m = document.querySelector('.meme'); m.style.right = 'auto'; m.style.left = '{x}px'; m.style.top = '{y}px';"
+                f" m.style.transform = 'rotate({6 if x > 400 else -6}deg)'; m.style.visibility = 'visible';"
+                f" const g = m.querySelector('img'); if (g) g.dataset.angle = '{6 if x > 400 else -6}'; }}")
+
+
 def tiles(t):
     out = []
     for part in re.split(r"(\[\[.+?\]\])", t):
@@ -295,6 +340,9 @@ def main(src, out):
     for k, (h, dur, mode, gpath) in enumerate(slides):
         pg.set_content(h); pg.wait_for_timeout(250)
         box = pg.evaluate(PREP, mode)
+        if pg.query_selector(".meme"):
+            place_sticker(pg)
+            box = pg.evaluate(PREP_BOX)
         png = out / f"{k:02d}.png"; pg.screenshot(path=str(png))
         segs.append((png, dur, gpath, box))
     b.close(); pw.stop()
