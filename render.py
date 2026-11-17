@@ -48,6 +48,7 @@ def data_uri(url):
     try:
         r = get(url); b = r.read(8_000_000)
         ct = r.headers.get_content_type()
+        if ct.startswith("text/") or b.lstrip()[:1] == b"<": return None   # une page web, pas une image
         if not ct.startswith("image/"): ct = mimetypes.guess_type(url)[0] or "image/jpeg"
         if len(b) < 3000 or "svg" in ct: return None   # icônes, pixels de tracking
         return f"data:{ct};base64,{base64.b64encode(b).decode()}"
@@ -104,14 +105,32 @@ def image_for(it):
         d = screenshot(it["lien"]); print("capture d'écran utilisée :", it["lien"]) if d else None
     return d
 
+def tweet_media(url):
+    """Lien x.com / twitter.com → URL de la photo (ou de la vignette vidéo) du tweet, via api.fxtwitter.com."""
+    m = re.search(r"(?:x|twitter)\.com/([^/]+)/status/(\d+)", url or "")
+    if not m: return None
+    try:
+        t = json.loads(get(f"https://api.fxtwitter.com/{m.group(1)}/status/{m.group(2)}").read()).get("tweet", {})
+        md = t.get("media") or {}
+        if md.get("photos"): return md["photos"][0]["url"]
+        if md.get("videos"): return md["videos"][0].get("thumbnail_url")
+    except Exception as e:
+        print("tweet KO", url, e)
+
 def _image_for(it):
-    if str(it.get("image") or "").startswith("recherche:"):
-        d = search_image(it["image"].split(":", 1)[1])
+    img = it.get("image")
+    if str(img or "").startswith("recherche:"):
+        d = search_image(img.split(":", 1)[1])
         if d: return d
-    for u in [it.get("image")] + ([og_image(it["lien"])] if it.get("lien") else []):
+        img = None
+    lien = it.get("lien")
+    for u in [img, tweet_media(img), tweet_media(lien)]:
         if u:
-            d = data_uri(u)
+            d = data_uri(u) or (data_uri(og_image(u)) if og_image(u) else None)   # URL d'image, ou page dont on prend l'og:image
             if d: return d
+    if lien:
+        o = og_image(lien)
+        if o: return data_uri(o)
 
 ACCENTS = {"IA": "#8b5cf6", "TECH": "#22c55e", "UI/UX": "#f59e0b", "COMMU": "#38bdf8"}
 

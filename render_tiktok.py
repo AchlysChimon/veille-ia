@@ -16,12 +16,11 @@ Champs lus dans news.json (en plus de ceux de render.py) :
     "image_tiktok": "https://…"                    image dédiée à TikTok (sinon "image", sinon og:image du lien).
     "cadrage": "plein" | "carte"                   force le cadrage. Par défaut : automatique
                                                    (paysage, capture d'écran ou image claire → carte entière sur fond flouté).
-    "meme": "giphy:shut up and take my money"     mème collé en sticker : URL directe, ou « giphy:mots » / « tenor:mots »
+    "meme": "giphy:shut up and take my money"     mème en sticker (coins arrondis, contour blanc, sans légende) : URL directe, ou « giphy:mots » / « tenor:mots »
                                                    (premier GIF trouvé ; animé dans la vidéo).
     "recherche_image": "California lawsuit OpenAI" mots-clés (en anglais de préférence) pour trouver une illustration
                                                    si la source n'a pas d'image exploitable.
     L'image peut aussi valoir « recherche:mots » (illustration trouvée sur Bing Images).
-    "meme_legende": "Shut up and take my money"    légende courte sous le sticker (optionnelle).
 """
 import base64, html, json, math, re, subprocess, sys
 from pathlib import Path
@@ -52,11 +51,11 @@ body.carte .sh{background:linear-gradient(180deg,rgba(0,0,0,.3),transparent 20%,
 p{font:500 36px/1.42 'Inter';color:#e4e4e4}
 .b{font:700 26px/1.3 'JetBrains Mono';color:#FFE600}
 .swipe{position:absolute;bottom:120px;right:100px;font:700 34px 'JetBrains Mono';color:#fff}
-.meme{position:absolute;top:250px;right:70px;width:440px;background:#fff;padding:14px 14px 16px;transform:rotate(6deg);box-shadow:0 20px 50px rgba(0,0,0,.55);z-index:5}
-.meme img{width:100%;height:auto;display:block}
-.meme .cap{font:800 28px/1.15 'Inter';color:#000;text-align:center;margin-top:12px;text-transform:uppercase}
-.mfull{position:absolute;top:620px;left:60px;right:60px;bottom:200px;display:flex;align-items:center;justify-content:center}
-.mfull img{max-width:100%;max-height:100%;border:6px solid #fff;border-radius:16px;display:block;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.meme{position:absolute;top:300px;right:80px;width:400px;transform:rotate(7deg);z-index:5;filter:drop-shadow(0 18px 30px rgba(0,0,0,.55))}
+.meme img{width:100%;height:auto;display:block;border-radius:34px;outline:9px solid #fff;outline-offset:-1px}
+body.carte .meme{top:820px;right:60px;width:330px}
+.mfull{position:absolute;top:560px;left:40px;right:40px;bottom:120px;display:flex;align-items:center;justify-content:center}
+.mfull img{max-width:100%;max-height:100%;border-radius:24px;display:block}
 """
 CORN = ('<i class=c style="top:50px;left:50px;border-right:0;border-bottom:0"></i>'
         '<i class=c style="top:50px;right:50px;border-left:0;border-bottom:0"></i>'
@@ -88,7 +87,7 @@ PREP = """async (mode) => {
   if (!g) return null;
   const b = g.getBoundingClientRect();
   return {cx: b.left + b.width / 2, cy: b.top + b.height / 2, w: g.offsetWidth, h: g.offsetHeight,
-          a: parseFloat(g.dataset.angle || '0')};
+          a: parseFloat(g.dataset.angle || '0'), r: parseFloat(getComputedStyle(g).borderTopLeftRadius) || 0};
 }"""
 
 
@@ -173,9 +172,7 @@ def main(src, out):
         uri, gpath, gif = fetch(it.get("meme"), tmp / f"m{i}")
         sticker = ""
         if uri:
-            cap = it.get("meme_legende")
-            sticker = (f'<div class=meme><img class="{"anim" if gif else ""}" data-angle=6 src="{uri}">'
-                       + (f'<div class=cap>{html.escape(cap)}</div>' if cap else "") + "</div>")
+            sticker = f'<div class=meme><img class="{"anim" if gif else ""}" data-angle=7 src="{uri}"></div>'
         bem = it.get("bemol")
         slides.append((page(bg(img) + CORN + top(f"{i:02d}/{n:02d}") + sticker +
             f'<div class=col><div class=h data-max=640>{tiles(it.get("titre_tiktok") or it["titre"])}</div>'
@@ -187,8 +184,8 @@ def main(src, out):
             uri, gpath, gif = fetch(m.get("image"), tmp / f"full{i}")
             if uri:
                 slides.append((page(
-                    '<div class=noimg style="background:#0A0A0A"></div>' + CORN + top("PAUSE MÈME") +
-                    f'<div class=col style="bottom:auto;top:230px"><div class=h data-max=360 style="font-size:110px">{tiles(m.get("legende", ""))}</div></div>'
+                    '<div class=noimg style="background:#0A0A0A"></div>' +
+                    f'<div class=col style="bottom:auto;top:150px"><div class=h data-max=380 style="font-size:120px">{tiles(m.get("legende", ""))}</div></div>'
                     f'<div class=mfull><img class="{"anim" if gif else ""}" data-angle=0 src="{uri}"></div>'),
                     DUR["meme"], "plein", gpath if gif else None))
     slides.append((page(
@@ -215,10 +212,15 @@ def main(src, out):
                 a = math.radians(box["a"]); w, hh = round(box["w"]), round(box["h"])
                 rw = w * abs(math.cos(a)) + hh * abs(math.sin(a)); rh = w * abs(math.sin(a)) + hh * abs(math.cos(a))
                 x, y = round(box["cx"] - rw / 2), round(box["cy"] - rh / 2)
-                fc = (f"[1:v]scale={w}:{hh},format=rgba,rotate={a}:c=none:ow=rotw({a}):oh=roth({a})[m];"
+                mask = tmp / f"mask{k}.png"   # coins arrondis, comme dans la slide
+                rad = box.get("r", 0)
+                from PIL import Image, ImageDraw
+                mk = Image.new("L", (w, hh), 0); ImageDraw.Draw(mk).rounded_rectangle((0, 0, w - 1, hh - 1), radius=rad, fill=255); mk.save(mask)
+                fc = (f"[1:v]scale={w}:{hh},format=rgba[g];[2:v]scale={w}:{hh},format=gray[k];[g][k]alphamerge,"
+                      f"rotate={a}:c=none:ow=rotw({a}):oh=roth({a})[m];"
                       f"[0:v][m]overlay={x}:{y}:shortest=0,format=yuv420p")
                 cmd = ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(png),
-                       "-ignore_loop", "0", "-i", str(gpath), "-filter_complex", fc] + enc + [str(seg)]
+                       "-ignore_loop", "0", "-i", str(gpath), "-loop", "1", "-i", str(mask), "-filter_complex", fc] + enc + [str(seg)]
             else:
                 cmd = ["ffmpeg", "-y", "-loglevel", "error", "-loop", "1", "-framerate", "30", "-i", str(png)] + enc + [str(seg)]
             subprocess.run(cmd, check=True)
