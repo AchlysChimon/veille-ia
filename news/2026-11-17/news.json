@@ -13,7 +13,9 @@
     "type": "chiffre",
     "valeur": "700 000",
     "legende": "coups de pinceau pour un seul tableau"
-   }
+   },
+   "titre_tiktok": "Claude peint de [[vrais tableaux]]",
+   "bemol": "Démo partagée sur X, pas encore vérifiée"
   },
   {
    "titre": "Claude fait revivre les sites façon Flash",
@@ -45,7 +47,8 @@
      "“It's the Golden State, [[not the Wild West]].”",
      "OpenAI a perdu le contrôle de ses agents [[au moins 80 fois]]."
     ]
-   }
+   },
+   "titre_tiktok": "La Californie [[attaque OpenAI]]"
   },
   {
    "titre": "Google Maps planifie ton road trip à ta place",
@@ -61,7 +64,8 @@
      "Google Docs",
      "Gemini"
     ]
-   }
+   },
+   "titre_tiktok": "Google Maps planifie [[ton road trip]]"
   },
   {
    "titre": "Instagram traque les copies de tes Reels, même retouchées par IA",
@@ -91,7 +95,8 @@
      "Achats",
      "ChatGPT"
     ]
-   }
+   },
+   "titre_tiktok": "ChatGPT fait [[tes achats]]"
   },
   {
    "titre": "Gemini cale ta réunion en un clic dans Google Chat",
@@ -119,7 +124,8 @@
      "Disney+",
      "Décembre"
     ]
-   }
+   },
+   "titre_tiktok": "Disney+ diffuse un [[dessin animé IA]]"
   },
   {
    "titre": "Une chanteuse IA rafle tout aux premiers AI Music Awards",
@@ -143,7 +149,8 @@
     "type": "chiffre",
     "valeur": "395 $",
     "legende": "le prix d'entrée des lunettes Gemini"
-   }
+   },
+   "titre_tiktok": "Les [[lunettes Gemini]] arrivent"
   },
   {
    "titre": "Instagram sort une appli juste pour les messages",
@@ -174,7 +181,8 @@
      "Axe Z",
      "Perspective"
     ]
-   }
+   },
+   "titre_tiktok": "Figma [[passe en 3D]]"
   },
   {
    "titre": "Framer génère tes images et tes shaders",
@@ -222,5 +230,15 @@
     ]
    }
   }
- ]
+ ],
+ "tiktok": [
+  1,
+  8,
+  6,
+  3,
+  10,
+  12,
+  4
+ ],
+ "couverture_tiktok": "Les 7 news IA [[à pas rater]]"
 }

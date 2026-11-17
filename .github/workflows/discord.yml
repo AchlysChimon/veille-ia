@@ -8,22 +8,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Outils (Chrome + police Poppins)
+      - name: Outils (Chrome + polices)
         run: |
           pip install playwright >/dev/null && python -m playwright install --with-deps chromium >/dev/null
           mkdir -p ~/.local/share/fonts
           for w in Regular Medium SemiBold Bold ExtraBold; do
             curl -sfL -o ~/.local/share/fonts/Poppins-$w.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-$w.ttf
           done
+          B=https://raw.githubusercontent.com/google/fonts/main/ofl
+          curl -sfL -o ~/.local/share/fonts/Anton.ttf $B/anton/Anton-Regular.ttf
+          curl -sfL -o ~/.local/share/fonts/Inter.ttf "$B/inter/Inter%5Bopsz,wght%5D.ttf"
+          curl -sfL -o ~/.local/share/fonts/JetBrainsMono.ttf "$B/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf"
           fc-cache -f >/dev/null
       - name: Fabriquer le carrousel (avec les vraies images des sources)
         run: |
           dir=$(ls -d news/*/ | sort | tail -1)
           python render.py "${dir}news.json" "$dir"
+          python render_tiktok.py "${dir}news.json" "${dir}tiktok"
       - uses: actions/upload-artifact@v4
         with:
           name: carrousel
-          path: news/*/*.png
+          path: |
+            news/*/*.png
+            news/*/tiktok/*
           retention-days: 7
       - name: Envoyer le dernier récap
         env:
@@ -54,3 +61,20 @@ jobs:
             code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d "$line"); echo "texte -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
             sleep 1
           done < /tmp/parts.txt
+      - name: Envoyer la version TikTok (à valider)
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          dir=$(ls -d news/*/ | sort | tail -1)
+          [ -d "${dir}tiktok" ] || exit 0
+          python3 -c "import json;print(json.dumps({'content':'📱 **Version TikTok FLASH IA — à valider**','flags':4}))" > /tmp/h.json
+          curl -s -o /dev/null -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/h.json; sleep 1
+          imgs=( $(ls "${dir}tiktok/"*.png | sort) )
+          for ((i=0; i<${#imgs[@]}; i+=10)); do
+            args=(); k=0
+            for f in "${imgs[@]:i:10}"; do args+=(-F "files[$k]=@$f"); k=$((k+1)); done
+            code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" "${args[@]}"); echo "tiktok $i -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
+            sleep 1
+          done
+          python3 -c "import json,sys;t=open(sys.argv[1]).read();print(json.dumps({'content':'**Légende TikTok :**\n```\n'+t[:1850]+'\n```','flags':4}))" "${dir}tiktok/legende_tiktok.txt" > /tmp/l.json
+          code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/l.json); echo "légende -> HTTP $code"
