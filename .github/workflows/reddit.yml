@@ -1,0 +1,25 @@
+name: Top Reddit de la semaine
+on:
+  schedule:
+    - cron: "15 6 * * *"     # 7h15 à Paris (heure d'hiver), avant la veille de 7h41
+  workflow_dispatch:
+  push:
+    paths: ['reddit.py', '.github/workflows/reddit.yml']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Récupérer le top Reddit
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: python3 reddit.py
+      - name: Enregistrer
+        run: |
+          git config user.name "veille-ia-bot"; git config user.email "noreply@github.com"
+          git add reddit/top.json
+          git commit -m "Top Reddit de la semaine [skip ci]" || exit 0
+          git push
