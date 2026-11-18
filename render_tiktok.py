@@ -41,16 +41,16 @@ CSS = """
 body{width:1080px;height:1920px;overflow:hidden;position:relative;background:#000;color:#fff;font-family:'Inter'}
 .ph{position:absolute;inset:0;overflow:hidden}.ph img{width:100%;height:100%;object-fit:cover;display:block}
 .frame{display:none}
-body.carte .ph img{filter:blur(38px) brightness(.38) saturate(1.2);transform:scale(1.25)}
+body.carte .ph img{filter:blur(38px) brightness(.5) saturate(1.3);transform:scale(1.25)}
 body.carte .frame{display:flex;position:absolute;top:210px;left:60px;right:60px;height:820px;align-items:center;justify-content:center}
 .frame img{max-width:100%;max-height:100%;border-radius:20px;border:5px solid #fff;box-shadow:0 30px 80px rgba(0,0,0,.6);display:block}
 .noimg{position:absolute;inset:0;background:radial-gradient(900px 700px at 70% 20%,#3a3a3a,#0b0b0b 70%)}
-.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),transparent 12%,transparent 26%,rgba(0,0,0,.82) 44%,rgba(0,0,0,.92) 70%,#000 100%)}
-body.carte .sh{background:linear-gradient(180deg,rgba(0,0,0,.3),transparent 15%,transparent 30%,rgba(0,0,0,.85) 46%,#000 70%)}
+.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),transparent 14%,transparent 30%,rgba(0,0,0,.7) 50%,rgba(0,0,0,.6) 80%,rgba(0,0,0,.75) 100%)}
+body.carte .sh{background:linear-gradient(180deg,rgba(0,0,0,.25),transparent 20%,rgba(0,0,0,.35) 60%,rgba(0,0,0,.45) 100%)}
 .c{position:absolute;width:100px;height:100px;border:8px solid #fff}
 .top{position:absolute;top:95px;left:100px;right:100px;display:flex;justify-content:space-between;font:700 34px 'JetBrains Mono';text-shadow:0 2px 10px rgba(0,0,0,.6)}
 .top b{color:#FF2020}
-.col{position:absolute;left:60px;right:170px;bottom:630px;display:flex;flex-direction:column;gap:26px}
+.col{position:absolute;left:60px;right:170px;bottom:440px;display:flex;flex-direction:column;gap:26px}
 .h{font-size:130px}
 .w{display:inline-block;background:#0A0A0A;color:#fff;font-family:'Anton';font-size:1em;line-height:1;text-transform:uppercase;padding:.07em .15em .09em;margin:0 .07em .08em 0;border-radius:10px;border-top:3px solid #333;box-shadow:0 10px 30px rgba(0,0,0,.6)}
 .w.y{background:#FFE600;color:#000;border-top-color:#fff59a}
@@ -58,11 +58,11 @@ p{font:600 44px/1.36 'Inter';color:#fff;background:rgba(0,0,0,.78);padding:22px 
 p.t{font-size:var(--pf,44px)}
 .b{font:700 26px/1.3 'JetBrains Mono';color:#FFE600}
 .swipe{align-self:flex-end;font:700 40px 'JetBrains Mono';color:#000;background:#FFE600;padding:10px 18px;border-radius:10px}
-.meme{position:absolute;top:260px;right:50px;width:420px;transform:rotate(6deg);z-index:5;filter:drop-shadow(0 14px 24px rgba(0,0,0,.55))}
+.meme{position:absolute;top:360px;right:50px;width:420px;transform:rotate(6deg);z-index:5;filter:drop-shadow(0 14px 24px rgba(0,0,0,.55))}
 .meme img{width:100%;height:auto;display:block}
 .meme img.rond{border-radius:34px;outline:9px solid #fff;outline-offset:-1px}
 .ou{display:inline-block;align-self:flex-start;background:#FFE600;color:#000;font:700 34px/1.2 'JetBrains Mono';padding:12px 20px;border-radius:10px}
-.mfull{position:absolute;top:560px;left:40px;right:40px;bottom:620px;display:flex;align-items:center;justify-content:center}
+.mfull{position:absolute;top:620px;left:40px;right:40px;bottom:440px;display:flex;align-items:center;justify-content:center}
 .mfull img{max-width:100%;max-height:100%;border-radius:24px;display:block}
 """
 CORN = ('<i class=c style="top:50px;left:50px;border-right:0;border-bottom:0"></i>'
@@ -92,9 +92,9 @@ PREP = """async (mode) => {
   if (h) { const max = parseInt(h.dataset.max || '720'); let s = parseInt(getComputedStyle(h).fontSize);
     while ((h.offsetHeight > max || h.scrollWidth > h.clientWidth + 2) && s > 70) { s -= 4; h.style.fontSize = s + 'px'; } }
   const col = document.querySelector('.col'), p = document.querySelector('p.t');
-  if (col && p) { let f = 44; while (col.getBoundingClientRect().top < 640 && f > 36) { f -= 2; p.style.fontSize = f + 'px'; } }
+  if (col && p) { let f = 44; while (col.getBoundingClientRect().top < 820 && f > 36) { f -= 2; p.style.fontSize = f + 'px'; } }
   const fr = document.querySelector('body.carte .frame');
-  if (fr && col) { const top = 170, bot = col.getBoundingClientRect().top - 30; fr.style.top = top + 'px'; fr.style.height = Math.max(300, bot - top) + 'px';
+  if (fr && col) { const top = 330, bot = col.getBoundingClientRect().top - 30; fr.style.top = top + 'px'; fr.style.height = Math.max(300, bot - top) + 'px';
     const g2 = fr.querySelector('img');
     if (mode === 'entier') {   // image affichée en entier (capture d'interface, schéma)
       const k2 = Math.min((fr.clientWidth - 12) / g2.naturalWidth, (fr.clientHeight - 12) / g2.naturalHeight);
@@ -105,7 +105,7 @@ PREP = """async (mode) => {
     } }
   const st = document.querySelector('.meme');
   if (st && col) { const sb = st.getBoundingClientRect(), ct = col.getBoundingClientRect().top;
-    if (sb.bottom > ct - 20) st.style.top = Math.max(170, parseFloat(getComputedStyle(st).top) - (sb.bottom - ct + 40)) + 'px';
+    if (sb.bottom > ct - 20) st.style.top = Math.max(330, parseFloat(getComputedStyle(st).top) - (sb.bottom - ct + 40)) + 'px';
     if (st.getBoundingClientRect().bottom > ct - 20) { st.style.width = '300px'; } }
   const g = document.querySelector('img.anim');
   if (!g) return null;
@@ -138,7 +138,7 @@ def place_sticker(pg):
     k = 4   # échelle 1080 → 270
     w, h = info["w"], info["h"]
     best = None
-    for y in range(170, int(info["colTop"] - h - 20) + 1, 30):
+    for y in range(330, int(info["colTop"] - h - 20) + 1, 30):
         for x in range(30, 1080 - w - 30 + 1, 30):
             tot = 0; n = 0
             for yy in range(y // k, (y + h) // k, 2):
@@ -153,7 +153,7 @@ def place_sticker(pg):
             if best is None or score < best[0]:
                 best = (score, x, y)
     if best is None:   # pas la place au-dessus du texte : sticker plus petit, en haut à droite
-        pg.evaluate("() => { const m = document.querySelector('.meme'); m.style.width = '280px'; m.style.top = '170px'; m.style.right = '40px'; m.style.visibility = 'visible'; }")
+        pg.evaluate("() => { const m = document.querySelector('.meme'); m.style.width = '280px'; m.style.top = '330px'; m.style.right = '40px'; m.style.visibility = 'visible'; }")
         return
     _, x, y = best
     pg.evaluate(f"() => {{ const m = document.querySelector('.meme'); m.style.right = 'auto'; m.style.left = '{x}px'; m.style.top = '{y}px';"
@@ -341,12 +341,12 @@ def main(src, out):
             if uri:
                 slides.append((page(
                     '<div class=noimg style="background:#0A0A0A"></div>' +
-                    f'<div class=col style="bottom:auto;top:150px"><div class=h data-max=380 style="font-size:120px">{tiles(m.get("legende", ""))}</div></div>'
+                    f'<div class=col style="bottom:auto;top:330px"><div class=h data-max=280 style="font-size:120px">{tiles(m.get("legende", ""))}</div></div>'
                     f'<div class=mfull><img class="{"anim" if gif else ""}" data-angle=0 src="{uri}"></div>'),
                     DUR["meme"], "plein", gpath if gif else None))
     slides.append((page(
         '<div class=noimg style="background:radial-gradient(900px 800px at 50% 30%,#2a2a2a,#000 70%)"></div>' + CORN + top("FIN") +
-        f'<div class=col style="bottom:auto;top:330px"><div class=h data-max=720 style="font-size:180px">{tiles("[[Abonne-toi]] pour ta veille IA chaque matin")}</div>'
+        f'<div class=col style="bottom:auto;top:400px"><div class=h data-max=720 style="font-size:180px">{tiles("[[Abonne-toi]] pour ta veille IA chaque matin")}</div>'
         f'<p>Les sources de chaque news sont dans la description.</p></div>'), DUR["end"], "plein", None))
 
     pg = b.new_page(viewport={"width": 1080, "height": 1920})
