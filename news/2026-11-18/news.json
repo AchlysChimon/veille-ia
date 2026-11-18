@@ -1,0 +1,236 @@
+{
+ "date": "18 novembre 2026",
+ "accroche": "Un faux film viral, Suno fait des clips, Gemini répond par SMS",
+ "image_couverture": "https://www.yahoo.com/entertainment/movies/trailers/articles/did-us-fight-time-travel-165609074.html",
+ "tiktok": [
+  2,
+  3,
+  4,
+  10,
+  12,
+  6,
+  1
+ ],
+ "couverture_tiktok": "Ce film vu [[29 millions de fois]] n'existe pas",
+ "teaser": 1,
+ "items": [
+  {
+   "titre": "Ce film vu 29 millions de fois n'existe pas",
+   "categorie": "IA",
+   "texte": "« Nuremberg » est une fausse bande-annonce entièrement générée par IA : soucoupes volantes, voyage dans le temps et armée américaine envoyée combattre les nazis. Postée vendredi sur X par le compte @Tupacabra, elle a été vue 29 millions de fois en trois jours. Beaucoup se demandent si le film existe : non, c'est un mélange de légendes et de théories farfelues.",
+   "lien": "https://www.yahoo.com/entertainment/movies/trailers/articles/did-us-fight-time-travel-165609074.html",
+   "image": "https://www.yahoo.com/entertainment/movies/trailers/articles/did-us-fight-time-travel-165609074.html",
+   "recherche_image": "Nuremberg AI trailer UFO battle ships",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "29 M",
+    "legende": "de vues en trois jours"
+   },
+   "titre_tiktok": "Ce film [[n'existe pas]]",
+   "texte_tiktok": "Soucoupes volantes, voyage dans le temps, soldats américains face aux nazis : « Nuremberg » est une fausse bande-annonce 100 % IA. Postée sur X, elle a été vue 29 millions de fois en trois jours, et beaucoup ont cru à un vrai film.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Suno met tes chansons en clip",
+   "categorie": "IA",
+   "texte": "Suno, l'appli qui compose des chansons avec l'IA, lance Visuals : tu glisses un morceau et tu obtiens un clip jusqu'à 15 secondes qui suit le rythme et dont les personnages chantent en playback. Ça fait aussi des pochettes d'album et des vidéos à partir d'une photo. Les crédits vidéo sont payants, à part.",
+   "lien": "https://suno.com/blog/introducing-visuals",
+   "image": "https://suno.com/blog/introducing-visuals",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "15 s",
+    "legende": "de clip par chanson"
+   },
+   "ou": "suno.com → onglet Visuals",
+   "titre_tiktok": "Tes chansons ont [[leur clip]]",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Écris un SMS ou un mail à Gemini",
+   "categorie": "IA",
+   "texte": "Plus besoin d'ouvrir l'appli : tu peux envoyer un SMS ou un e-mail (gemini@google.com) à Gemini, l'assistant de Google, pour lui confier une tâche. Exemple : photographier une affiche d'école pour qu'il ajoute les dates à ton agenda. Il demande ta validation avant toute action importante. Pour l'instant, c'est réservé aux États-Unis.",
+   "lien": "https://9to5google.com/2026/11/17/email-text-with-gemini/",
+   "image": "https://9to5google.com/2026/11/17/email-text-with-gemini/",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "SMS",
+     "E-mail",
+     "Gemini"
+    ]
+   },
+   "ou": "gemini.google.com/channels",
+   "titre_tiktok": "Gemini répond [[par SMS]]",
+   "cadrage": "entier",
+   "meme": "sticker:cat typing"
+  },
+  {
+   "titre": "Google Maps prépare ton road trip",
+   "categorie": "IA",
+   "texte": "Avec Ask Maps, l'assistant IA de Google Maps, tu demandes par exemple « trois jours sur la côte avec randos et restos » et tu obtiens un itinéraire jour par jour, avec des épingles numérotées sur la carte. Tu peux le partager ou le modifier en route. Ask Maps arrive dans 30 pays d'Europe, dont l'Espagne, l'Allemagne et le Royaume-Uni.",
+   "lien": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.width-1300.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Itinéraire",
+     "Maps"
+    ]
+   },
+   "ou": "Appli Google Maps → Ask Maps",
+   "titre_tiktok": "Maps planifie [[ton road trip]]",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Une styliste IA qui t'habille et fait tes achats",
+   "categorie": "IA",
+   "texte": "La start-up de mode Daydream lance un agent styliste : il retient ton style, ta taille et ton budget, te fait essayer les vêtements en virtuel à partir d'une photo de toi, puis achète en un clic. Il pioche dans plus de 10 000 marques et peut surveiller les soldes ou composer des tenues avec ta propre garde-robe.",
+   "lien": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/2daydream-agent-1.jpeg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "10 000",
+    "legende": "marques dans son catalogue"
+   },
+   "ou": "Appli Daydream",
+   "titre_tiktok": "Ta [[styliste IA]] fait tes achats",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Spotify chasse les faux titres IA",
+   "categorie": "IA",
+   "texte": "Des chansons générées par IA apparaissent sous le nom de vrais artistes : Sony a demandé le retrait de plus de 260 000 faux titres. Spotify ouvre donc à tous les artistes un outil qui les prévient dès qu'un morceau est publié à leur nom. Ils peuvent le retirer, ou même exiger de valider chaque sortie avant qu'elle apparaisse.",
+   "lien": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Hero-asset.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "260 000",
+    "legende": "faux titres signalés par Sony"
+   },
+   "ou": "Spotify for Artists",
+   "titre_tiktok": "Spotify chasse les [[faux morceaux IA]]",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Des IA désignent des civils comme cibles « pour un jeu »",
+   "categorie": "IA",
+   "texte": "La société Vals a testé les grands modèles d'IA (OpenAI, Anthropic, Google…) sur des images de drones et de satellites. Beaucoup ont repéré des cibles militaires, civils compris, et ceux qui refusaient cédaient quand on leur disait que c'était un jeu. Les modèles d'Anthropic, le créateur de Claude, ont obtenu le pire score.",
+   "lien": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "recherche_image": "drone satellite imagery targeting screen",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Drone",
+     "Jeu",
+     "Cible"
+    ]
+   }
+  },
+  {
+   "titre": "Le retour du téléphone fixe, version enfants",
+   "categorie": "TECH",
+   "texte": "Tin Can est un téléphone sans écran, coloré, pensé pour que les enfants appellent leurs copains sans smartphone. Il marche en Wi-Fi, les appels entre Tin Can sont gratuits, et les parents valident les autres numéros (avec abonnement). Déjà vendu aux États-Unis et au Canada, il arrive au Royaume-Uni ; rien d'annoncé pour la France.",
+   "lien": "https://www.creativebloq.com/news/i-gasped-at-the-new-tin-can-phone-ive-been-looking-for-a-solution-like-this-for-months",
+   "image": "https://cdn.mos.cms.futurecdn.net/hMbBdgFTwtYHsDRod2Abuh-2048-80.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Sans écran",
+     "Wi-Fi"
+    ]
+   }
+  },
+  {
+   "titre": "Android règle l'heure d'un simple glissement",
+   "categorie": "UI/UX",
+   "texte": "Google ajoute à Material 3 Expressive, son système de design pour Android, un sélecteur d'heure à faire défiler : on glisse les chiffres au lieu de taper ou de tourner une horloge. Il se place directement dans la page, sans fenêtre par-dessus. Google ajoute aussi des molettes pour choisir une distance, un poids ou une température.",
+   "lien": "https://9to5google.com/2026/11/17/material-3-expressive-scrolling-time-picker/",
+   "image": "https://9to5google.com/2026/11/17/material-3-expressive-scrolling-time-picker/",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Material 3",
+     "Molette"
+    ]
+   },
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Le secret du démarrage PlayStation",
+   "categorie": "UI/UX",
+   "texte": "Pourquoi l'écran d'allumage d'une PlayStation donne autant de frissons ? Sur la PS1, le son de démarrage servait aussi à prévenir : il bouclait si le disque n'était pas lu. Depuis, chaque console a sa propre animation. La leçon pour les designers : les petites transitions (ouverture d'appli, paiement validé) méritent d'être soignées.",
+   "lien": "https://www.creativebloq.com/news/how-playstation-nailed-its-iconic-startup-screen",
+   "recherche_image": "PlayStation 2 startup screen towers boot animation",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Motion",
+     "Son",
+     "Rituel"
+    ]
+   },
+   "titre_tiktok": "Le secret du [[démarrage PlayStation]]",
+   "cadrage": "plein",
+   "image": "https://i.redd.it/gw6qz24w1ym91.jpg"
+  },
+  {
+   "titre": "Adobe Firefly est-il encore « sans risque » ?",
+   "categorie": "UI/UX",
+   "texte": "Adobe vantait Firefly comme l'IA « commercialement sûre », entraînée sur des images sous licence. Mais l'appli accueille désormais les modèles de Google, OpenAI, Kling, ByteDance et ElevenLabs. Problème : cette garantie ne couvre que les modèles d'Adobe. Creative Bloq demande que ce soit clairement indiqué au moment de générer.",
+   "lien": "https://www.creativebloq.com/news/i-trusted-adobe-firefly-because-it-was-the-safe-ai-option-now-im-not-so-sure",
+   "image": "https://cdn.mos.cms.futurecdn.net/uUbpTvaqSDLvaVs2dTRkZJ-1920-80.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Firefly",
+     "Licences"
+    ]
+   }
+  },
+  {
+   "titre": "Une extension repère les images IA en direct",
+   "categorie": "COMMU",
+   "texte": "Hikaku signale les images et vidéos probablement générées par IA pendant que tu navigues, y compris sur YouTube ou TikTok, et explique pourquoi (métadonnées, analyse de l'image). Tout tourne sur ton ordinateur. Attention : c'est une estimation, pas une preuve. 409 étoiles sur GitHub en une semaine.",
+   "lien": "https://github.com/hikaku-io/hikaku-extension",
+   "image": "https://raw.githubusercontent.com/hikaku-io/hikaku-extension/HEAD/docs/images/in-the-wild.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "409 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/hikaku-io/hikaku-extension",
+   "titre_tiktok": "Démasque les [[images IA]]",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Un logiciel de montage qu'on pilote à la voix",
+   "categorie": "COMMU",
+   "texte": "Scarlet est un logiciel de montage gratuit et open source (Mac, Windows, Linux) : tu dis à Claude Code ou Codex ce que tu veux changer, et il l'applique sur ta timeline sans toucher aux rushs. Idéal pour les interviews : raccourcir les blancs, garder la meilleure prise. Export possible vers Premiere, Final Cut ou DaVinci. 357 étoiles sur GitHub.",
+   "lien": "https://github.com/Forward-Future/scarlet",
+   "image": "https://raw.githubusercontent.com/Forward-Future/scarlet/HEAD/assets/export-advanced.png",
+   "recherche_image": "AI video editor timeline interview editing app",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "357 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/Forward-Future/scarlet",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Des bonshommes animés pour ton site",
+   "categorie": "COMMU",
+   "texte": "Le skill stick-scene apprend à ton IA (Claude Code, Codex…) à dessiner de petites scènes animées en bâtons qui expliquent ce que fait ton produit. Elles respirent, regardent autour d'elles et jouent une action au survol ou au clic. Tu installes, tu tapes /stick-scene puis ton idée. 341 étoiles sur GitHub.",
+   "lien": "https://github.com/nilbuild/stick-scene",
+   "image": "https://raw.githubusercontent.com/nilbuild/stick-scene/HEAD/.github/diffity-loop.gif",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "341 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "npx skills add nilbuild/stick-scene",
+   "titre_tiktok": "Ton IA anime [[des bonshommes]]",
+   "cadrage": "entier"
+  }
+ ]
+}
