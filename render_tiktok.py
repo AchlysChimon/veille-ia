@@ -161,6 +161,18 @@ def place_sticker(pg):
                 f" const g = m.querySelector('img'); if (g) g.dataset.angle = '{6 if x > 400 else -6}'; }}")
 
 
+def court(t, lim=200):
+    """Texte TikTok lisible : garde les premières phrases entières jusqu'à ~lim caractères."""
+    if len(t) <= lim + 20:
+        return t
+    out = ""
+    for ph in re.split(r"(?<=[.!?])\s+", t):
+        if out and len(out) + len(ph) + 1 > lim:
+            break
+        out = (out + " " + ph).strip()
+    return out
+
+
 def tiles(t):
     out = []
     for part in re.split(r"(\[\[.+?\]\])", t):
@@ -316,6 +328,7 @@ def main(src, out):
         txt = (it.get("texte_tiktok") or it["texte"]).strip()
         if it.get("bemol"):
             txt += " " + it["bemol"].strip()
+        txt = court(txt)
         ou = it.get("ou")
         slides.append((page(bg(img) + CORN + top(f"{i:02d}/{n:02d}") + stk +
             f'<div class=col><div class=h data-max=340>{tiles(it.get("titre_tiktok") or it["titre"])}</div>'
