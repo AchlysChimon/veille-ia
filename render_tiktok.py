@@ -14,7 +14,8 @@ Champs lus dans news.json (en plus de ceux de render.py) :
             slide mème plein écran insérée après la 3e news TikTok (GIF animé dans la vidéo).
   Par news :
     "titre_tiktok": "ChatGPT fait [[tes achats]]"   titre des tuiles. Absent : "titre".
-    "texte_tiktok": "..."                          texte de la slide (≤ 380 caractères). Absent : "texte".
+    "texte_tiktok": "..."                          texte de la slide, COURT (≤ 190 caractères, 2 phrases) : il doit tenir
+                                                   au-dessus de la légende TikTok en gros caractères. Absent : "texte".
     "bemol": "Gratuit dans 6 pays, pas encore de date pour la France."  phrase ajoutée à la fin du texte.
     "ou": "github.com/emilkowalski/skills"         où trouver l'outil / le skill / le post : affiché en étiquette.
     "image_tiktok": "https://…"                    image dédiée à TikTok (sinon "image", sinon og:image du lien).
@@ -44,24 +45,24 @@ body.carte .ph img{filter:blur(38px) brightness(.38) saturate(1.2);transform:sca
 body.carte .frame{display:flex;position:absolute;top:210px;left:60px;right:60px;height:820px;align-items:center;justify-content:center}
 .frame img{max-width:100%;max-height:100%;border-radius:20px;border:5px solid #fff;box-shadow:0 30px 80px rgba(0,0,0,.6);display:block}
 .noimg{position:absolute;inset:0;background:radial-gradient(900px 700px at 70% 20%,#3a3a3a,#0b0b0b 70%)}
-.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),transparent 15%,transparent 42%,rgba(0,0,0,.88) 64%,#000 86%)}
-body.carte .sh{background:linear-gradient(180deg,rgba(0,0,0,.3),transparent 20%,transparent 50%,rgba(0,0,0,.85) 66%,#000 88%)}
+.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),transparent 12%,transparent 26%,rgba(0,0,0,.82) 44%,rgba(0,0,0,.92) 70%,#000 100%)}
+body.carte .sh{background:linear-gradient(180deg,rgba(0,0,0,.3),transparent 15%,transparent 30%,rgba(0,0,0,.85) 46%,#000 70%)}
 .c{position:absolute;width:100px;height:100px;border:8px solid #fff}
 .top{position:absolute;top:95px;left:100px;right:100px;display:flex;justify-content:space-between;font:700 34px 'JetBrains Mono';text-shadow:0 2px 10px rgba(0,0,0,.6)}
 .top b{color:#FF2020}
-.col{position:absolute;left:60px;right:60px;bottom:170px;display:flex;flex-direction:column;gap:34px}
-.h{font-size:150px}
+.col{position:absolute;left:60px;right:170px;bottom:630px;display:flex;flex-direction:column;gap:26px}
+.h{font-size:130px}
 .w{display:inline-block;background:#0A0A0A;color:#fff;font-family:'Anton';font-size:1em;line-height:1;text-transform:uppercase;padding:.07em .15em .09em;margin:0 .07em .08em 0;border-radius:10px;border-top:3px solid #333;box-shadow:0 10px 30px rgba(0,0,0,.6)}
 .w.y{background:#FFE600;color:#000;border-top-color:#fff59a}
-p{font:500 36px/1.42 'Inter';color:#e4e4e4}
-p.t{font-size:var(--pf,36px)}
+p{font:600 44px/1.36 'Inter';color:#fff;background:rgba(0,0,0,.78);padding:22px 26px;border-radius:16px;text-shadow:0 2px 6px rgba(0,0,0,.6)}
+p.t{font-size:var(--pf,44px)}
 .b{font:700 26px/1.3 'JetBrains Mono';color:#FFE600}
-.swipe{position:absolute;bottom:120px;right:100px;font:700 34px 'JetBrains Mono';color:#fff}
+.swipe{align-self:flex-end;font:700 40px 'JetBrains Mono';color:#000;background:#FFE600;padding:10px 18px;border-radius:10px}
 .meme{position:absolute;top:260px;right:50px;width:420px;transform:rotate(6deg);z-index:5;filter:drop-shadow(0 14px 24px rgba(0,0,0,.55))}
 .meme img{width:100%;height:auto;display:block}
 .meme img.rond{border-radius:34px;outline:9px solid #fff;outline-offset:-1px}
-.ou{display:inline-block;align-self:flex-start;background:#FFE600;color:#000;font:700 30px/1.2 'JetBrains Mono';padding:12px 20px;border-radius:10px}
-.mfull{position:absolute;top:560px;left:40px;right:40px;bottom:120px;display:flex;align-items:center;justify-content:center}
+.ou{display:inline-block;align-self:flex-start;background:#FFE600;color:#000;font:700 34px/1.2 'JetBrains Mono';padding:12px 20px;border-radius:10px}
+.mfull{position:absolute;top:560px;left:40px;right:40px;bottom:620px;display:flex;align-items:center;justify-content:center}
 .mfull img{max-width:100%;max-height:100%;border-radius:24px;display:block}
 """
 CORN = ('<i class=c style="top:50px;left:50px;border-right:0;border-bottom:0"></i>'
@@ -91,9 +92,9 @@ PREP = """async (mode) => {
   if (h) { const max = parseInt(h.dataset.max || '720'); let s = parseInt(getComputedStyle(h).fontSize);
     while ((h.offsetHeight > max || h.scrollWidth > h.clientWidth + 2) && s > 70) { s -= 4; h.style.fontSize = s + 'px'; } }
   const col = document.querySelector('.col'), p = document.querySelector('p.t');
-  if (col && p) { let f = 36; while (col.getBoundingClientRect().top < 900 && f > 28) { f -= 2; p.style.fontSize = f + 'px'; } }
+  if (col && p) { let f = 44; while (col.getBoundingClientRect().top < 640 && f > 36) { f -= 2; p.style.fontSize = f + 'px'; } }
   const fr = document.querySelector('body.carte .frame');
-  if (fr && col) { const top = 200, bot = col.getBoundingClientRect().top - 40; fr.style.top = top + 'px'; fr.style.height = Math.max(380, bot - top) + 'px';
+  if (fr && col) { const top = 170, bot = col.getBoundingClientRect().top - 30; fr.style.top = top + 'px'; fr.style.height = Math.max(300, bot - top) + 'px';
     const g2 = fr.querySelector('img');
     if (mode === 'entier') {   // image affichée en entier (capture d'interface, schéma)
       const k2 = Math.min((fr.clientWidth - 12) / g2.naturalWidth, (fr.clientHeight - 12) / g2.naturalHeight);
@@ -295,8 +296,8 @@ def main(src, out):
     slides = []   # (html, durée, cadrage, gif local ou None)
     hook = data.get("couverture_tiktok") or f"Les {n} news IA [[à ne pas rater]]"
     slides.append((page(bg(cov) + CORN + top(data["date"]) +
-        f'<div class=col><div class=h data-max=900 style="font-size:180px">{tiles(hook)}</div>'
-        f'<p>La réponse, et {n - 1} autres news IA, tech et design, dans ce carrousel.</p></div><div class=swipe>SWIPE →</div>'),
+        f'<div class=col><div class=h data-max=640 style="font-size:170px">{tiles(hook)}</div>'
+        f'<p>La réponse, et {n - 1} autres news IA, tech et design, dans ce carrousel.</p><div class=swipe>SWIPE →</div></div>'),
         DUR["cover"], "plein", None))
 
     memes = {m.get("apres"): m for m in data.get("memes", [])}
@@ -317,7 +318,7 @@ def main(src, out):
             txt += " " + it["bemol"].strip()
         ou = it.get("ou")
         slides.append((page(bg(img) + CORN + top(f"{i:02d}/{n:02d}") + stk +
-            f'<div class=col><div class=h data-max=520>{tiles(it.get("titre_tiktok") or it["titre"])}</div>'
+            f'<div class=col><div class=h data-max=340>{tiles(it.get("titre_tiktok") or it["titre"])}</div>'
             f'<p class=t>{html.escape(txt)}</p>'
             + (f'<div class=ou>→ {html.escape(ou)}</div>' if ou else "") + '</div>'),
             DUR["news"], it.get("cadrage") or "auto", anim))
@@ -332,7 +333,7 @@ def main(src, out):
                     DUR["meme"], "plein", gpath if gif else None))
     slides.append((page(
         '<div class=noimg style="background:radial-gradient(900px 800px at 50% 30%,#2a2a2a,#000 70%)"></div>' + CORN + top("FIN") +
-        f'<div class=col style="bottom:auto;top:620px"><div class=h data-max=800 style="font-size:190px">{tiles("[[Abonne-toi]] pour ta veille IA chaque matin")}</div>'
+        f'<div class=col style="bottom:auto;top:330px"><div class=h data-max=720 style="font-size:180px">{tiles("[[Abonne-toi]] pour ta veille IA chaque matin")}</div>'
         f'<p>Les sources de chaque news sont dans la description.</p></div>'), DUR["end"], "plein", None))
 
     pg = b.new_page(viewport={"width": 1080, "height": 1920})
