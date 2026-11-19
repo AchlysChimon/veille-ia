@@ -81,7 +81,7 @@
         ]
       },
       "ou": "Google → Mode IA → icône en haut à droite",
-      "titre_tiktok": "La recherche IA [[sans historique]]",
+      "titre_tiktok": "Google a son [[mode incognito IA]]",
       "texte_tiktok": "Dans le Mode IA de Google, une icône en haut à droite ouvre une discussion temporaire : rien n'est gardé dans ton historique. Idéal pour chercher un cadeau surprise.",
       "cadrage": "entier"
     },
@@ -115,7 +115,9 @@
           "Google",
           "IA"
         ]
-      }
+      },
+      "titre_tiktok": "Les écoles menacent [[de lâcher Google]]",
+      "texte_tiktok": "Google prévient : dès l'an prochain, les écoles qui coupent son IA perdront aussi la recherche Google. New York, Los Angeles et Chicago étudient d'autres moteurs."
     },
     {
       "titre": "Un roman primé accusé d'avoir été écrit par une IA",
@@ -127,7 +129,11 @@
         "type": "chiffre",
         "valeur": "99 %",
         "legende": "« écrit par IA » selon Pangram"
-      }
+      },
+      "titre_tiktok": "Ce roman primé [[écrit par une IA]] ?",
+      "texte_tiktok": "Un détecteur estime que 99 % d'un roman primé péruvien a été écrit par IA. L'éditeur maintient le prix. En France, Gallimard prévoirait de tester ses manuscrits.",
+      "image_tiktok": "https://next.ink/wp-content/uploads/2025/01/Invasion-ia-1024x496.webp",
+      "cadrage": "carte"
     },
     {
       "titre": "Tu peux enfin modifier une story déjà publiée",
@@ -156,7 +162,11 @@
         "type": "chiffre",
         "valeur": "81,3 Md$",
         "legende": "levés, un record"
-      }
+      },
+      "titre_tiktok": "Le créateur de Claude [[entre en Bourse]]",
+      "texte_tiktok": "Anthropic, l'entreprise derrière Claude, entre en Bourse ce jeudi. Elle lève 81,3 milliards de dollars : la plus grosse introduction en Bourse de l'histoire.",
+      "cadrage": "carte",
+      "meme_aprem": "sticker:stonks"
     },
     {
       "titre": "Figma génère plusieurs images d'un coup",
@@ -206,7 +216,9 @@
         ]
       },
       "ou": "Snapchat Easy Lens CLI + Claude Code, Cursor ou Codex",
-      "cadrage": "entier"
+      "cadrage": "entier",
+      "titre_tiktok": "Tes filtres Snapchat [[en une phrase]]",
+      "texte_tiktok": "Avec Easy Lens CLI, tu décris le filtre Snapchat que tu veux et ton assistant IA (Claude Code, Cursor, Codex) le code pour toi. Les créateurs peuvent même être payés."
     },
     {
       "titre": "Messages, Téléphone et Contacts passent au dégradé",
@@ -252,7 +264,10 @@
         "valeur": "677 ★",
         "legende": "sur GitHub"
       },
-      "ou": "npx skills add boringmarketer/boring-marketing-skills"
+      "ou": "npx skills add boringmarketer/boring-marketing-skills",
+      "titre_tiktok": "32 skills pour [[ton marketing]]",
+      "texte_tiktok": "32 skills gratuites pour Claude Code, Codex ou Cursor : positionnement, pages, SEO, pubs, e-mails. Tape /start-here et le nom de ton activité : l'IA lit ton site et te guide.",
+      "cadrage": "carte"
     },
     {
       "titre": "Un SketchUp gratuit pour modéliser en 3D",
@@ -266,7 +281,20 @@
         "legende": "sur GitHub"
       },
       "ou": "github.com/jasonsutter87/sketchcraft",
-      "cadrage": "carte"
+      "cadrage": "carte",
+      "titre_tiktok": "Un SketchUp [[gratuit]]",
+      "texte_tiktok": "SketchCraft, logiciel 3D gratuit : tu traces un contour, tu le tires vers le haut et ça devient un volume. Idéal pour maisons et meubles, il ouvre même les fichiers SketchUp."
     }
-  ]
+  ],
+  "tiktok_aprem": [
+    4,
+    12,
+    6,
+    15,
+    16,
+    7,
+    9
+  ],
+  "teaser_aprem": 9,
+  "couverture_tiktok_aprem": "Une boîte d'IA vient de battre [[un record historique]]"
 }

@@ -1,0 +1,86 @@
+name: TikTok de l'après-midi
+on:
+  schedule:
+    - cron: '0 15 * * *'   # 17 h à Paris en été
+    - cron: '0 16 * * *'   # 17 h à Paris en hiver
+  workflow_dispatch:
+    inputs:
+      forcer:
+        description: "Envoyer tout de suite, même s'il n'est pas 17 h"
+        type: boolean
+        default: true
+jobs:
+  aprem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Seulement à 17 h (heure de Paris)
+        id: heure
+        run: |
+          h=$(TZ=Europe/Paris date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$h" = "17" ]; then echo "go=1" >> "$GITHUB_OUTPUT"; else echo "Il est ${h} h à Paris : rien à faire"; fi
+      - uses: actions/checkout@v4
+        if: steps.heure.outputs.go == '1'
+      - name: Veille du jour avec un TikTok d'après-midi ?
+        if: steps.heure.outputs.go == '1'
+        id: jour
+        run: |
+          dir="news/$(TZ=Europe/Paris date +%F)/"
+          if [ -f "${dir}news.json" ] && python3 -c "import json,sys;sys.exit(0 if json.load(open('${dir}news.json')).get('tiktok_aprem') else 1)"; then
+            echo "dir=$dir" >> "$GITHUB_OUTPUT"
+          else
+            echo "Pas de TikTok d'après-midi prévu dans ${dir}news.json"
+          fi
+      - name: Cache du modèle de détourage
+        if: steps.jour.outputs.dir
+        uses: actions/cache@v4
+        with:
+          path: ~/.rembg
+          key: rembg-isnet-v1
+      - name: Outils (Chrome + polices)
+        if: steps.jour.outputs.dir
+        run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          pip install playwright pillow rembg onnxruntime >/dev/null && python -m playwright install --with-deps chromium >/dev/null
+          mkdir -p ~/.local/share/fonts
+          for w in Regular Medium SemiBold Bold ExtraBold; do
+            curl -sfL -o ~/.local/share/fonts/Poppins-$w.ttf https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-$w.ttf
+          done
+          B=https://raw.githubusercontent.com/google/fonts/main/ofl
+          curl -sfL -o ~/.local/share/fonts/Anton.ttf $B/anton/Anton-Regular.ttf
+          curl -sfL -o ~/.local/share/fonts/Inter.ttf "$B/inter/Inter%5Bopsz,wght%5D.ttf"
+          curl -sfL -o ~/.local/share/fonts/JetBrainsMono.ttf "$B/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf"
+          fc-cache -f >/dev/null
+      - name: Fabriquer le TikTok de l'après-midi
+        if: steps.jour.outputs.dir
+        run: |
+          dir="${{ steps.jour.outputs.dir }}"
+          python tiktok_aprem.py "${dir}news.json" /tmp/aprem.json
+          python render_tiktok.py /tmp/aprem.json "${dir}tiktok_aprem"
+      - uses: actions/upload-artifact@v4
+        if: steps.jour.outputs.dir
+        with:
+          name: tiktok-aprem
+          path: news/*/tiktok_aprem/*
+          retention-days: 7
+      - name: Envoyer sur Discord (à valider)
+        if: steps.jour.outputs.dir
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          dir="${{ steps.jour.outputs.dir }}tiktok_aprem/"
+          [ -n "$WEBHOOK" ] || { echo "Secret DISCORD_WEBHOOK_URL vide"; exit 1; }
+          python3 -c "import json;print(json.dumps({'content':'🌇 **TikTok FLASH IA de l’après-midi — à valider**','flags':4}))" > /tmp/h.json
+          curl -s -o /dev/null -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/h.json; sleep 1
+          imgs=( $(ls "${dir}"*.png | sort) )
+          for ((i=0; i<${#imgs[@]}; i+=10)); do
+            args=(); k=0
+            for f in "${imgs[@]:i:10}"; do args+=(-F "files[$k]=@$f"); k=$((k+1)); done
+            code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" "${args[@]}"); echo "slides $i -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
+            sleep 1
+          done
+          if [ -f "${dir}flash_ia.mp4" ]; then
+            code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -F "payload_json={\"content\":\"🎬 Version vidéo\"}" -F "files[0]=@${dir}flash_ia.mp4"); echo "vidéo -> HTTP $code"; [ "$code" -lt 300 ] || cat /tmp/r.txt
+            sleep 1
+          fi
+          python3 .github/legende_discord.py "${dir}legende_tiktok.txt" > /tmp/l.json
+          code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/l.json); echo "légende -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
