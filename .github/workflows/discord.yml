@@ -3,8 +3,27 @@ on:
   push:
     paths: ['news/**/news.json']
   workflow_dispatch:
+    inputs:
+      legende_seule:
+        description: "Renvoyer seulement la légende TikTok du dernier jour"
+        type: boolean
+        default: false
 jobs:
+  legende:
+    if: ${{ inputs.legende_seule }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Renvoyer la légende TikTok
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          dir=$(ls -d news/2*/ | grep -v -e exemple -e test | sort | tail -1)
+          echo "Dossier : $dir"
+          python3 .github/legende_discord.py "${dir}legende_tiktok.txt" > /tmp/l.json
+          code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/l.json); echo "légende -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
   send:
+    if: ${{ !inputs.legende_seule }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -88,5 +107,5 @@ jobs:
             code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -F "payload_json={\"content\":\"🎬 Version vidéo (GIF animés)\"}" -F "files[0]=@${dir}tiktok/flash_ia.mp4"); echo "vidéo -> HTTP $code"; [ "$code" -lt 300 ] || cat /tmp/r.txt
             sleep 1
           fi
-          python3 -c "import json,sys;t=open(sys.argv[1]).read();print(json.dumps({'content':'**Légende TikTok :**\n```\n'+t[:1850]+'\n```','flags':4}))" "${dir}tiktok/legende_tiktok.txt" > /tmp/l.json
-          code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/l.json); echo "légende -> HTTP $code"
+          python3 .github/legende_discord.py "${dir}tiktok/legende_tiktok.txt" > /tmp/l.json
+          code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/l.json); echo "légende -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
