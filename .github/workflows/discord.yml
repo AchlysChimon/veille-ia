@@ -8,6 +8,8 @@ on:
         description: "Renvoyer seulement la légende TikTok du dernier jour"
         type: boolean
         default: false
+permissions:
+  contents: write
 jobs:
   legende:
     if: ${{ inputs.legende_seule }}
@@ -109,3 +111,9 @@ jobs:
           fi
           python3 .github/legende_discord.py "${dir}tiktok/legende_tiktok.txt" > /tmp/l.json
           code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/l.json); echo "légende -> HTTP $code"; [ "$code" -lt 300 ] || { cat /tmp/r.txt; exit 1; }
+          url=$(.github/partage.sh "$(basename "${dir%/}")" matin "${dir}tiktok") || url=""
+          echo "page -> $url"
+          if [ -n "$url" ]; then
+            python3 -c "import json,sys;print(json.dumps({'content':'📲 **Poster en 2 gestes depuis ton téléphone** (légende + photos d’un coup) : '+sys.argv[1]}))" "$url" > /tmp/p.json
+            code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/p.json); echo "lien -> HTTP $code"
+          fi
