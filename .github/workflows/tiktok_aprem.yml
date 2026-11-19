@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: '0 15 * * *'   # 17 h à Paris en été
     - cron: '0 16 * * *'   # 17 h à Paris en hiver
+    - cron: '0 17 * * *'   # rattrapage si GitHub a sauté un créneau
   workflow_dispatch:
     inputs:
       forcer:
@@ -18,16 +19,20 @@ jobs:
       - name: Seulement à 17 h (heure de Paris)
         id: heure
         run: |
+          # GitHub lance souvent les tâches programmées en retard : on accepte de 17 h à 19 h 59
           h=$(TZ=Europe/Paris date +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$h" = "17" ]; then echo "go=1" >> "$GITHUB_OUTPUT"; else echo "Il est ${h} h à Paris : rien à faire"; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$h" -ge 17 -a "$h" -le 19 ]; then echo "go=1" >> "$GITHUB_OUTPUT"; else echo "Il est ${h} h à Paris : rien à faire"; fi
       - uses: actions/checkout@v4
         if: steps.heure.outputs.go == '1'
       - name: Veille du jour avec un TikTok d'après-midi ?
         if: steps.heure.outputs.go == '1'
         id: jour
         run: |
-          dir="news/$(TZ=Europe/Paris date +%F)/"
-          if [ -f "${dir}news.json" ] && python3 -c "import json,sys;sys.exit(0 if json.load(open('${dir}news.json')).get('tiktok_aprem') else 1)"; then
+          d=$(TZ=Europe/Paris date +%F); dir="news/$d/"
+          # Déjà envoyé aujourd'hui (la page de partage existe) : on ne renvoie pas, sauf relance à la main
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && git fetch -q origin partage 2>/dev/null && git cat-file -e "origin/partage:$d/aprem/index.html" 2>/dev/null; then
+            echo "TikTok de l'après-midi déjà envoyé aujourd'hui"
+          elif [ -f "${dir}news.json" ] && python3 -c "import json,sys;sys.exit(0 if json.load(open('${dir}news.json')).get('tiktok_aprem') else 1)"; then
             echo "dir=$dir" >> "$GITHUB_OUTPUT"
           else
             echo "Pas de TikTok d'après-midi prévu dans ${dir}news.json"
