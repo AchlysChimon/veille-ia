@@ -1,0 +1,272 @@
+{
+  "date": "19 novembre 2026",
+  "accroche": "Des mondes 3D qui t'obéissent, des robots Star Wars bavards et Etsy qui fâche les artistes",
+  "image_couverture": "https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png",
+  "tiktok": [
+    1,
+    2,
+    11,
+    5,
+    14,
+    8,
+    3
+  ],
+  "couverture_tiktok": "Et si les robots de Disney [[te répondaient vraiment]] ?",
+  "teaser": 3,
+  "items": [
+    {
+      "titre": "Crée un monde 3D et change la météo en pleine balade",
+      "categorie": "IA",
+      "texte": "Google ouvre Genie 4 à ses abonnés AI Ultra éligibles : tu décris un monde, puis tu t'y promènes comme dans un jeu vidéo. En chemin, tu tapes « fais pleuvoir » ou « ajoute un personnage » et la scène change, avec un son qui réagit. Une galerie permet de remixer les mondes des autres. Les abonnés AI Pro, eux, sont sur liste d'attente.",
+      "lien": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Genie-4-blog-header.png",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Monde 3D",
+          "Son",
+          "Météo"
+        ]
+      },
+      "ou": "Project Genie · abonnement Google AI Ultra",
+      "titre_tiktok": "Un monde 3D [[qui t'obéit]]",
+      "texte_tiktok": "Avec Genie 4, tu décris un monde et tu t'y promènes comme dans un jeu vidéo. Tape « fais pleuvoir » en pleine balade : la scène change, son compris. Réservé à l'abonnement Ultra.",
+      "cadrage": "carte",
+      "meme": "sticker:mind blown"
+    },
+    {
+      "titre": "Des images IA en 8K, presque des photos",
+      "categorie": "IA",
+      "texte": "Kling, l'outil chinois de création d'images et de vidéos par IA, lance Kling Image 4.0. Il génère des images en 8K très réalistes (peau, tissus, lumière), écrit jusqu'à 2 000 caractères de texte dans une image et crée jusqu'à 10 visuels cohérents d'un seul prompt. Il propose aussi plus de 110 étalonnages couleur prêts à l'emploi.",
+      "lien": "https://kling.ai/blog/kling-image-4-stunningly-realistic-sharp-precise",
+      "image": "https://static--84.klingai-cdn-aws.com/kling-blog/file/ce2d8f8835fc6e31c46adea9a9521d68a7c96dda0e79be75e418c83ca51ca1b8.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "8K",
+        "legende": "en natif"
+      },
+      "ou": "kling.ai → Image",
+      "titre_tiktok": "Des images IA [[en 8K]]",
+      "texte_tiktok": "Kling Image 4.0 crée des images en 8K presque photo, écrit jusqu'à 2 000 caractères de texte lisible et sort 10 visuels cohérents d'un seul prompt.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Les robots Star Wars de Disney te répondent",
+      "categorie": "IA",
+      "texte": "Disney a dévoilé trois petits robots inspirés des Anzellans, les minuscules mécaniciens extraterrestres de Star Wars. Des caméras et micros cachés captent tes gestes et ta voix, et des IA choisissent en direct comment te regarder et te répondre, sans marionnettiste. Chaque geste et réplique reste écrit à l'avance par Disney. Premier test public fin novembre à Las Vegas.",
+      "lien": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/disney1.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Robots",
+          "Star Wars"
+        ]
+      },
+      "titre_tiktok": "Ces robots Star Wars [[te répondent]]",
+      "texte_tiktok": "Disney a créé trois petits robots Star Wars qui te regardent et te répondent en direct grâce à l'IA, sans marionnettiste. Leurs répliques restent écrites par Disney.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Google ajoute un mode incognito à sa recherche IA",
+      "categorie": "IA",
+      "texte": "Dans le Mode IA de Google (la recherche qui répond comme un chatbot), une icône en haut à droite ouvre une « discussion temporaire ». Rien n'est gardé dans ton historique ni utilisé pour tes recommandations : pratique pour chercher un cadeau surprise ou un sujet perso. C'est déployé dans le monde entier, sur ordinateur et mobile, dans le navigateur.",
+      "lien": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIM_Temporary_Thread_Stills_2784x1566_1.max-1440x810.png",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Incognito",
+          "Mode IA"
+        ]
+      },
+      "ou": "Google → Mode IA → icône en haut à droite",
+      "titre_tiktok": "La recherche IA [[sans historique]]",
+      "texte_tiktok": "Dans le Mode IA de Google, une icône en haut à droite ouvre une discussion temporaire : rien n'est gardé dans ton historique. Idéal pour chercher un cadeau surprise.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Des artistes ferment leur boutique Etsy à cause de l'IA",
+      "categorie": "IA",
+      "texte": "Etsy, le site de vente d'objets faits main, a modifié ses conditions : elles autorisent la plateforme et ses partenaires à utiliser les contenus des vendeurs pour entraîner des IA. De nombreux illustrateurs et artisans annoncent fermer boutique, souvent avec un dessin d'adieu. Etsy assure ne pas vouloir copier leur travail. Les nouvelles règles s'appliquent le 16 décembre.",
+      "lien": "https://www.creativebloq.com/news/artists-and-creators-are-leaving-etsy-in-droves-over-its-new-ai-policy",
+      "image": "https://www.buyandship.today/contents/uploads/2024/12/Etsy-1.jpg",
+      "recherche_image": "handmade illustrator closing shop goodbye sign",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "16 déc.",
+        "legende": "entrée en vigueur"
+      },
+      "titre_tiktok": "Les artistes [[quittent Etsy]]",
+      "texte_tiktok": "Etsy s'autorise à utiliser les créations de ses vendeurs pour entraîner des IA. Des illustrateurs ferment leur boutique en masse. Les règles s'appliquent le 16 décembre.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Les écoles américaines menacent de lâcher Google",
+      "categorie": "IA",
+      "texte": "Google a prévenu les écoles : dès l'an prochain, celles qui coupent ses outils IA (Gemini) perdront aussi la recherche Google. Les écoles de New York, Los Angeles et Chicago étudient donc d'autres moteurs, et des élus parlent d'« extorsion ». Google répond qu'il teste un mode qui guide les élèves pas à pas, et que ses outils seront désactivés par défaut l'an prochain.",
+      "lien": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "image": "https://opb-opb-prod.cdn.arcpublishing.com/resizer/v2/VNY4KF3ORZMGDJQNRLWHYHDGD4.jpg?auth=76a112f2b645ff90df6b92d24d061b476f7a452112b7fd9c9a3f82ff164603ad&width=1200&height=675&smart=true",
+      "recherche_image": "students classroom laptops school",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Écoles",
+          "Google",
+          "IA"
+        ]
+      }
+    },
+    {
+      "titre": "Un roman primé accusé d'avoir été écrit par une IA",
+      "categorie": "IA",
+      "texte": "Le détecteur Pangram estime que 99 % de « Donde el agua trabaja », roman primé du Péruvien David Silva Rojas, a été généré par IA. Son éditeur mexicain, Almadía, maintient le prix après avoir examiné des documents de l'auteur. Le débat arrive en France : Gallimard prévoirait d'analyser ses manuscrits avec Pangram dès l'an prochain.",
+      "lien": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+      "image": false,
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "99 %",
+        "legende": "« écrit par IA » selon Pangram"
+      }
+    },
+    {
+      "titre": "Tu peux enfin modifier une story déjà publiée",
+      "categorie": "TECH",
+      "texte": "Instagram permet maintenant de corriger une story pendant 15 minutes après sa publication, sans perdre les vues, likes ou réponses : texte, musique, stickers et dessins. Il suffit d'ouvrir ta story, de toucher les trois points puis « Modifier ». Instagram ajoute aussi de nouvelles polices, couleurs et formes de stickers, et des fonds flous ou en dégradé.",
+      "lien": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/insta-story-edit.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "15 min",
+        "legende": "pour corriger"
+      },
+      "ou": "Instagram → ta story → menu ⋯",
+      "cadrage": "entier",
+      "titre_tiktok": "Modifie ta story [[après coup]]",
+      "texte_tiktok": "Instagram te laisse 15 minutes pour corriger une story publiée (texte, musique, stickers) sans perdre tes vues. Ouvre ta story, touche les trois points, puis « Modifier »."
+    },
+    {
+      "titre": "Le créateur de Claude entre en Bourse avec un record",
+      "categorie": "TECH",
+      "texte": "Anthropic, l'entreprise qui fait l'IA Claude, entre en Bourse ce jeudi sur le Nasdaq, sous le code « ANT ». En vendant ses actions 83 dollars pièce, elle lève 81,3 milliards de dollars : la plus grosse introduction en Bourse de l'histoire, devant les 75 milliards de SpaceX. L'entreprise devra désormais rendre des comptes à des actionnaires.",
+      "lien": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2019/11/nasdaqtower091317001-8.jpg",
+      "recherche_image": "Nasdaq MarketSite Times Square screen",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "81,3 Md$",
+        "legende": "levés, un record"
+      }
+    },
+    {
+      "titre": "Figma génère plusieurs images d'un coup",
+      "categorie": "UI/UX",
+      "texte": "Dans Figma, l'outil « Make an image » (créer une image) peut maintenant proposer 2, 4 ou 6 images à partir d'un seul prompt. Tu peux aussi lancer le même prompt sur jusqu'à trois modèles d'IA en même temps pour comparer leurs résultats côte à côte et garder ton préféré. Ça marche dans Figma Design, FigJam, Slides et Draw, avec des crédits IA.",
+      "lien": "https://www.figma.com/release-notes/",
+      "image": "https://cdn-yunyin.modao.cc/CMS/article-information/featured-article/figma-content-3.png",
+      "recherche_image": "Figma AI make image generate options canvas",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "6",
+        "legende": "images par prompt"
+      },
+      "ou": "Figma → menu Actions → Make an image",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "De faux logos sur la glace font râler les fans de hockey",
+      "categorie": "UI/UX",
+      "texte": "À la télé, la NHL (la ligue nord-américaine de hockey) remplace pendant certains matchs le logo peint au centre de la glace par un logo virtuel « Hometown Remix ». Dans la salle, on voit le vrai. Les fans détestent : ni ombre ni flou quand les joueurs passent dessus, un effet « fond vert raté », et le palet peut disparaître un instant sur les zones noires.",
+      "lien": "https://www.creativebloq.com/news/the-nhls-virtual-logos-are-a-step-too-far-for-digital-branding",
+      "image": "https://cdn.mos.cms.futurecdn.net/bwb7Wf8GBF6vSALeAPrcsk-1920-80.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Logo",
+          "Virtuel",
+          "NHL"
+        ]
+      },
+      "titre_tiktok": "Ce logo sur la glace [[est faux]]",
+      "texte_tiktok": "À la télé, la ligue de hockey NHL remplace le logo peint sur la glace par un logo virtuel. Sans ombre ni flou, il fait « fond vert raté » et les fans détestent.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Crée des filtres Snapchat en décrivant ton idée",
+      "categorie": "UI/UX",
+      "texte": "Snapchat lance Easy Lens CLI : tu décris le filtre en réalité augmentée (les « Lenses ») que tu veux, et ton assistant IA de code (Claude Code, Cursor, Codex) le fabrique pour toi, sans apprendre le logiciel de Snap. Les créateurs inscrits au programme Lens+ Payouts peuvent même être payés : Snap leur a versé 1,8 million de dollars le mois dernier.",
+      "lien": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Easy-Lens-CLI-Announcement_Triptych.gif",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Lenses",
+          "AR",
+          "Prompt"
+        ]
+      },
+      "ou": "Snapchat Easy Lens CLI + Claude Code, Cursor ou Codex",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Messages, Téléphone et Contacts passent au dégradé",
+      "categorie": "UI/UX",
+      "texte": "Google a fini de déployer les nouvelles icônes de ses applis de communication sur Android. Les formes restent les mêmes (bulles, combiné, silhouette), mais un peu plus grandes, avec un bleu plus clair et un effet de dégradé : des icônes plus légères et plus modernes. Il a fallu deux semaines entre l'annonce et l'arrivée sur tous les téléphones.",
+      "lien": "https://9to5google.com/2026/11/18/google-messages-contacts-gradient/",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Google-Messages-Phone-Contacts-icon-gradient-redesign.webp?resize=1200,628",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Icônes",
+          "Dégradé"
+        ]
+      },
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Ton IA fabrique une pub animée en 4K",
+      "categorie": "COMMU",
+      "texte": "motlab est un outil gratuit et open source pour créer des vidéos animées avec ton IA (Claude Code, Codex…). Tu lui donnes logos, captures, musique et une consigne : elle code chaque scène, tu annotes les images dans la visionneuse, elle corrige, puis exporte en MP4 jusqu'en 4K. Aucun générateur d'images IA : tout est dessiné par le code. 196 étoiles sur GitHub.",
+      "lien": "https://github.com/staryone/motlab",
+      "image": "https://raw.githubusercontent.com/staryone/motlab/HEAD/assets/demo.avif",
+      "recherche_image": "motion design video editor timeline animation scenes",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "196 ★",
+        "legende": "sur GitHub"
+      },
+      "ou": "github.com/staryone/motlab",
+      "titre_tiktok": "Ton IA monte [[ta pub en 4K]]",
+      "texte_tiktok": "motlab : tu donnes tes logos, ta musique et une consigne, ton IA code chaque scène animée, tu annotes, elle corrige et exporte en 4K. Gratuit.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "32 skills gratuites pour faire ton marketing avec l'IA",
+      "categorie": "COMMU",
+      "texte": "Boring Marketing Skills rassemble 32 « skills » (des fiches de méthode que ton IA suit) pour Claude Code, Codex ou Cursor : positionnement, pages, référencement, pubs, e-mails… Tu tapes /start-here et le nom de ton activité : l'IA lit ton site et tes avis clients, écrit tes fiches de marque et te dit quoi faire ensuite. 677 étoiles sur GitHub.",
+      "lien": "https://github.com/boringmarketer/boring-marketing-skills",
+      "image": "https://www.skyfallblue.com/wp-content/uploads/2017/08/Marketing-Strategy-scaled.jpg",
+      "recherche_image": "marketing strategy brainstorm sticky notes laptop",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "677 ★",
+        "legende": "sur GitHub"
+      },
+      "ou": "npx skills add boringmarketer/boring-marketing-skills"
+    },
+    {
+      "titre": "Un SketchUp gratuit pour modéliser en 3D",
+      "categorie": "COMMU",
+      "texte": "SketchCraft est un logiciel de 3D gratuit et open source (Mac, Windows, Linux) pour dessiner maisons, pièces et meubles : tu traces un contour, tu le tires vers le haut, et il devient un volume. Mêmes outils et raccourcis que SketchUp, dont il ouvre les fichiers. Il peut aussi être piloté par une IA. 74 étoiles sur GitHub.",
+      "lien": "https://github.com/jasonsutter87/sketchcraft",
+      "image": "https://raw.githubusercontent.com/jasonsutter87/sketchcraft/HEAD/docs/craftsman_street.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "74 ★",
+        "legende": "sur GitHub"
+      },
+      "ou": "github.com/jasonsutter87/sketchcraft",
+      "cadrage": "carte"
+    }
+  ]
+}
