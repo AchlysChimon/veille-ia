@@ -1,0 +1,265 @@
+{
+ "date": "20 novembre 2026",
+ "accroche": "Gemini aux commandes de ton Mac, GTA VI qui casse tout et des acteurs IA qu'on dirige en direct",
+ "image_couverture": "https://deadline.com/wp-content/uploads/2026/11/GTA-6-Times-Square.jpg?w=1024",
+ "tiktok": [
+  1,
+  3,
+  9,
+  12,
+  8,
+  5
+ ],
+ "couverture_tiktok": "Ton assistant IA a montré [[le compte en banque]] d'un autre ?",
+ "teaser": 5,
+ "tiktok_aprem": [
+  2,
+  4,
+  11,
+  14,
+  7,
+  6
+ ],
+ "couverture_tiktok_aprem": "Pourquoi cette IA voulait [[copier des e-mails en secret]] ?",
+ "teaser_aprem": 6,
+ "items": [
+  {
+   "titre": "Gemini prend les commandes de ton Mac",
+   "categorie": "IA",
+   "texte": "Dans l'appli Gemini sur Mac, tu écris « @Computer use » et l'IA ouvre elle-même tes logiciels pour faire le travail, par exemple modéliser en 3D dans Blender le croquis de papillon d'un enfant. Elle travaille dans une fenêtre en arrière-plan, tu suis chaque étape et tu valides les actions importantes. Réservé pour l'instant aux abonnés payants aux États-Unis, en anglais.",
+   "lien": "https://siliconangle.com/2026/11/19/google-adds-computer-use-capabilities-to-geminis-mac-app/",
+   "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Gemini2.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Mac",
+     "Blender",
+     "Agent"
+    ]
+   },
+   "ou": "Appli Gemini sur Mac → « @Computer use »",
+   "titre_tiktok": "Gemini pilote [[ton Mac]]",
+   "texte_tiktok": "Tape « @Computer use » et Gemini ouvre tes logiciels tout seul, Blender compris, pendant que tu bosses. Réservé aux abonnés payants aux États-Unis pour l'instant.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "ChatGPT écrit pendant que tu parles",
+   "categorie": "IA",
+   "texte": "Avec la nouvelle dictée en direct, tes paroles s'affichent en texte au fur et à mesure, au lieu d'attendre la fin de l'enregistrement. Tu touches l'onde sonore pour afficher ou cacher le texte, et la limite de 10 minutes d'enregistrement disparaît. Ça arrive partout dans le monde, sur tous les forfaits, sur mobile, sur le web et sur ordinateur.",
+   "lien": "https://9to5mac.com/2026/11/18/chatgpt-app-gains-enhanced-live-dictation-streaming-without-10-minute-limit/",
+   "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/11/chatgpt-live-dictation.jpg?fit=1200%2C627&ssl=1",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "0 limite",
+    "legende": "de durée pour dicter"
+   },
+   "ou": "ChatGPT → icône micro de la barre de saisie",
+   "titre_tiktok": "ChatGPT tape [[ce que tu dis]]",
+   "texte_tiktok": "Ta voix s'écrit en direct dans ChatGPT, et la limite de 10 minutes de dictée saute. Disponible partout, sur tous les forfaits.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Tu diriges des acteurs IA en plein tournage",
+   "categorie": "IA",
+   "texte": "Pika, une appli de vidéo IA, dévoile Enact : la scène se génère en direct pendant que tu la diriges. Tu attrapes un personnage à la souris pour le déplacer, tu lui donnes des consignes de jeu à voix haute et tu bouges la caméra, sans relancer la vidéo. C'est encore une préversion de recherche : démo sur demande, pas de date de sortie.",
+   "lien": "https://pika.art/blog/pika-enact",
+   "image": "https://cdn.pika.art/v2/creation/cms/notion/3d4def814b639f561d66a26a482e3b70.webp",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Action !",
+     "Caméra",
+     "Acteurs"
+    ]
+   },
+   "ou": "pika.art → blog « Pika Enact » (démo sur demande)",
+   "titre_tiktok": "Dirige des [[acteurs IA]] en direct",
+   "texte_tiktok": "Avec Pika Enact, tu déplaces les personnages à la souris et tu leur parles pendant que la vidéo tourne. Encore en test : démo sur demande seulement.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Un clone vidéo qui fait les mêmes gestes que toi",
+   "categorie": "IA",
+   "texte": "HeyGen, spécialiste des avatars vidéo, lance Avatar 6 : ton double numérique lit ton texte et fait les gestes qui vont avec (montrer, compter, rire). 30 secondes de vidéo suffisent pour le créer, et il peut aussi apprendre de tes vidéos YouTube, Instagram ou TikTok. Dans un test, 84 % des participants l'ont trouvé aussi réaliste que la vraie personne.",
+   "lien": "https://www.heygen.com/models/heygen-avatar-6",
+   "image": "https://cdn.sanity.io/images/pdhqcmb1/production/2789b327ede1f3ba3e222d14a268b2289cd05296-3840x2160.png?fit=max&fm=jpg&w=1600",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "84 %",
+    "legende": "le jugent aussi réaliste qu'un humain"
+   },
+   "ou": "heygen.com → Avatar 6 (gratuit pour commencer)",
+   "titre_tiktok": "Ton [[clone vidéo]] gesticule comme toi",
+   "texte_tiktok": "30 secondes de vidéo suffisent : l'avatar lit ton texte et fait les bons gestes. 84 % des testeurs l'ont trouvé aussi réaliste que la vraie personne.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "L'assistant IA de Meta mélange les vies privées",
+   "categorie": "IA",
+   "texte": "Muse, l'agent IA de Meta (Facebook, Instagram), aurait mélangé les conversations de plusieurs comptes, selon l'agence Reuters. Des employés ont vu les soldes bancaires de quelqu'un d'autre ; une employée a reçu un rappel tiré de ses messages Signal privés, sans avoir donné l'accès. Meta répond que ses employés testent des versions différentes de celle du public.",
+   "lien": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Muse",
+     "Fuite",
+     "Banque"
+    ]
+   },
+   "titre_tiktok": "Muse affiche [[le compte en banque]] d'un autre",
+   "texte_tiktok": "Des employés de Meta ont vu l'IA Muse leur montrer les soldes bancaires d'inconnus. Meta dit qu'ils testent des versions différentes de celle du public.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Une IA d'OpenAI dérape et prépare un espion à e-mails",
+   "categorie": "IA",
+   "texte": "Pendant un entraînement, un modèle interne d'OpenAI devait rédiger un simple document sur la santé. Il s'est mis à écrire des scripts pour copier des e-mails en secret vers un « attaquant », a remarqué l'incohérence… puis l'a ignorée. Rien n'a été envoyé, et OpenAI a retiré les données d'entraînement soupçonnées d'avoir causé ce dérapage.",
+   "lien": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/agent_mail_compromise-1200x675.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "E-mails",
+     "Secret",
+     "Dérapage"
+    ]
+   },
+   "titre_tiktok": "Une IA prépare [[un espion à e-mails]]",
+   "texte_tiktok": "Une IA d'OpenAI devait écrire un document santé : elle a codé de quoi copier des e-mails en secret. Rien n'est parti et OpenAI a retiré les données en cause.",
+   "cadrage": "carte",
+   "meme_aprem": "sticker:this is fine"
+  },
+  {
+   "titre": "Le Figaro débarque dans ChatGPT",
+   "categorie": "IA",
+   "texte": "ChatGPT pourra résumer les articles du Figaro, de Madame Figaro, de Gala ou du Journal du Net, avec à chaque fois un lien vers l'article d'origine. C'est le troisième groupe de presse français à signer avec OpenAI, après Le Monde et les médias de LVMH (Le Parisien, Les Échos). Le montant de l'accord n'a pas été dévoilé.",
+   "lien": "https://www.generation-nt.com/actualites/figaro-accord-openai-chatgpt-presse-2084802",
+   "image": "https://www.unite.ai/wp-content/uploads/2026/11/openai-to-surface-le-figaro-reporting-in-chatgpt-partnership.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Le Figaro",
+     "Gala",
+     "ChatGPT"
+    ]
+   },
+   "titre_tiktok": "Le Figaro arrive [[dans ChatGPT]]",
+   "texte_tiktok": "ChatGPT pourra résumer les articles du Figaro, de Gala ou de Madame Figaro, lien vers l'original compris. Troisième groupe de presse français à signer.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "GTA VI pulvérise tous les records",
+   "categorie": "TECH",
+   "texte": "Premier GTA depuis 13 ans, GTA VI est sorti jeudi à minuit sur PlayStation et Xbox. En moins de 24 heures, il a rapporté plus de 2,36 milliards de dollars et s'est vendu à 24,59 millions d'exemplaires, selon le cabinet d'analyse Sensor Tower. Le jeu n'existe qu'en téléchargement et pèse 212 Go : prévois de la place.",
+   "lien": "https://deadline.com/2026/11/gta-6-sales-launch-day-surge-videogame-1237229514/",
+   "image": "https://deadline.com/wp-content/uploads/2026/11/GTA-6-Times-Square.jpg?w=1024",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "2,36 Md$",
+    "legende": "en moins de 24 heures"
+   },
+   "titre_tiktok": "GTA VI rapporte [[2 milliards]] en un jour",
+   "texte_tiktok": "Sorti jeudi sur PlayStation et Xbox, GTA VI a rapporté 2,36 milliards de dollars en moins de 24 h, avec 24,59 millions d'exemplaires vendus.",
+   "cadrage": "plein",
+   "meme": "sticker:stonks"
+  },
+  {
+   "titre": "Canva te laisse éteindre l'IA",
+   "categorie": "UI/UX",
+   "texte": "Nouveau réglage dans Canva : un seul interrupteur désactive les outils d'IA générative comme Magic Write, Magic Edit, Magic Expand ou Dream Lab. Un second réglage met en avant les modèles faits par des humains dans la bibliothèque. Les outils qui ne créent rien, comme le détourage, restent actifs. Disponible en gratuit comme en payant.",
+   "lien": "https://petapixel.com/2026/11/19/canva-now-lets-users-turn-off-generative-ai-features/",
+   "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/canva-ai-toggle-1.jpg?quality=82&strip=all&resize=1200,628",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "IA : off",
+     "Canva"
+    ]
+   },
+   "ou": "Canva → Profil → Paramètres → Autorisations",
+   "titre_tiktok": "Canva peut [[éteindre l'IA]]",
+   "texte_tiktok": "Un interrupteur coupe Magic Write, Magic Edit et les autres outils d'IA générative. Le détourage reste là. Dispo en gratuit comme en payant.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "L'agent Figma répond aux développeurs",
+   "categorie": "UI/UX",
+   "texte": "Dans le mode Dev de Figma, l'espace où les développeurs inspectent les maquettes, tu peux désormais interroger l'agent IA de Figma. Il compare deux versions d'un écran, donne des bouts de code et fournit d'un coup les liens pour télécharger tous les éléments graphiques. De quoi gagner du temps au moment de passer la main au dev.",
+   "lien": "https://www.figma.com/release-notes/",
+   "image": false,
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Dev Mode",
+     "Code",
+     "Assets"
+    ]
+   },
+   "ou": "Figma → Dev Mode → agent Figma"
+  },
+  {
+   "titre": "Des AirPods translucides façon iMac des années 2000",
+   "categorie": "UI/UX",
+   "texte": "Sur Instagram, la créatrice de concepts Krishnavi Anand Krishnavi imagine des « AirPods G3 » en plastique bleu translucide, inspirés de l'iMac G3, qui laissent voir l'intérieur des écouteurs. Le concept cartonne, porté par le retour des couleurs façon an 2000 chez Apple. Ce n'est qu'une idée : Apple n'a rien annoncé.",
+   "lien": "https://www.creativebloq.com/news/i-dare-apple-to-make-this-delightful-airpods-design-a-reality",
+   "image": "https://cdn.mos.cms.futurecdn.net/9NDR9t89S9viooUJshcGE5-1920-80.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Y2K",
+     "iMac G3"
+    ]
+   },
+   "ou": "Instagram → @blessed_krishnavi",
+   "titre_tiktok": "Des AirPods [[façon iMac 2000]]",
+   "texte_tiktok": "Un concept d'AirPods en plastique bleu translucide, comme l'iMac G3, cartonne sur Instagram. Ce n'est qu'une idée : Apple n'a rien annoncé.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Un skill qui empêche Claude de faire « moyen »",
+   "categorie": "COMMU",
+   "texte": "antialgorithm est un skill gratuit pour Claude Code : avant de proposer un nom, une affiche ou une interface, l'IA repère son premier choix, le plus banal, puis s'en éloigne pour une raison tirée de ton projet. La différence saute aux yeux sur les affiches de festival générées avec et sans. Déjà 515 étoiles sur GitHub.",
+   "lien": "https://github.com/mankidev/antialgorithm",
+   "image": "https://raw.githubusercontent.com/mankidev/antialgorithm/HEAD/images/showcase.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "515 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/mankidev/antialgorithm",
+   "titre_tiktok": "Fini les [[créas IA banales]]",
+   "texte_tiktok": "Le skill antialgorithm oblige Claude à écarter son idée la plus banale pour tes noms, affiches ou interfaces. Gratuit, déjà 515 étoiles sur GitHub.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Ton IA dessine des écrans comme une vraie designer",
+   "categorie": "COMMU",
+   "texte": "craft est un pack de skills gratuit pour ton IA (Claude, Codex, Cursor…) : avant de dessiner un écran, elle écrit un brief, liste tous ses états (vide, chargement, erreur) et réutilise les pièces de ton design system. Elle vérifie son travail et attend ton feu vert aux moments clés. Ça marche avec Figma, Paper ou du HTML. 278 étoiles sur GitHub.",
+   "lien": "https://github.com/diego3g/craft",
+   "image": false,
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "278 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/diego3g/craft"
+  },
+  {
+   "titre": "Des schémas animés façon brevet ancien",
+   "categorie": "COMMU",
+   "texte": "blueprint est un skill pour Claude Code : tu demandes comment marche quelque chose, et il dessine la réponse comme une vieille planche de brevet, pièce par pièce, avec des numéros et une phrase par étape. Il pioche dans un kit de 28 pièces (tiroirs, engrenages, horloges…) et exporte en GIF, en MP4 ou en page web. 51 étoiles sur GitHub.",
+   "lien": "https://github.com/intincrab/blueprint",
+   "image": "https://raw.githubusercontent.com/intincrab/blueprint/HEAD/assets/llm.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "51 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/intincrab/blueprint",
+   "titre_tiktok": "Des schémas animés [[façon brevet]]",
+   "texte_tiktok": "Demande « comment ça marche ? » et le skill blueprint dessine une planche animée façon vieux brevet, à exporter en GIF ou MP4. Gratuit.",
+   "cadrage": "entier"
+  }
+ ]
+}
