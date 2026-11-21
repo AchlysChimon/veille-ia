@@ -1,0 +1,16 @@
+Cette affiche de film sent l'IA… vraiment ? 👇
+
+1. Gemini crée tes GIF — https://www.androidauthority.com/gemini-gif-generation-rollout-3737901/
+   👉 Où le trouver : gemini.google.com → Créer une vidéo → GIF
+2. Un Photoshop 100 % sans IA — https://creativebloq.com/news/this-artist-made-photoshop-alt-has-no-ai-and-no-subscription
+   👉 Où le trouver : NIVA → dans le navigateur
+3. Une IA qui pilote After Effects — https://fortune.com/press-releases/youart-launches-desktop-app-ai-video-agent-2026-11-13/
+   👉 Où le trouver : youart.ai → Desktop App (Mac, Windows)
+4. Adieu Google Assistant — https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down
+5. Ton idée devient un labo 3D — https://github.com/ecapri-dev/simulab-skill
+   👉 Où le trouver : github.com/ecapri-dev/simulab-skill
+6. Une affiche faussement IA — https://mashable.com/entertainment/artificial-ai-poster
+7. Google garde tes recherches IA — https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/
+   👉 Où le trouver : google.com sur ordinateur → barre latérale à gauche
+
+#ia #intelligenceartificielle #veilleia #chatgpt #claude #design #techtok

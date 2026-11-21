@@ -1,0 +1,16 @@
+Une IA vient-elle de résoudre le mystère des nombres premiers ? 👇
+
+1. Gemini code une station de ski — https://x.com/GoogleDeepMind/status/2123826572385833119
+   👉 Où le trouver : Google AI Studio → appli « Chamonix ski sim »
+2. Claude et ChatGPT changent de look — https://www.theverge.com/ai-artificial-intelligence/1039188/claude-has-a-new-mobile-design-too
+3. Des docs ChatGPT qui se mettent à jour — https://www.tomsguide.com/ai/chatgpt/chatgpt-just-got-a-massive-upgrade-it-can-now-create-documents-that-update-themselves
+   👉 Où le trouver : ChatGPT (Plus) → Space
+4. Ton pixel art passe en 3D — https://github.com/danielwh2/sprite-stacking
+   👉 Où le trouver : github.com/danielwh2/sprite-stacking
+5. Signal bloque l'IA — https://9to5mac.com/2026/11/20/signal-now-blocks-screenshots-on-iphone-to-stop-siri-ai-from-seeing-chats/
+   👉 Où le trouver : Signal → Réglages → Confidentialité → « Bloquer Siri AI »
+6. Claude craque une énigme de 1859 ? — https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/
+7. Le CD revient en mode design — https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth
+   👉 Où le trouver : teenage.engineering → boutique
+
+#ia #intelligenceartificielle #veilleia #chatgpt #claude #design #techtok

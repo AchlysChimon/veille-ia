@@ -1,0 +1,15 @@
+Une boîte d'IA vient de battre un record historique 👇
+
+1. Google a son mode incognito IA — https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/
+   👉 Où le trouver : Google → Mode IA → icône en haut à droite
+2. Tes filtres Snapchat en une phrase — https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/
+   👉 Où le trouver : Snapchat Easy Lens CLI + Claude Code, Cursor ou Codex
+3. Les écoles menacent de lâcher Google — https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google
+4. 32 skills pour ton marketing — https://github.com/boringmarketer/boring-marketing-skills
+   👉 Où le trouver : npx skills add boringmarketer/boring-marketing-skills
+5. Un SketchUp gratuit — https://github.com/jasonsutter87/sketchcraft
+   👉 Où le trouver : github.com/jasonsutter87/sketchcraft
+6. Le créateur de Claude entre en Bourse — https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/
+7. Ce roman primé écrit par une IA ? — https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/
+
+#ia #intelligenceartificielle #veilleia #chatgpt #claude #design #techtok
