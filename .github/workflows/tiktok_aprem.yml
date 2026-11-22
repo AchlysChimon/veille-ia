@@ -4,6 +4,9 @@ on:
     - cron: '0 15 * * *'   # 17 h à Paris en été
     - cron: '0 16 * * *'   # 17 h à Paris en hiver
     - cron: '0 17 * * *'   # rattrapage si GitHub a sauté un créneau
+  workflow_run:
+    workflows: ["Envoi Discord"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       forcer:
@@ -21,7 +24,7 @@ jobs:
         run: |
           # GitHub lance souvent les tâches programmées en retard : on accepte de 17 h à 19 h 59
           h=$(TZ=Europe/Paris date +%H)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$h" -ge 17 -a "$h" -le 19 ]; then echo "go=1" >> "$GITHUB_OUTPUT"; else echo "Il est ${h} h à Paris : rien à faire"; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event_name }}" = "workflow_run" ] || [ "$h" -ge 17 -a "$h" -le 19 ]; then echo "go=1" >> "$GITHUB_OUTPUT"; else echo "Il est ${h} h à Paris : rien à faire"; fi
       - uses: actions/checkout@v4
         if: steps.heure.outputs.go == '1'
       - name: Veille du jour avec un TikTok d'après-midi ?
@@ -76,7 +79,7 @@ jobs:
         run: |
           dir="${{ steps.jour.outputs.dir }}tiktok_aprem/"
           [ -n "$WEBHOOK" ] || { echo "Secret DISCORD_WEBHOOK_URL vide"; exit 1; }
-          python3 -c "import json;print(json.dumps({'content':'🌇 **TikTok FLASH IA de l’après-midi — à valider**','flags':4}))" > /tmp/h.json
+          python3 -c "import json;print(json.dumps({'content':'🌇 **TikTok FLASH IA de 17 h — à valider, à poster vers 17 h**','flags':4}))" > /tmp/h.json
           curl -s -o /dev/null -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/h.json; sleep 1
           imgs=( $(ls "${dir}"*.png | sort) )
           for ((i=0; i<${#imgs[@]}; i+=10)); do
@@ -94,6 +97,6 @@ jobs:
           url=$(.github/partage.sh "$(basename "${{ steps.jour.outputs.dir }}")" aprem "${dir%/}") || url=""
           echo "page -> $url"
           if [ -n "$url" ]; then
-            python3 -c "import json,sys;print(json.dumps({'content':'📲 **Poster en 2 gestes depuis ton téléphone** (légende + photos d’un coup) : '+sys.argv[1]}))" "$url" > /tmp/p.json
+            python3 -c "import json,sys;print(json.dumps({'content':'📲 **Lien du TikTok de 17 h** (légende + photos d’un coup) : '+sys.argv[1]}))" "$url" > /tmp/p.json
             code=$(curl -s -o /tmp/r.txt -w "%{http_code}" -X POST "$WEBHOOK" -H "Content-Type: application/json" -d @/tmp/p.json); echo "lien -> HTTP $code"
           fi

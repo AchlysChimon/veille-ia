@@ -1,0 +1,292 @@
+{
+  "date": "22 novembre 2026",
+  "accroche": "Un univers dans 299 Ko, GTA 6 joué par la pensée, Coca-Cola lâche l'IA",
+  "image_couverture": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/11/living-world.jpg?w=1600&h=900&fit=crop",
+  "tiktok": [
+    1,
+    3,
+    5,
+    6,
+    4,
+    8,
+    12
+  ],
+  "couverture_tiktok": "Un univers entier [[plus léger]] qu'une photo ?",
+  "teaser": 1,
+  "tiktok_aprem": [
+    2,
+    9,
+    10,
+    13,
+    7,
+    14
+  ],
+  "couverture_tiktok_aprem": "Jouer à GTA 6 [[sans les mains]] ?",
+  "teaser_aprem": 2,
+  "items": [
+    {
+      "titre": "Un univers de 150 millions d'étoiles dans un fichier de 299 Ko",
+      "categorie": "IA",
+      "texte": "Sur Reddit, un passionné présente Voidstruck, un jeu d'exploration spatiale codé en 4 jours avec l'aide de Claude, l'IA d'Anthropic. Tout tient dans une seule page web de 299 Ko : 150 millions de systèmes solaires et des planètes où l'on atterrit, puis où l'on marche ou vole en jetpack. Il faut un navigateur compatible WebGPU, comme Chrome.",
+      "lien": "https://www.xda-developers.com/this-claude-coded-sci-fi-game-fits-150-million-star-systems-in-a-299-kb-html-file-and-its-insane/",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/11/living-world.jpg?w=1600&h=900&fit=crop",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "299 Ko",
+        "legende": "pour 150 millions d'étoiles"
+      },
+      "ou": "Cherche « Voidstruck » · navigateur avec WebGPU",
+      "titre_tiktok": "Un univers entier dans [[299 Ko]]",
+      "texte_tiktok": "Codé en 4 jours avec Claude, Voidstruck cache 150 millions de systèmes solaires dans une page web. On atterrit, on marche, on vole en jetpack.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Il joue à GTA 6 par la pensée",
+      "categorie": "TECH",
+      "texte": "Neuralink, l'entreprise d'implants cérébraux d'Elon Musk, a publié la vidéo d'un participant paralysé qui joue à GTA 6 sans manette : son implant traduit ses intentions de mouvement en commandes. On le voit piloter un bateau sous un pont, en pleine mission. L'implant reste expérimental et réservé aux essais cliniques.",
+      "lien": "https://www.numerama.com/pop-culture/2380513-gta-6-tetraplegique-il-joue-sans-manette-uniquement-par-la-pensee.html",
+      "image": "https://x.com/neuralink/status/2123890949029818800",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Implant",
+          "GTA 6",
+          "Pensée"
+        ]
+      },
+      "titre_tiktok": "GTA 6 joué [[par la pensée]]",
+      "texte_tiktok": "Un participant paralysé pilote un bateau dans GTA 6 sans manette, grâce à l'implant cérébral de Neuralink. Ça reste expérimental, en essai clinique.",
+      "meme_aprem": "sticker:mind blown",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "David Fincher assume l'IA dans son film",
+      "categorie": "IA",
+      "texte": "Le réalisateur de Fight Club défend l'IA générative utilisée dans « The Further Mis-Adventures of Cliff Booth », la suite de « Once Upon a Time… in Hollywood » avec Brad Pitt. Des spectateurs jugent les effets IA trop visibles et appellent au boycott. Sa réponse : « Ça existe. Ne devrait-on pas s'en servir ? » Le film arrive sur Netflix le 23 décembre.",
+      "lien": "https://deadline.com/2026/11/david-fincher-defends-ai-cliff-booth-criticism-1237230711/",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Cliff-Booth-David-Fincher-2-shot.jpg?w=1000",
+      "visuel": {
+        "type": "citation",
+        "source": "David Fincher · LA Times",
+        "date": "nov. 2026",
+        "lignes": [
+          "“Well, it exists. [[Should we not use it?]]”"
+        ]
+      },
+      "titre_tiktok": "Fincher [[assume l'IA]]",
+      "texte_tiktok": "Accusé d'abuser de l'IA dans la suite de Once Upon a Time… in Hollywood, David Fincher répond : « Ça existe. Ne devrait-on pas s'en servir ? »",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Ta montre Apple résume tes conversations",
+      "categorie": "IA",
+      "texte": "Siri Recap, en bêta sur les Apple Watch de 2026, écoute autour de toi puis résume ce qui s'est dit, comme un preneur de notes. Il faut l'activer soi-même, aucun son n'est gardé et les résumés s'effacent après 1, 3 ou 7 jours. En test, The Verge a vu Siri résumer des vidéos TikTok comme si elles racontaient la vie de la journaliste.",
+      "lien": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268874_siri_recaps_AKrales_0070.jpg?quality=90&strip=all&w=1200",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "7 jours",
+        "legende": "avant l'effacement des résumés"
+      },
+      "ou": "Apple Watch 2026 · Siri Recap (bêta)",
+      "titre_tiktok": "Ta montre [[résume tes discussions]]",
+      "texte_tiktok": "Siri Recap écoute et résume tes conversations sur les nouvelles Apple Watch. En test, il a pris des vidéos TikTok pour la vraie vie de la testeuse.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Coca-Cola renonce à l'IA pour sa pub de Noël",
+      "categorie": "UI/UX",
+      "texte": "Après deux pubs de Noël faites avec l'IA et très critiquées, Coca-Cola revient au tournage classique. Son spot 2026, « Enjoy Joy », signé Ogilvy, montre un grand repas de fête et reprend sa chanson culte de 1971 avec de nouvelles paroles. Même les ours polaires disparaissent. Une tendance de fond : les marques mettent en avant le travail humain.",
+      "lien": "https://www.adweek.com/creativity/ai-is-off-the-festive-dinner-menu-in-cokes-2026-holiday-ad/",
+      "image": "https://static-www.adweek.com/wp-content/uploads/2026/11/Hero-Coke-holiday.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "0 IA",
+        "legende": "dans la pub de Noël 2026"
+      },
+      "titre_tiktok": "Coca-Cola [[lâche l'IA]] pour Noël",
+      "texte_tiktok": "Après deux pubs IA très critiquées, la pub de Noël 2026 de Coca-Cola est tournée avec de vrais acteurs. Exit aussi les ours polaires.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Transforme une longue vidéo en clips TikTok, gratuitement",
+      "categorie": "COMMU",
+      "texte": "NeonClipping est un outil gratuit et open source qui découpe une vidéo YouTube, Twitch ou ton propre MP4 en clips verticaux sous-titrés, avec un titre et une accroche pour chacun. Tout tourne sur ton ordinateur, sans compte ni abonnement. Son créateur annonce un live de 85 minutes traité en 97 secondes. Le projet dépasse 1 800 étoiles sur GitHub.",
+      "lien": "https://github.com/iamajmeena/neonclipping",
+      "image": "https://raw.githubusercontent.com/iamajmeena/neonclipping/main/docs/neonclipping-ui.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "1 816",
+        "legende": "étoiles sur GitHub"
+      },
+      "ou": "github.com/iamajmeena/neonclipping",
+      "titre_tiktok": "Tes vidéos en [[clips TikTok]] gratuits",
+      "texte_tiktok": "NeonClipping découpe une longue vidéo en clips verticaux sous-titrés, avec titre et accroche. Gratuit, open source, tout se passe sur ton ordi.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Google Vids garde tes médias pour tes vidéos IA",
+      "categorie": "IA",
+      "texte": "Dans Google Vids, l'outil vidéo de Google Workspace, les images, vidéos et sons utilisés pour générer des clips avec l'IA Gemini Omni sont maintenant rangés dans un onglet « Assets ». Tu peux les réutiliser comme ingrédients pour tes prochaines vidéos du même projet. Le déploiement a commencé le 17 novembre et se termine début décembre selon les comptes.",
+      "lien": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCphyphenhyphenct0-1j5CDw0j7Mh24xZHGXR4wHHdJgK06m3b73Q2kmQf6aDlMziRV9U60mZFGIAGT5S7TVYd6f38hOX5BIUcDeLvgNXLwVpNTrMLeUKhpmnnZYXG3kypvmqQ63taUD5b3XDJJMcWstLVnfYgKlX8JxXjpIVaOqWKUn_rJXjacWNjEl8owfgLkEvY/w1200-h630-p-k-no-nu/Google%20Vids%20now%20lets%20you%20reuse%20your%20media%20in%20video%20generation%20-%207198.gif",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Vids",
+          "Assets",
+          "Omni"
+        ]
+      },
+      "ou": "Google Vids → panneau « Assets »",
+      "titre_tiktok": "Google Vids [[garde tes médias]]",
+      "texte_tiktok": "Tes images, vidéos et sons sont rangés dans un onglet Assets, prêts à resservir pour tes prochaines vidéos IA. Ça arrive d'ici début décembre.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Les Pays-Bas déconseillent les lunettes IA",
+      "categorie": "IA",
+      "texte": "Le gendarme néerlandais de la vie privée a testé six paires de lunettes connectées à caméra et conseille de ne pas en acheter. L'une a annoncé l'arrivée d'une ambulance qui n'avait jamais été appelée, et plusieurs avaient des failles laissant un inconnu accéder aux vidéos ou à la caméra. Meta, numéro un du marché, dit étudier une réponse.",
+      "lien": "https://www.insurancejournal.com/news/international/2026/11/19/893118.htm",
+      "image": "https://www.insurancejournal.com/app/uploads/2026/11/businessman-wearing-smart-glasses-230418618-AdobeStock-scaled.jpeg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "6",
+        "legende": "modèles testés, tous déconseillés"
+      },
+      "titre_tiktok": "Les lunettes IA [[recalées]]",
+      "texte_tiktok": "Après avoir testé six modèles, le gendarme néerlandais de la vie privée déconseille les lunettes IA à caméra : failles de sécurité et conseils dangereux.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Un éditeur retire une couverture faite en douce avec l'IA",
+      "categorie": "UI/UX",
+      "texte": "La maison d'édition Tor a retiré la couverture du prochain roman d'Ilona Andrews : l'illustration avait été faite avec l'IA générative, à l'insu de l'éditeur et des auteurs. Des artistes l'ont repéré sur Instagram. Tor promet de renforcer ses vérifications, et les auteurs vont désormais demander les fichiers de travail des illustrateurs.",
+      "lien": "https://ilona-andrews.com/blog/generative-ai-on-this-crowns-cover/",
+      "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1795196062i/256701558.jpg",
+      "visuel": {
+        "type": "citation",
+        "source": "Tor Publishing Group",
+        "date": "20 nov. 2026",
+        "lignes": [
+          "“We are taking down [[the recently revealed cover]].”"
+        ]
+      },
+      "titre_tiktok": "Une couverture [[faite en douce]] à l'IA",
+      "texte_tiktok": "Des artistes ont repéré l'IA dans la couverture d'un roman. L'éditeur Tor l'a retirée et promet de mieux vérifier à l'avenir.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Tes logiciels transformés en tranches de CD",
+      "categorie": "COMMU",
+      "texte": "Spines dessine des badges en forme de tranche de boîtier CD pour afficher tes outils (Claude, React, Docker…) sur ta page GitHub ou ton portfolio. Une simple adresse d'image suffit, et plusieurs noms côte à côte forment une étagère. Un skill pour agent IA crée aussi de nouvelles tranches. Le projet compte 137 étoiles sur GitHub.",
+      "lien": "https://github.com/stvlynn/spines",
+      "image": "https://raw.githubusercontent.com/stvlynn/spines/main/docs/images/shelf.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "137",
+        "legende": "étoiles sur GitHub"
+      },
+      "ou": "spine.stv.pm · github.com/stvlynn/spines",
+      "titre_tiktok": "Tes outils en [[tranches de CD]]",
+      "texte_tiktok": "Spines dessine tes outils préférés comme des tranches de boîtiers CD, à aligner en étagère sur ta page GitHub ou ton portfolio.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Claude prend la souris au bureau",
+      "categorie": "IA",
+      "texte": "Anthropic ouvre en bêta l'« utilisation de l'ordinateur » aux offres Claude Team et Enterprise : Claude voit ton écran et travaille directement dans les applis de bureau que tu autorises. Ça passe par l'appli Claude Desktop, et on peut aussi lui confier la tâche depuis le web ou le téléphone. Le déploiement se fait progressivement selon les entreprises.",
+      "lien": "https://support.claude.com/en/articles/12138966-release-notes",
+      "image": false,
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Écran",
+          "Souris",
+          "Bêta"
+        ]
+      },
+      "ou": "Claude Desktop · offres Team et Enterprise"
+    },
+    {
+      "titre": "Microsoft ferme To Do, Todoist récupère tes listes",
+      "categorie": "TECH",
+      "texte": "Microsoft arrêtera son appli gratuite de listes de tâches To Do le 30 juin 2027, sur ordinateur, mobile et web, sans remplaçant pour les comptes personnels. Todoist, une appli concurrente, a aussitôt lancé un outil d'import : tu te connectes à ton compte Microsoft, tu choisis tes listes et elles sont transférées.",
+      "lien": "https://www.theverge.com/tech/1039481/todoist-import-tool-microsoft-to-do",
+      "image": "https://www.windowslatest.com/wp-content/uploads/2026/11/Microsoft-is-shutting-down-its-free-To-Do-app-in-2027-and-tells-personal-users-to-choose-another-app.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "30/06/27",
+        "legende": "fin de Microsoft To Do"
+      },
+      "ou": "Todoist → outil d'import Microsoft To Do",
+      "titre_tiktok": "Microsoft [[ferme To Do]]",
+      "texte_tiktok": "L'appli de listes To Do s'arrête le 30 juin 2027. Todoist propose déjà d'importer tes listes en quelques clics.",
+      "meme": "sticker:sad cat",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "La caméra de Gemini fait peau neuve",
+      "categorie": "UI/UX",
+      "texte": "Sur Android, l'appli Gemini remplace son appareil photo plein écran, assez banal, par un panneau qui glisse depuis le bas avec une animation très fluide, sans quitter la conversation. Un menu derrière trois points gère le flash et la caméra avant. Ce design était déjà sur iPhone ; il faut l'appli Google en version 17.76 ou plus récente.",
+      "lien": "https://9to5google.com/2026/11/21/gemini-camera-redesign/",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Gemini-camera-redesign-1.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Gemini",
+          "Caméra",
+          "Android"
+        ]
+      },
+      "ou": "Appli Gemini → bouton + → Caméra",
+      "titre_tiktok": "Gemini [[redessine sa caméra]]",
+      "texte_tiktok": "Sur Android, la caméra de Gemini s'ouvre en panneau glissant, en pleine conversation, avec une animation très fluide. Déjà sur iPhone.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "95 skills pour monter tes vidéos avec Claude",
+      "categorie": "COMMU",
+      "texte": "Claude Video Editing Skills est un pack gratuit pour Claude Code, l'assistant d'Anthropic qui agit dans ton ordinateur. Tu lui demandes « un reel de 30 secondes à partir de ce podcast » et il coupe, sous-titre, étalonne, mixe le son et exporte, entièrement en local. Ça marche sur Windows, Mac et Linux, sans carte graphique. 42 étoiles sur GitHub.",
+      "lien": "https://github.com/Viprasol-Tech/claude-video-editing-skills",
+      "image": "https://raw.githubusercontent.com/Viprasol-Tech/claude-video-editing-skills/main/.github/social-preview.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "95",
+        "legende": "skills de montage"
+      },
+      "ou": "github.com/Viprasol-Tech/claude-video-editing-skills",
+      "titre_tiktok": "Claude [[monte tes vidéos]]",
+      "texte_tiktok": "Un pack gratuit de 95 skills pour Claude Code : coupes, sous-titres, étalonnage et son, tout en local sur ton ordi.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Ubisoft mise sur l'IA après des licenciements",
+      "categorie": "IA",
+      "texte": "Le géant français du jeu vidéo crée MotherBrain, une filiale consacrée à l'IA générative dans le gameplay, comme des personnages avec qui l'on discute vraiment. L'annonce tombe juste après 166 licenciements au Québec ; l'effectif du groupe a baissé d'environ 1 100 personnes entre avril et septembre. Ubisoft assure que l'IA doit aider ses créateurs, pas les remplacer.",
+      "lien": "https://mobilesyrup.com/2026/11/19/ubisoft-genai-subsidiary-motherbrain-canadian-layoffs/",
+      "image": "https://mobilesyrup.com/2026/11/19/ubisoft-genai-subsidiary-motherbrain-canadian-layoffs/",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "166",
+        "legende": "licenciements au Québec"
+      }
+    },
+    {
+      "titre": "Une boîte à outils de designer pour ton IA",
+      "categorie": "COMMU",
+      "texte": "Pocket Design est un serveur MCP gratuit, c'est-à-dire un module qui ajoute des outils à ton assistant IA (Claude, Cursor…). Il cherche des icônes parmi quelque 280 collections, des polices Google Fonts et des photos libres de droits, crée des palettes de charte et vérifie les contrastes. Aucune clé d'accès n'est nécessaire. 21 étoiles sur GitHub.",
+      "lien": "https://github.com/jasonmello/pocket-design-mcp",
+      "image": false,
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Icônes",
+          "Polices",
+          "Contraste"
+        ]
+      },
+      "ou": "github.com/jasonmello/pocket-design-mcp"
+    }
+  ]
+}
