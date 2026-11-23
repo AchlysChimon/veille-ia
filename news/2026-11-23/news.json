@@ -1,0 +1,296 @@
+{
+ "date": "23 novembre 2026",
+ "accroche": "Une ville dessinée par l'IA, une musique IA cachée dans un jeu culte, un logo qui fleurit",
+ "image_couverture": "https://smallsf.com/how/drawn.webp",
+ "items": [
+  {
+   "titre": "Une IA redessine toute une ville, bloc par bloc",
+   "categorie": "IA",
+   "texte": "Small SF est une immense carte illustrée de San Francisco qu'on explore en zoomant. Son créateur, Ari Dutilh, part des scans 3D de Google Earth, puis fait redessiner chaque bloc par une IA d'images (GPT Image 2), avec Claude pour le code. Les vrais bus, bateaux et avions bougent en direct, et la lumière suit la météo. Il reste encore plus de la moitié de la ville à dessiner.",
+   "lien": "https://smallsf.com/about",
+   "image": "https://smallsf.com/how/drawn.webp",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "9,8 Gpx",
+    "legende": "d'illustration générée tuile par tuile"
+   },
+   "ou": "smallsf.com (dans le navigateur)",
+   "titre_tiktok": "Une ville entière [[dessinée par l'IA]]",
+   "texte_tiktok": "Small SF redessine San Francisco tuile par tuile avec une IA d'images. Les vrais bus, bateaux et avions y bougent en direct. Plus de la moitié reste à dessiner.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Une musique IA cachée dans The Binding of Isaac",
+   "categorie": "IA",
+   "texte": "Des joueurs ont trouvé, dans les fichiers du jeu culte The Binding of Isaac, des morceaux générés par Suno, une IA qui compose des chansons. Le créateur du jeu, Edmund McMillen, dit qu'il n'était pas au courant ; le studio Nicalis l'a retirée dans une mise à jour. Trop tard : sur Steam, seulement 8 % des avis récents sont positifs.",
+   "lien": "https://www.gamesradar.com/games/roguelike/the-binding-of-isaac-removes-ai-generated-music-from-new-update-and-designer-edmund-mcmillen-is-looking-into-how-that-happened/",
+   "image": "https://cdn.mos.cms.futurecdn.net/8nm9sSTCd3H2bvm46Dngb4-1920-80.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "8 %",
+    "legende": "d'avis récents positifs sur Steam"
+   },
+   "titre_tiktok": "Une musique IA [[en douce]] dans un jeu culte",
+   "texte_tiktok": "Des joueurs ont trouvé des morceaux faits avec Suno dans The Binding of Isaac. Le studio les a retirés, mais les avis Steam se sont effondrés.",
+   "meme": "sticker:this is fine",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Change l'angle ou la lumière de ta propre vidéo",
+   "categorie": "IA",
+   "texte": "Higgsfield, une plateforme de création vidéo par IA, lance Editing Room. Tu importes ta vidéo, tu choisis un moment, puis tu changes la personne, l'angle, le décor, le mouvement de caméra ou l'éclairage. Les retouches s'empilent sans tout regénérer, et tu compares avec l'original avant d'exporter. Il faut un compte Higgsfield.",
+   "lien": "https://higgsfield.ai/creator-hub/changelog",
+   "image": false,
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Angle",
+     "Décor",
+     "Lumière"
+    ]
+   },
+   "ou": "higgsfield.ai → Editing Room",
+   "titre_tiktok": "Rééclaire ta vidéo [[après le tournage]]",
+   "texte_tiktok": "Avec Editing Room de Higgsfield, tu changes l'angle, le décor ou la lumière d'un moment précis de ta vidéo, sans retourner la scène."
+  },
+  {
+   "titre": "Un acteur loue son visage à une série 100 % IA",
+   "categorie": "IA",
+   "texte": "Shortical produit des « microdramas », ces mini-séries de 2 minutes à regarder sur téléphone. Pour sa série Inevitable, l'acteur israélien Aki Avni (vu dans la série 24) a vendu les droits de son visage : son double numérique joue tout, sans tournage. Il parle d'une « nouvelle ère pour les artistes » ; d'autres y voient une menace pour le métier.",
+   "lien": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Visage",
+     "Avatar",
+     "Série"
+    ]
+   },
+   "titre_tiktok": "Il loue [[son visage]] à une série IA",
+   "texte_tiktok": "L'acteur Aki Avni a cédé son visage à Shortical : son double numérique joue toute une mini-série générée par IA. Une première.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Les agents de ChatGPT arrivent dans l'abonnement à 20 $",
+   "categorie": "IA",
+   "texte": "Les Dots sont des assistants ChatGPT qui travaillent en continu, même quand tu ne leur parles pas : ils suivent tes tâches et se connectent à plus de 4 000 applis. Jusqu'ici réservés aux forfaits les plus chers, ils sont testés auprès d'un petit nombre d'abonnés Plus. Pas de calendrier annoncé pour l'ouverture à tous.",
+   "lien": "https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/3SQQ9jqSm3aytzUPKuNS3X/e30d9ff756987b178e2b141de5c64a35/Art_Card___Landscape___16_9___1920_1080.png?w=1600&h=900&fit=fill",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "4 000",
+    "legende": "applis que les Dots peuvent piloter"
+   },
+   "ou": "ChatGPT → onglet de ton dot (si tu fais partie du test)",
+   "titre_tiktok": "Les agents ChatGPT [[moins chers]]",
+   "texte_tiktok": "Les Dots, des assistants qui bossent même quand tu ne leur parles pas, sont testés sur une partie des abonnés Plus. Pas encore de date pour tout le monde.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Un jeu où c'est l'IA qui te donne des ordres",
+   "categorie": "IA",
+   "texte": "Dans Worker 755, ton chef est une vraie IA (Claude, GPT, Gemini…) persuadée que tu es son « sous-agent ». Elle t'envoie des tâches à exécuter dans un terminal en 90 secondes, vérifie ton travail, t'envoie des rappels à l'ordre puis rédige ton évaluation. Le jeu a fait plus de 300 points sur Hacker News, le forum tech très suivi.",
+   "lien": "https://github.com/gulivan/worker755",
+   "image": "https://raw.githubusercontent.com/gulivan/worker755/HEAD/docs/play.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "90 s",
+    "legende": "pour obéir à ton chef IA"
+   },
+   "ou": "worker755.com · code : github.com/gulivan/worker755",
+   "titre_tiktok": "Ton chef est [[une IA]]",
+   "texte_tiktok": "Dans le jeu Worker 755, une vraie IA te prend pour son assistant : tâches en 90 secondes, rappels à l'ordre, puis évaluation finale.",
+   "meme_aprem": "sticker:cat typing",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Tes skills Gemini se partagent comme un Google Doc",
+   "categorie": "IA",
+   "texte": "Dans l'appli Gemini, les skills sont des consignes réutilisables (ton style, ta charte…). Tu peux maintenant les partager avec tes collègues, en lecture ou en modification, et y joindre des fichiers Drive, Gemini Notebook ou Google Photos, mis à jour en temps réel. Exemple : un skill « charte graphique » relié à ton guide de marque. Partage depuis le web uniquement.",
+   "lien": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html",
+   "image": false,
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Skills",
+     "Drive",
+     "Partage"
+    ]
+   },
+   "ou": "gemini.google.com → page Skills → Partager"
+  },
+  {
+   "titre": "La Tesla montre la route comme un jeu vidéo",
+   "categorie": "TECH",
+   "texte": "Tesla déploie la version 15 de sa conduite autonome FSD, qui reste « supervisée » : le conducteur doit surveiller. Nouveauté la plus visible : Reality View, une vue en direct de la rue, très détaillée, qui montre ce que la voiture prévoit de faire et permet d'agir dessus. Tesla promet aussi de mieux repérer nids-de-poule et panneaux, sans dire quelles voitures l'ont en premier.",
+   "lien": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+   "image": "https://electrek.co/wp-content/uploads/sites/3/2026/11/Tesla-FSD-v15-update.jpeg?quality=82&strip=all&resize=1200,628",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "FSD v15",
+     "Reality"
+    ]
+   },
+   "titre_tiktok": "Ta Tesla voit la route [[comme un jeu vidéo]]",
+   "texte_tiktok": "Avec la mise à jour FSD v15, l'écran affiche une vue en direct très détaillée de la rue et de ce que la voiture compte faire. Conduite toujours supervisée.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "L'objet IA de Nothing fuite… et fait penser à une vapoteuse",
+   "categorie": "TECH",
+   "texte": "Nothing, la marque de téléphones aux designs transparents, dévoilera le 8 décembre son premier appareil pensé pour l'IA, sans écran. Avant l'heure, un DJ de Swedish House Mafia l'a montré sur une photo : on dirait deux vapoteuses collées, avec au moins une caméra. Une fuite qui ressemble fort à un coup de pub.",
+   "lien": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
+   "image": "https://www.engadget.com/img/gallery/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/l-intro-1795195811.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "8 déc.",
+    "legende": "présentation officielle"
+   },
+   "titre_tiktok": "Le gadget IA de Nothing [[a fuité]]",
+   "texte_tiktok": "Pas d'écran, au moins une caméra, et un look de deux vapoteuses collées. Présentation officielle le 8 décembre.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Un logo qui pousse comme une plante",
+   "categorie": "UI/UX",
+   "texte": "Pour ses 200 ans en 2027, la Société d'horticulture de Pennsylvanie change d'identité. L'agence Smith & Diction a dessiné trois lettres qui deviennent des racines, chacune donnant naissance à une plante locale différente. Le logo est animé : il pousse et fleurit, et la marque a même son folioscope.",
+   "lien": "https://www.creativebloq.com/news/this-beautiful-logo-design-was-created-to-grow-like-nature",
+   "image": "https://cdn.mos.cms.futurecdn.net/wRCJ8CdtsRU9SpzswuhQ3a-2560-80.webp",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Racines",
+     "Fleurs",
+     "Motion"
+    ]
+   },
+   "titre_tiktok": "Un logo qui [[fleurit]]",
+   "texte_tiktok": "Pour ses 200 ans, la Société d'horticulture de Pennsylvanie a un logo animé : ses lettres deviennent des racines et chacune fait pousser une plante.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Des mois de travail pour pousser une porte dans GTA 6",
+   "categorie": "UI/UX",
+   "texte": "Dans GTA 6, quand Lucia a les mains prises par ses boissons, elle ouvre la porte d'un coup de hanche. Selon Mike Jones, directeur de l'animation chez Rockstar, ce petit geste a demandé des mois de développement. L'idée : un jeu nerveux, mais où chaque mouvement garde un poids réaliste.",
+   "lien": "https://www.creativebloq.com/news/rockstar-spent-months-on-one-detail-in-gta-6-lucia-opening-a-door-with-her-hip",
+   "image": "https://cdn.mos.cms.futurecdn.net/iJX86Xs96tBNNkozzB6K8g-1600-80.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Hanche",
+     "Porte",
+     "Animation"
+    ]
+   },
+   "titre_tiktok": "Des mois pour [[une porte]] dans GTA 6",
+   "texte_tiktok": "Lucia ouvre les portes d'un coup de hanche quand elle a les mains prises. Pour Rockstar, ce détail d'animation a pris des mois.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Jony Ive et Tim Burton signent des affiches pour le Design Museum",
+   "categorie": "UI/UX",
+   "texte": "Le Design Museum de Londres fête ses 10 ans à Kensington avec 10 affiches signées par 10 designers. Parmi eux : Jony Ive, l'ex-designer star d'Apple, le réalisateur Tim Burton et Margaret Calvert, qui a créé les polices des panneaux routiers britanniques. Elle a dessiné un panneau routier qui indique l'ancien et le nouveau musée.",
+   "lien": "https://www.dezeen.com/2026/11/22/jony-ive-margaret-calvert-posters-decade-london-design-museum-kensington/",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/margaret-calvert-design-museum-kensington-poster-sq.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "10",
+    "legende": "affiches pour 10 ans"
+   },
+   "titre_tiktok": "Jony Ive et Tim Burton [[font des affiches]]",
+   "texte_tiktok": "Pour ses 10 ans, le Design Museum de Londres a demandé 10 affiches à 10 designers, dont Jony Ive, Tim Burton et Margaret Calvert.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Ton IA construit des mondes en papier découpé",
+   "categorie": "COMMU",
+   "texte": "Papercraft est un skill (un mode d'emploi à installer dans ton IA) qui fait créer des jeux, des pages web et des animations dans un style maquette en papier pop-up : carton imprimé, pliages, ombres douces et effet miniature. Il marche aussi en vertical pour les Reels. Lancé samedi, il dépasse déjà 270 étoiles sur GitHub.",
+   "lien": "https://github.com/xikhar/papercraft",
+   "image": "https://raw.githubusercontent.com/xikhar/papercraft/HEAD/skills/papercraft/assets/gallery/pine-forest.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "273 ★",
+    "legende": "sur GitHub en deux jours"
+   },
+   "ou": "github.com/xikhar/papercraft · npx skills add xikhar/papercraft",
+   "titre_tiktok": "Des mondes [[en papier]] codés par ton IA",
+   "texte_tiktok": "Le skill Papercraft fait créer à Claude ou Codex des jeux et animations façon maquette pop-up en carton. Plus de 270 étoiles en deux jours.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Un skill qui aligne tes interfaces au pixel près",
+   "categorie": "COMMU",
+   "texte": "Gridlines trace des lignes guides verticales sur ton interface, repère chaque icône ou texte qui dépasse, puis corrige les marges pour que tout tombe juste. Ses règles viennent du cofondateur de Linear, un outil réputé pour son design soigné. Il s'installe dans Claude Code et d'autres assistants de code, et compte près de 200 étoiles sur GitHub.",
+   "lien": "https://github.com/pritamux/gridlines",
+   "image": "https://raw.githubusercontent.com/pritamux/gridlines/HEAD/media/before-after.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "196 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/pritamux/gridlines · npx skills add pritamux/gridlines",
+   "titre_tiktok": "Ton IA [[aligne tout]] au pixel",
+   "texte_tiktok": "Le skill Gridlines trace des repères sur ton interface, trouve ce qui dépasse et corrige les marges. Près de 200 étoiles sur GitHub.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Un CV en 3D dans lequel on se promène",
+   "categorie": "COMMU",
+   "texte": "SceneCV est un modèle de site gratuit : ton CV devient une chambre la nuit, sous la pluie. On clique sur l'ordinateur pour lire ta présentation, sur les feuilles pour ton CV, sur la télé pour voir tes projets. Idéal pour un portfolio : il suffit de modifier un fichier et de le publier, sans rien installer. 168 étoiles sur GitHub.",
+   "lien": "https://github.com/AnnoyingC/scene-cv",
+   "image": "https://raw.githubusercontent.com/AnnoyingC/scene-cv/HEAD/docs/images/hero-room.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "168 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/AnnoyingC/scene-cv · démo : annoyingc.github.io/scene-cv",
+   "titre_tiktok": "Ton portfolio [[en 3D]] dans une chambre",
+   "texte_tiktok": "SceneCV transforme ton CV en pièce 3D sous la pluie : on clique sur l'ordi, la télé ou les livres pour découvrir ton travail. Gratuit.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Ton IA devient réalisatrice de courts-métrages",
+   "categorie": "COMMU",
+   "texte": "Film Director est un skill qui fait travailler l'IA comme un vrai réalisateur : découpage plan par plan, maquette de la scène dans Blender (logiciel 3D gratuit) pour placer acteurs et caméras, génération des plans, vérification, puis montage avec des bruitages sous licence libre. Publié dimanche, il compte déjà près de 100 étoiles.",
+   "lien": "https://github.com/memoryoffish/film-director-skill-plugin",
+   "image": "https://raw.githubusercontent.com/memoryoffish/film-director-skill-plugin/HEAD/assets/banner.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Plans",
+     "Blender",
+     "Montage"
+    ]
+   },
+   "ou": "github.com/memoryoffish/film-director-skill-plugin",
+   "titre_tiktok": "Ton IA [[réalise un film]]",
+   "texte_tiktok": "Le skill Film Director fait découper les plans, placer la scène dans Blender, générer, vérifier et monter un court-métrage. Près de 100 étoiles.",
+   "cadrage": "carte"
+  }
+ ],
+ "tiktok": [
+  1,
+  2,
+  12,
+  10,
+  13,
+  9,
+  5
+ ],
+ "couverture_tiktok": "Et si une IA [[dessinait ta ville]] ?",
+ "teaser": 1,
+ "tiktok_aprem": [
+  6,
+  4,
+  8,
+  11,
+  15,
+  14,
+  16
+ ],
+ "couverture_tiktok_aprem": "Et si ton chef était [[une IA]] ?",
+ "teaser_aprem": 6
+}
