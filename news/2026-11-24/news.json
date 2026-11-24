@@ -1,0 +1,298 @@
+{
+ "date": "24 novembre 2026",
+ "accroche": "Des robots sur un ring, une série IA dont tu es le héros et une télé enfin sans pub",
+ "image_couverture": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-Design-3-9.jpg",
+ "tiktok": [
+  3,
+  1,
+  9,
+  13,
+  5,
+  11,
+  4
+ ],
+ "couverture_tiktok": "Et si ta télé faisait de toi [[le héros de la série]] ?",
+ "teaser": 3,
+ "tiktok_aprem": [
+  2,
+  14,
+  10,
+  12,
+  8,
+  6
+ ],
+ "couverture_tiktok_aprem": "Qui gagne quand deux robots [[montent sur le ring]] ?",
+ "teaser_aprem": 2,
+ "items": [
+  {
+   "titre": "Il débarrasse sa télé des pubs en une après-midi",
+   "categorie": "IA",
+   "texte": "Agacé par l'écran d'accueil de sa télé Android, bourré de pubs, un développeur indien a demandé à Claude Code (l'assistant de code d'Anthropic) de le refaire. Une heure et demie plus tard : plus de pubs et un menu épuré façon Apple TV. Il en a tiré CleanYourTV, un outil en Wi-Fi qui ne désinstalle rien. Uniquement pour les télés Android et Google TV.",
+   "lien": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+   "image": "https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/docs/focus-2-up-netflix.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Zéro pub",
+     "Wi-Fi",
+     "Android TV"
+    ]
+   },
+   "ou": "cleanyour.tv · github.com/Gathin23/cleanyourtv",
+   "titre_tiktok": "Il vire [[les pubs]] de sa télé",
+   "texte_tiktok": "Avec Claude Code, un développeur a refait l'écran d'accueil de sa télé Android en 1 h 30. Son outil CleanYourTV fait pareil chez toi, sans rien désinstaller.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Des robots humanoïdes s'affrontent sur un ring",
+   "categorie": "IA",
+   "texte": "À San Francisco, le tournoi REK 2.1 a fait combattre quatre robots humanoïdes devant 200 spectateurs : coups de poing, coups de pied et même des lames. Des humains pilotent les attaques, l'IA s'occupe de l'équilibre. Le robot T-Rek a mis K.-O. son adversaire, reparti… sur une civière. Les lames font quand même débat côté sécurité.",
+   "lien": "https://interestingengineering.com/ai-robotics/humanoid-robots-face-off",
+   "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/11/Untitled-Design-3-9.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "4 robots",
+    "legende": "sur le ring devant 200 personnes"
+   },
+   "titre_tiktok": "Des robots se battent [[sur un ring]]",
+   "texte_tiktok": "Au tournoi REK 2.1 à San Francisco, des robots humanoïdes s'échangent coups de poing et coups de pied. Le perdant est reparti sur une civière.",
+   "meme": "sticker:popcorn",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Google imagine des séries IA dont tu es le héros",
+   "categorie": "IA",
+   "texte": "Un brevet déposé par Google décrit « My Channel », une chaîne télé générée par IA à partir de ce que tu regardes. Dans une version, tu deviens le personnage principal, avec un avatar créé à partir de tes photos et ta voix clonée. Des pubs seraient glissées avant chaque vidéo. Aucun produit n'est annoncé, et le brevet a été rejeté pour l'instant.",
+   "lien": "https://www.digitaltrends.com/movies/google-filed-a-patent-for-an-ai-channel-that-casts-you-as-the-lead/",
+   "image": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/google-ai-tv-channel-drawing-featured.jpg?resize=1200%2C630&ssl=1",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Ton visage",
+     "Ta voix",
+     "Tes pubs"
+    ]
+   },
+   "titre_tiktok": "Une série IA [[dont tu es le héros]]",
+   "texte_tiktok": "Un brevet de Google décrit une chaîne télé générée par IA, avec ton visage et ta voix clonée dans le rôle principal. Brevet rejeté pour l'instant, aucun produit annoncé.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "L'IA de sa résidence lui accorde un délai… puis elle est expulsée",
+   "categorie": "IA",
+   "texte": "À Raleigh, aux États-Unis, Laura Mack reçoit un e-mail de sa résidence lui laissant jusqu'à fin novembre pour régler près de 4 000 $ de loyer en retard. Quelques jours après : avis d'expulsion. Le bailleur affirme que l'e-mail venait d'« Olivia », son assistante IA, qui ne s'était pas présentée comme telle. Un sénateur local relance une loi pour obliger à le signaler.",
+   "lien": "https://www.wral.com/news/investigates/raleigh-eviction-after-ai-bots-promise-push-for-protection-nov-2026/",
+   "image": "https://futurism.com/wp-content/uploads/2026/11/landlord-ai-rent-deal.jpg?w=1200",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "3 934 $",
+    "legende": "de loyer en retard"
+   },
+   "titre_tiktok": "Son IA promet un délai, [[le bailleur expulse]]",
+   "texte_tiktok": "L'assistante IA d'une résidence américaine a accordé par e-mail un délai de loyer. Le bailleur ne l'a pas respecté et a expulsé la locataire.",
+   "meme": "sticker:side eye cat",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "La recherche Google se branche sur ton portefeuille",
+   "categorie": "IA",
+   "texte": "Le Mode IA de la recherche Google peut maintenant se connecter à Google Wallet pour t'aider à suivre tes dépenses ou mieux profiter des avantages de tes cartes, en lecture seule. Google Drive et l'appli Gemini suivront dans les prochaines semaines, pour des réponses tirées de tes documents et de tes conversations. C'est optionnel, et la disponibilité dépend du pays.",
+   "lien": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.width-1300.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Wallet",
+     "Drive",
+     "Gemini"
+    ]
+   },
+   "ou": "Recherche Google → Personnalisation → Applis connectées",
+   "titre_tiktok": "Google Search lit [[tes dépenses]]",
+   "texte_tiktok": "Le Mode IA de Google peut se connecter à Google Wallet, puis bientôt à Drive et Gemini, pour des réponses perso. C'est optionnel et en lecture seule.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "ChatGPT comprend mieux tes demandes compliquées",
+   "categorie": "IA",
+   "texte": "OpenAI déploie dans ChatGPT une version de son modèle GPT-6.2 Sol réglée pour la conversation. Elle suit mieux les consignes détaillées, cherche mieux sur le web, lit mieux les petits détails des images et pose des questions de suivi plus pertinentes. Elle est réservée aux abonnés Plus, Pro, Business et Enterprise.",
+   "lien": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/chatgpt_62_expert_task.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "78 %",
+    "legende": "de consignes difficiles suivies (62,5 % avant)"
+   },
+   "ou": "ChatGPT → abonnements payants",
+   "titre_tiktok": "ChatGPT suit mieux [[tes consignes]]",
+   "texte_tiktok": "La nouvelle version de ChatGPT suit mieux les demandes détaillées, cherche mieux sur le web et lit mieux les images. Réservée aux abonnés payants.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Deux États américains attaquent Grok pour ses deepfakes",
+   "categorie": "IA",
+   "texte": "L'Oregon et la Virginie poursuivent SpaceX, qui possède X et Grok, l'IA d'Elon Musk. Ils accusent l'outil d'images Grok Imagine d'avoir permis de créer et de diffuser des images sexualisées de personnes sans leur accord, y compris de mineurs, alors que la plateforme se disait sûre. Les deux États réclament des amendes et des mesures de justice.",
+   "lien": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK419_DEEPFAKE_CVIRGINIA_F.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Oregon",
+     "Virginie",
+     "Grok"
+    ]
+   }
+  },
+  {
+   "titre": "Une messagerie sans pub pour quitter Gmail",
+   "categorie": "TECH",
+   "texte": "Kagi, connu pour son moteur de recherche payant sans pub, lance Kagi Mail en bêta publique : ni pistage ni publicité, 50 Go de stockage, un agenda intégré et des alias illimités. Essai gratuit de 60 jours, puis 99 $ par an. Pas encore d'appli mobile : elle est prévue au troisième trimestre 2027.",
+   "lien": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/mail-inbox-overview.RlzZ8Gtt.png?quality=90&strip=all&w=1200",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "50 Go",
+    "legende": "sans pub ni pistage"
+   },
+   "ou": "kagi.com → Kagi Mail (essai 60 jours)",
+   "titre_tiktok": "Une boîte mail [[sans pub]]",
+   "texte_tiktok": "Kagi Mail promet zéro pub et zéro pistage, avec 50 Go et un agenda. 60 jours gratuits puis 99 $ par an ; pas d'appli mobile avant 2027.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Cinema 4D s'offre un assistant IA… en option",
+   "categorie": "UI/UX",
+   "texte": "Maxon, l'éditeur de Cinema 4D et ZBrush, lance Maxon Plus, un abonnement à part dès 10 € par mois : modèles 3D et textures générés à partir d'un texte ou d'une image, et relecture des scènes par les clients dans le navigateur. Une licence « agent » laisse une IA comme Claude faire les tâches répétitives sur une autre machine pendant que tu animes.",
+   "lien": "https://www.creativebloq.com/news/every-3d-artist-should-have-an-ai-assistant-maxon-says-as-it-launches-new-tools-and-agentic-licences",
+   "image": "https://cdn.mos.cms.futurecdn.net/SZhxTWsvwYEKwrFyDuR9dX-2560-80.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "10 €",
+    "legende": "par mois, en option"
+   },
+   "ou": "maxon.net → Maxon Plus",
+   "titre_tiktok": "Cinema 4D [[prend un stagiaire IA]]",
+   "texte_tiktok": "Maxon lance un abonnement IA optionnel dès 10 € par mois : modèles 3D et textures générés, et une IA qui fait les tâches répétitives pendant que tu animes.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "L'agent de Figma arrive dans FigJam et Slides",
+   "categorie": "UI/UX",
+   "texte": "L'assistant IA de Figma est désormais disponible dans FigJam, le tableau blanc collaboratif, et dans Figma Slides, sur toutes les offres payantes. Il transforme un tableau en vrac en plan clair avec les prochaines étapes, puis aide à monter une présentation à partir de ce plan et de ta charte : il découpe les slides trop chargées et rédige les notes de l'orateur.",
+   "lien": "https://www.figma.com/release-notes/",
+   "image": "https://cdn.sanity.io/images/599r6htc/regionalized/8a3ce8f118e4296961e3d68a5bbb771912f5e1db-6400x3600.png?w=1600",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "FigJam",
+     "Slides",
+     "Agent"
+    ]
+   },
+   "ou": "FigJam ou Figma Slides → agent (offres payantes)",
+   "titre_tiktok": "Figma [[range ton FigJam]]",
+   "texte_tiktok": "L'agent IA de Figma transforme un tableau FigJam en vrac en plan clair, puis en présentation dans Figma Slides. Offres payantes uniquement.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Une appli transforme l'iPhone pliable en platine vinyle",
+   "categorie": "UI/UX",
+   "texte": "Ripple Player se branche sur Apple Music et transforme les deux écrans de l'iPhone Duo, le premier iPhone pliable d'Apple, en tourne-disque : vinyle qui tourne, bras qui bouge et vraies pochettes. Des ondes se dessinent au rythme de la musique et réagissent au toucher. Sur X, des internautes réclament ce design pour Apple Music. Environ 5 $ sur l'App Store.",
+   "lien": "https://www.creativebloq.com/news/this-hypnotising-app-turns-your-iphone-duo-into-a-record-player",
+   "image": "https://cdn.mos.cms.futurecdn.net/Fx8cJM8iF8iMjRZtRhYLJj-1920-80.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "4,99 $",
+    "legende": "sur l'App Store"
+   },
+   "ou": "App Store → Ripple Player (iPhone Duo)",
+   "titre_tiktok": "Ton iPhone devient [[une platine vinyle]]",
+   "texte_tiktok": "L'appli Ripple Player transforme l'iPhone pliable d'Apple en tourne-disque, avec vinyle qui tourne et ondes au rythme du son. Environ 5 $.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "IKEA mise sur un violet figue pour 2027",
+   "categorie": "UI/UX",
+   "texte": "IKEA États-Unis a choisi « Wild Fig » comme couleur de l'année 2027 : un violet profond aux accents végétaux, qui tire parfois vers le rouge sang-de-bœuf. On l'avait déjà vue sur la lampe PS du designer Lex Pott, en rupture de stock. La marque la marie au bois chaud, ou l'étale sur tout un mur. Pantone dévoilera sa propre couleur début décembre.",
+   "lien": "https://www.dezeen.com/2026/11/23/ikeas-color-of-the-year-2027-wild-fig/",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/ikea-colour-of-the-year-wild-fig_dezeen_2364_col_3-1160x1536.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Wild Fig",
+     "2027"
+    ]
+   },
+   "titre_tiktok": "La couleur 2027 [[selon IKEA]]",
+   "texte_tiktok": "IKEA États-Unis a choisi Wild Fig, un violet figue profond, comme couleur de 2027. Pantone dévoilera la sienne début décembre.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Un sablier qui bloque Instagram et TikTok",
+   "categorie": "COMMU",
+   "texte": "Sur Reddit, un utilisateur montre un sablier connecté conçu avec Claude Code, sans expérience en électronique. Tu le retournes : une séance de concentration démarre et ton iPhone bloque les applis qui distraient. À la pause, WhatsApp revient. Pour arrêter avant la fin, il faut se lever et toucher une clé NFC. C'est encore un prototype.",
+   "lien": "https://www.xda-developers.com/someone-used-claude-code-to-build-hourglass-one-of-five-projects/",
+   "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/11/hand-holding-a-mirrored-hourglass-shaped-prototype-beside-breadboard-circuits-on-a-desk-1.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Retourne",
+     "Concentre",
+     "Pause"
+    ]
+   },
+   "ou": "r/ClaudeCode · lien dans la description",
+   "titre_tiktok": "Un sablier qui [[bloque TikTok]]",
+   "texte_tiktok": "Retourne le sablier et ton iPhone bloque les applis qui distraient. Pour tricher, il faut se lever. Un prototype codé avec Claude Code.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Ton IA transforme une usine en maquette animée",
+   "categorie": "COMMU",
+   "texte": "Simulator est un skill (une compétence à ajouter à Claude Code) qui recrée n'importe quel secteur en petit monde façon jouet : aéroport, usine auto, chantier, entrepôt. Tous les engins bougent en même temps, la caméra suit un objet du début à la fin, et le tout devient un film fluide avec des bruitages. 43 étoiles sur GitHub.",
+   "lien": "https://github.com/Nyxera0x/simulator",
+   "image": "https://raw.githubusercontent.com/Nyxera0x/simulator/HEAD/docs/plant.gif",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "43 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/Nyxera0x/simulator · npx skills add Nyxera0x/simulator",
+   "titre_tiktok": "Une usine entière [[en maquette animée]]",
+   "texte_tiktok": "Le skill Simulator fait construire par Claude un aéroport, une usine ou un chantier façon jouet, puis en tire un film animé avec bruitages.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Un skill qui réalise des films en motion design",
+   "categorie": "COMMU",
+   "texte": "Pulupulu Motion apprend à ton assistant de code à fabriquer des vidéos animées : tu décris le film, l'IA l'écrit comme une page web animée, puis le rend image par image en MP4, avec musique, bruitages et voix off en anglais. Typo animée, graphiques, films produit : 57 styles sont fournis, du Bauhaus à l'estampe japonaise. 37 étoiles sur GitHub.",
+   "lien": "https://github.com/Alucard0x1/pulupulu-motion",
+   "image": false,
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Typo",
+     "Data",
+     "57 styles"
+    ]
+   },
+   "ou": "github.com/Alucard0x1/pulupulu-motion"
+  },
+  {
+   "titre": "Ton IA prépare tes entretiens utilisateurs",
+   "categorie": "COMMU",
+   "texte": "Ce skill gratuit, signé UX Pilot (un outil de design d'interfaces par IA), rédige un guide d'entretien utilisateur neutre : questions de base, relances, fiche pour l'animateur et débrief. Il repère les questions qui orientent la réponse et prévient quand un entretien n'est pas la bonne méthode. Il marche dans Claude Code, Codex et Cursor. 119 étoiles sur GitHub.",
+   "lien": "https://github.com/uxpilot-ai/user-interview-skill",
+   "image": false,
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Questions",
+     "Relances",
+     "Débrief"
+    ]
+   },
+   "ou": "npx skills add uxpilot-ai/user-interview-skill"
+  }
+ ]
+}
