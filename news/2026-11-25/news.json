@@ -1,0 +1,311 @@
+{
+  "date": "25 novembre 2026",
+  "accroche": "Une IA qui écrit avec ta main, des mini-apps Claude sur ton bureau et un sapin en boîtes à biscuits",
+  "image_couverture": "https://pbs.twimg.com/amplify_video_thumb/2125308716488839168/img/hKzatwHHo0be4-9s.jpg",
+  "items": [
+    {
+      "titre": "Tes mini-apps Claude s'installent sur ton ordinateur",
+      "categorie": "IA",
+      "texte": "Les « artefacts » de Claude, ces petites applis qu'il fabrique dans la conversation, peuvent maintenant s'installer sur Mac et Windows. Elles ont leur propre icône et peuvent envoyer des notifications, se loger dans la barre des menus ou s'afficher par-dessus tes autres fenêtres. C'est en bêta, avec la dernière version de l'appli Claude, et un compte gratuit suffit.",
+      "lien": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/1d558aa9dd6599dfad2f4ae46a5f7bcff085d8bb.png?quality=90&strip=all&w=2000",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Dock",
+          "Notifs",
+          "Bêta"
+        ]
+      },
+      "ou": "Appli Claude Mac ou Windows → ton artefact → « Install as app »",
+      "titre_tiktok": "Tes mini-apps Claude [[sur ton bureau]]",
+      "texte_tiktok": "Les petites applis que Claude crée en discutant s'installent maintenant sur Mac et Windows, avec leur icône et leurs notifications. En bêta, compte gratuit accepté.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Une IA imite ton écriture à partir de trois mots",
+      "categorie": "IA",
+      "texte": "PenGPT est un petit modèle d'IA qui écrit et dessine trait par trait, comme avec un vrai stylo. Montre-lui un à trois mots écrits par quelqu'un et il continue la phrase avec la même écriture, même s'il n'a jamais vu cette personne. Il sait aussi dessiner à partir d'un texte. C'est un projet de recherche : le code est gratuit, mais il n'y a pas d'appli grand public.",
+      "lien": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "image": "https://greydanus.github.io/assets/pengpt/hero_v4.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "3 mots",
+        "legende": "pour copier une écriture"
+      },
+      "ou": "greydanus.github.io → PenGPT (code gratuit)",
+      "titre_tiktok": "Une IA qui écrit [[avec ta main]]",
+      "texte_tiktok": "Montre-lui trois mots que tu as écrits, PenGPT continue avec ton écriture, trait par trait. Il dessine aussi à partir d'un texte. Projet de recherche gratuit, sans appli.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Midjourney sort son nouveau modèle manga",
+      "categorie": "IA",
+      "texte": "Midjourney, le générateur d'images, lance Niji V8, sa version spéciale anime et manga. Il suit mieux les consignes, gère des scènes avec plein d'objets et peut même composer une planche de BD simple. Nouveauté : un outil d'édition qui place ton personnage dans un autre décor ou une autre pose sans changer son visage. Il faut un abonnement Midjourney.",
+      "lien": "https://x.com/midjourney/status/2125328040624521639",
+      "image": "https://x.com/midjourney/status/2125328040624521639",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Anime",
+          "Personnages",
+          "Retouche"
+        ]
+      },
+      "ou": "midjourney.com → menu des versions → Niji 8 (ou --niji 8)",
+      "titre_tiktok": "Midjourney passe [[en mode manga]]",
+      "texte_tiktok": "Niji V8 crée des images anime plus fidèles et garde le même personnage d'une image à l'autre grâce à un outil d'édition. Réservé aux abonnés Midjourney.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Tidal va effacer 29 millions de chansons IA",
+      "categorie": "IA",
+      "texte": "Le service de streaming musical Tidal interdit la musique générée par IA à partir du 9 décembre. Environ 29 millions de titres vont disparaître, et 80 000 à 85 000 nouveaux morceaux seront refusés chaque jour. Selon Tidal, l'IA représentait 43 % des titres reçus ces trois derniers mois, et 96 % de ces chansons n'ont jamais été écoutées.",
+      "lien": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "image": false,
+      "recherche_image": "music streaming app phone headphones",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "29 M",
+        "legende": "de chansons IA supprimées"
+      },
+      "titre_tiktok": "Tidal supprime [[29 millions]] de chansons IA",
+      "texte_tiktok": "Dès le 9 décembre, Tidal bannit la musique faite par IA. Elle représentait 43 % des nouveaux titres, et 96 % de ces chansons n'avaient jamais été écoutées.",
+      "meme": "sticker:this is fine",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Ton IA range tes posts Instagram enregistrés",
+      "categorie": "IA",
+      "texte": "Muse, l'assistant IA de Meta, arrive dans les messages privés d'Instagram. Tu lui envoies un post et il t'explique le contexte, ajoute un café à ton itinéraire ou cherche une promo. Il peut aussi trier tes posts enregistrés en collections ou transformer une recette en liste de courses. Pour l'instant, c'est aux États-Unis, au Canada, au Mexique, au Japon et à Singapour.",
+      "lien": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "image": "https://x.com/instagram/status/2125295853816692960",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Messages",
+          "Collections",
+          "Courses"
+        ]
+      },
+      "ou": "Instagram → messages privés → Muse (pas encore en France)",
+      "titre_tiktok": "Ton IA range [[tes posts enregistrés]]",
+      "texte_tiktok": "Dans les messages Instagram, Muse trie tes posts enregistrés et transforme une recette en liste de courses. Pas encore disponible en France.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Gemini garde ton historique sans s'entraîner dessus",
+      "categorie": "IA",
+      "texte": "Jusqu'ici, pour empêcher Google d'utiliser tes conversations Gemini pour entraîner son IA, il fallait couper tout l'historique. Les deux réglages sont désormais séparés : tu gardes tes discussions et tu refuses l'entraînement. Attention, l'option est activée par défaut, il faut aller la décocher. Le réglage est en cours de déploiement.",
+      "lien": "https://9to5google.com/2026/11/24/gemini-history-ai-training/",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/gemini-app-5.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Historique",
+          "Entraînement",
+          "Off"
+        ]
+      },
+      "ou": "gemini.google.com → Paramètres → Historique Gemini → contenu des chats",
+      "titre_tiktok": "Empêche Gemini de [[s'entraîner sur toi]]",
+      "texte_tiktok": "Tu peux enfin garder ton historique Gemini tout en refusant qu'il serve à entraîner l'IA. L'option est cochée par défaut : pense à la désactiver.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Pinterest laisse les parents doser l'IA",
+      "categorie": "IA",
+      "texte": "Pinterest ajoute un réglage inédit à son contrôle parental : les parents peuvent limiter, catégorie par catégorie, la quantité de contenus générés par IA recommandés à leur ado. Ils peuvent aussi couper la lecture automatique des vidéos. Tout est réuni sur une nouvelle page, verrouillée par un code parental. Une première pour un grand réseau social.",
+      "lien": "https://newsroom.pinterest.com/news/helping-families-navigate-controls-for-teens-on-pinterest/",
+      "image": "https://images.ctfassets.net/2pyx8rwuvz6x/4UoNJ7vy4L6YnkIOeYqLKB/1e2a46198b058f7c08731b5039b4c128/ParentalControls-Newsroom-Header-HF-Entry_frFR.jpg?fm=jpg&q=85",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Ados",
+          "Moins d'IA",
+          "Contrôle"
+        ]
+      },
+      "ou": "Pinterest → Votre compte → Contrôles parentaux",
+      "titre_tiktok": "Pinterest filtre [[l'IA pour les ados]]",
+      "texte_tiktok": "Les parents peuvent désormais limiter les contenus générés par IA dans le fil Pinterest de leur ado. Une première pour un grand réseau social.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "L'objet mystère de Nothing est… des écouteurs qui prennent des notes",
+      "categorie": "TECH",
+      "texte": "La marque Nothing dévoile enfin son appareil IA : l'Ear Note, des écouteurs dont le boîtier a ses propres micros. Ils enregistrent une conversation, la retranscrivent et en font un résumé dans une appli. La sortie est prévue le 8 décembre, mais le prix n'est pas encore fixé.",
+      "lien": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nothing.jpg?quality=90&strip=all&w=1600",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "8 déc.",
+        "legende": "date de sortie"
+      },
+      "titre_tiktok": "Des écouteurs qui [[prennent des notes]]",
+      "texte_tiktok": "Les Ear Note de Nothing enregistrent, retranscrivent et résument tes conversations. Sortie le 8 décembre, prix encore inconnu.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Le New York Times déconseille la dernière mise à jour de Photoshop",
+      "categorie": "UI/UX",
+      "texte": "Le New York Times demande à ses photographes pigistes de ne pas installer la nouvelle version de Photoshop. Selon le journal, certains outils utilisent l'IA sans que ce soit évident, et peuvent ajouter aux fichiers une mention « généré par IA ». La mise à jour de novembre ajoute un assistant IA, des retouches par texte et un recadrage automatique.",
+      "lien": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "image": "https://blog.adobe.com/en/publish/2026/11/10/media_1e95627e9e6ae82e0a05a0943ce7c121f7689799c.jpg?width=2000&format=pjpg&optimize=medium",
+      "visuel": {
+        "type": "citation",
+        "source": "New York Times · e-mail aux photographes",
+        "date": "nov. 2026",
+        "lignes": [
+          "L'IA est utilisée « d'une façon [[pas toujours visible]] »"
+        ]
+      },
+      "titre_tiktok": "Photoshop : [[ne mets pas à jour]]",
+      "texte_tiktok": "Le New York Times demande à ses photographes d'éviter le nouveau Photoshop : ses outils IA, pas toujours visibles, peuvent faire passer une photo pour « générée par IA ».",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Une police parisienne ressuscitée après 20 ans de travail",
+      "categorie": "UI/UX",
+      "texte": "La fonderie parisienne Production Type relance Vendôme, une police de caractères née en 1950 qu'on voyait sur les affiches de films, les pochettes de disques et les couvertures de livres. Copiée et abîmée pendant des décennies, elle a été redessinée pendant plus de 20 ans à partir d'épreuves d'archives. Elle revient sous le nom de Vendôme Nouveau.",
+      "lien": "https://www.creativebloq.com/news/it-took-designers-20-years-to-bring-this-font-back-from-the-dead",
+      "image": "https://cdn.mos.cms.futurecdn.net/EgCrPBoK6H6JZzYUrUZ7D8-1920-80.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "20 ans",
+        "legende": "pour redessiner Vendôme"
+      },
+      "ou": "productiontype.com → Vendôme Nouveau",
+      "titre_tiktok": "Une police de 1950 [[ressuscitée]]",
+      "texte_tiktok": "Vendôme, star des affiches françaises des années 50, revient en Vendôme Nouveau. La fonderie Production Type a mis plus de 20 ans à la redessiner.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Visa se refait une beauté avec un « V » tout seul",
+      "categorie": "UI/UX",
+      "texte": "L'agence Base Design modernise l'identité de Visa, la marque des cartes bancaires. Elle ajoute un symbole « V » qui peut vivre seul, une police sur mesure (Visa Sans) et des bandes graphiques inspirées du tout premier logo. Le nom en toutes lettres et le duo bleu et jaune ne changent pas, mais de nouvelles couleurs rejoignent la palette.",
+      "lien": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+      "image": "https://m.itsnicethat.com/original_images/16_PRESS_Visa.jpg?class=w1920",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Symbole V",
+          "Visa Sans",
+          "Bandes"
+        ]
+      },
+      "titre_tiktok": "Visa mise tout [[sur un V]]",
+      "texte_tiktok": "Nouveau symbole « V », police sur mesure, bandes inspirées du premier logo : l'agence Base Design rafraîchit Visa sans toucher au bleu et jaune.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Un sapin géant en couvercles de boîtes à biscuits",
+      "categorie": "UI/UX",
+      "texte": "Burberry et l'artiste Ann Carrington ont créé le sapin de Noël du V&A, le grand musée de design de Londres. Haut de 4,8 mètres, il est fait de couvercles de boîtes à biscuits, de tirelires, de plateaux en argent et de rubans en métal de récupération. L'idée : transformer des objets qu'on ne regarde plus en décoration de fête.",
+      "lien": "https://www.dezeen.com/2026/11/24/va-christmas-tree-burberry/",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/burberry-va-christmas-tree-2026_dezeen_2364_col_sq.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "4,8 m",
+        "legende": "de boîtes à biscuits"
+      },
+      "titre_tiktok": "Un sapin fait de [[boîtes à biscuits]]",
+      "texte_tiktok": "Au V&A de Londres, Burberry et l'artiste Ann Carrington ont monté un sapin de 4,8 mètres avec des couvercles de boîtes à biscuits et des objets chinés.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "50 sons de boutons gratuits pour tes interfaces",
+      "categorie": "COMMU",
+      "texte": "Le développeur Josh W. Comeau partage Button Sounds : plus de 50 bruits de clics enregistrés sur de vrais claviers, souris et manettes. Chaque son a plusieurs prises jouées au hasard, pour qu'un bouton ne fasse jamais exactement le même bruit. Tu peux tous les tester en ligne, puis les ajouter à un site. Le projet a dépassé les 170 votes sur Hacker News.",
+      "lien": "https://buttons.joshwcomeau.com/",
+      "image": "https://buttons.joshwcomeau.com/og-button-sounds.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "50+",
+        "legende": "sons de clics gratuits"
+      },
+      "ou": "buttons.joshwcomeau.com",
+      "titre_tiktok": "50 sons de clics [[gratuits]]",
+      "texte_tiktok": "Button Sounds regroupe plus de 50 clics enregistrés sur de vrais claviers et manettes, avec plusieurs prises par son. À tester en ligne, gratuit.",
+      "meme": "sticker:cat typing",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Ton IA transforme du pixel art en fausse 3D",
+      "categorie": "COMMU",
+      "texte": "Sprite-stacking est un skill, c'est-à-dire un mode d'emploi qu'on ajoute à une IA comme Claude Code. Donne-lui quatre vues d'un objet en pixel art (dessus, côté, face, dos) : il les découpe en fines couches et les empile pour obtenir un objet qu'on fait tourner comme en 3D. Pas de générateur d'images ? L'IA dessine les vues elle-même. Le dépôt a plus de 800 étoiles.",
+      "lien": "https://github.com/danielwh2/sprite-stacking",
+      "image": "https://raw.githubusercontent.com/danielwh2/sprite-stacking/HEAD/media/showcase.gif",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "4 vues",
+          "Couches",
+          "Rotation"
+        ]
+      },
+      "ou": "github.com/danielwh2/sprite-stacking",
+      "titre_tiktok": "Ton pixel art [[passe en 3D]]",
+      "texte_tiktok": "Un skill gratuit pour Claude Code : quatre vues en pixel art deviennent un objet qu'on fait tourner comme en 3D. Plus de 800 étoiles sur GitHub.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Un skill pour des sites qui bougent au scroll",
+      "categorie": "COMMU",
+      "texte": "Scrolltide AI Studio est un skill gratuit pour Claude qui fabrique des sites animés au défilement : caméra qui avance, décors en parallaxe, tracés qui se dessinent tout seuls. Il part du vrai code de neuf sites existants, l'adapte à tes textes et à tes couleurs, puis vérifie le rendu sur ordinateur et sur téléphone. Il marche aussi dans l'appli Claude.",
+      "lien": "https://github.com/scrolltide/ai-studio-skill",
+      "image": "https://raw.githubusercontent.com/scrolltide/ai-studio-skill/HEAD/docs/free-shelf.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Scroll",
+          "Parallaxe",
+          "9 modèles"
+        ]
+      },
+      "ou": "github.com/scrolltide/ai-studio-skill",
+      "titre_tiktok": "Des sites qui [[bougent au scroll]]",
+      "texte_tiktok": "Ce skill gratuit pour Claude crée des sites animés au défilement à partir de neuf vrais modèles, puis vérifie le rendu sur téléphone.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Les démos 3D des années 2000 tournent dans ton navigateur",
+      "categorie": "COMMU",
+      "texte": "Un projet reconstruit les démos que NVIDIA, ATI ou 3dfx livraient avec leurs cartes graphiques depuis 1998 : une bulle qui reflète le décor, un éclair qui fait jaillir des étincelles, des arbres éclairés par des lucioles. Elles sont refaites à partir des fichiers d'origine et se lancent en un clic dans le navigateur. Le projet a été présenté sur Hacker News.",
+      "lien": "https://gpu-demo-gallery.pages.dev/",
+      "image": "https://raw.githubusercontent.com/AchlysChimon/veille-ia/main/news/2026-11-25/gpu-demos.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "1998",
+        "legende": "les premières démos 3D"
+      },
+      "ou": "gpu-demo-gallery.pages.dev",
+      "titre_tiktok": "La 3D de [[l'an 2000]] en ligne",
+      "texte_tiktok": "Les démos livrées avec les cartes graphiques depuis 1998 sont recréées à partir des fichiers d'origine. Elles se lancent en un clic, gratuitement.",
+      "cadrage": "plein"
+    }
+  ],
+  "tiktok": [
+    1,
+    9,
+    3,
+    13,
+    4,
+    10,
+    2
+  ],
+  "couverture_tiktok": "Et si une IA écrivait [[avec ta main]] ?",
+  "teaser": 2,
+  "tiktok_aprem": [
+    5,
+    6,
+    11,
+    16,
+    7,
+    12,
+    15,
+    14
+  ],
+  "couverture_tiktok_aprem": "Et si tes pixels [[passaient en 3D]] ?",
+  "teaser_aprem": 14
+}
