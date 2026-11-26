@@ -1,0 +1,302 @@
+{
+  "date": "26 novembre 2026",
+  "accroche": "Un mystère de 200 ans résolu en 22 minutes, Free qui traduit tes appels et un site web qui vire au film d'horreur",
+  "image_couverture": "https://s.yimg.com/lo/mysterio/api/a9a665ceed7053b0f946fc72aa226485bfa50c6d08e5ff7368ac951a43fd6308/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftechradar_949%2Fe84ee58209446adf54eb15f14d9c5ab8.jpg",
+  "items": [
+    {
+      "titre": "ChatGPT perce un mystère vieux de 200 ans",
+      "categorie": "IA",
+      "texte": "Mark Humphries, historien au Canada, cherchait depuis des années qui avait dessiné un carnet anonyme de 1808 conservé à Yale. Avec GPT-6.2 Astra, le modèle le plus poussé de ChatGPT, il a eu une piste en 22 minutes : un aristocrate français, le vicomte de Chabot. L'IA a même trouvé son journal de voyage, dont l'écriture colle au carnet. Yale n'a pas encore confirmé.",
+      "lien": "https://tech.yahoo.com/ai/chatgpt/articles/chatgpt-6-2-astra-solves-130832884.html",
+      "image": "https://s.yimg.com/lo/mysterio/api/a9a665ceed7053b0f946fc72aa226485bfa50c6d08e5ff7368ac951a43fd6308/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftechradar_949%2Fe84ee58209446adf54eb15f14d9c5ab8.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "22 min",
+        "legende": "pour un mystère de 1808"
+      },
+      "titre_tiktok": "Un mystère de [[200 ans]] résolu",
+      "texte_tiktok": "Un historien demande à ChatGPT qui a dessiné un carnet anonyme de 1808. En 22 minutes, l'IA trouve un vicomte français et son journal de voyage. Yale doit encore confirmer.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Une voix légendaire revient dans un jeu de foot",
+      "categorie": "IA",
+      "texte": "John Motson, célèbre commentateur de foot à la BBC disparu en 2023, revient dans le jeu EA Sports FC 27. Sa voix a été recréée avec l'IA à partir d'anciens enregistrements, avec l'accord de sa veuve et de son fils, qui ont été payés. Ses commentaires arrivent dans le jeu ce 26 novembre. Une première pour la série, qui relance le débat sur les voix recréées.",
+      "lien": "https://www.bbc.co.uk/news/articles/c65y10j841jpo",
+      "image": "https://drop-assets.ea.com/images/2pvKzi6E5opP6D9SwvNNBR/d16a21f76e5986e55f8c7d55cc31df33/FC27_FUT_Gallery_Clean_16x9.png",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "FC 27",
+          "Voix IA",
+          "BBC"
+        ]
+      },
+      "titre_tiktok": "Une voix disparue [[commente ton match]]",
+      "texte_tiktok": "EA recrée avec l'IA la voix de John Motson, commentateur de la BBC mort en 2023, pour EA Sports FC 27. Sa famille a donné son accord. Dispo dès le 26 novembre.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Free traduit tes appels en direct",
+      "categorie": "IA",
+      "texte": "Free lance Traduction Live : pendant un appel, tape ## puis dis « OK Free, traduis en anglais », et chaque phrase est traduite à voix haute pour ton interlocuteur. Dix langues sont proposées, et une IA peut t'envoyer par SMS un résumé de l'appel. La traduction se fait sur le réseau, pas dans le téléphone. Réservé pour l'instant aux abonnés Free Max.",
+      "lien": "https://www.numerama.com/tech/2383301-free-mobile-lance-un-service-de-traduction-des-appels-avec-des-resumes-ia-par-sms.html",
+      "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/free-traduction.jpg?resize=1600,900&key=a1182e94",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "10",
+        "legende": "langues traduites en direct"
+      },
+      "ou": "Pendant un appel Free Max : ## puis « OK Free, traduis en… »",
+      "titre_tiktok": "Free [[traduit tes appels]] en direct",
+      "texte_tiktok": "Pendant un appel, tape ## et dis « OK Free, traduis en anglais » : chaque phrase est traduite à voix haute, dans 10 langues. Réservé aux abonnés Free Max.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Gemini t'écrit chaque matin par SMS",
+      "categorie": "IA",
+      "texte": "Dans Google Messages, Gemini devient un vrai assistant qui prend les devants. Chaque matin, il t'envoie ce qui compte : un colis qui arrive, un abonnement qui expire, une baisse de prix ou un voyage à venir. Tu peux aussi lui demander la météo ou lui envoyer une photo. C'est disponible aux États-Unis pour l'instant, pas encore de date pour la France.",
+      "lien": "https://9to5google.com/2026/11/24/google-messages-gemini-tasks/",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Gemini-tasks-Google-Messages.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Colis",
+          "Rappels",
+          "Promos"
+        ]
+      },
+      "ou": "Google Messages → icône Gemini (États-Unis)",
+      "titre_tiktok": "Gemini [[t'écrit le matin]]",
+      "texte_tiktok": "Dans Google Messages, Gemini t'envoie chaque matin tes colis, rappels et baisses de prix. Pour l'instant aux États-Unis seulement.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Ton enceinte Google invente des histoires",
+      "categorie": "IA",
+      "texte": "Avec la grosse mise à jour de Google Home, « Hey Google, raconte-moi une histoire » revient, version Gemini : l'histoire change selon ce que tu demandes en cours de route. Gemini comprend aussi mieux les suites de phrases, comme « rallume-les » après avoir éteint les lumières. C'est réservé au programme d'accès anticipé Gemini pour la maison.",
+      "lien": "https://9to5google.com/2026/11/25/google-home-update-nest-cam-thermostat-gemini-features/",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/google-home-speaker-nest-hub-1.jpg?quality=82&strip=all&resize=1200,628",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Histoires",
+          "Lumières",
+          "Maison"
+        ]
+      },
+      "ou": "Appli Google Home → accès anticipé Gemini",
+      "titre_tiktok": "Ton enceinte [[raconte des histoires]]",
+      "texte_tiktok": "Gemini invente des histoires qui changent selon tes demandes sur les enceintes Google Home. Réservé à l'accès anticipé.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "New York interdit les jouets qui discutent avec les enfants",
+      "categorie": "IA",
+      "texte": "L'État de New York bannit pour cinq ans la fabrication et la vente de jouets équipés d'un chatbot, ces peluches ou robots qui parlent avec les enfants grâce à Internet. C'est le deuxième État américain à le faire, après la Californie. Une étude de Common Sense Media juge ces jouets risqués. La loi entre en vigueur dans 90 jours, avec 15 000 $ d'amende par jour.",
+      "lien": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "5 ans",
+        "legende": "d'interdiction à New York"
+      },
+      "titre_tiktok": "Les jouets IA [[interdits]] à New York",
+      "texte_tiktok": "Peluches et robots qui discutent avec les enfants sont bannis pour 5 ans à New York, comme en Californie. Amende : 15 000 $ par jour.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Character.AI veut vendre les conversations de ses utilisateurs",
+      "categorie": "IA",
+      "texte": "Character.AI, l'appli où l'on discute avec des personnages IA, est en faillite et veut mettre aux enchères ses données le 1er décembre. Dedans : les conversations de plus de 21 millions de comptes américains, dont 2,1 millions de mineurs. 42 procureurs généraux d'États américains tentent de bloquer la vente, car l'appli avait promis de ne jamais vendre ces données.",
+      "lien": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "21 M",
+        "legende": "de comptes concernés"
+      },
+      "titre_tiktok": "Tes conversations IA [[aux enchères]] ?",
+      "texte_tiktok": "En faillite, Character.AI veut vendre les discussions de 21 millions de comptes, dont des mineurs. 42 procureurs américains tentent de l'en empêcher.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "L'agence du médicament met en garde contre l'IA",
+      "categorie": "IA",
+      "texte": "L'ANSM, l'agence française qui surveille les médicaments, a recensé huit erreurs liées à des conseils d'IA depuis 2024, dont une hospitalisation. Le plus souvent : trop de paracétamol. Une femme enceinte a même pris six fois la dose prescrite. La moitié des cas touche des 18 ans ou moins. Le conseil : ne jamais choisir un traitement avec une IA, demander à un pharmacien.",
+      "lien": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3339573_des-informations-inexactes-contradictoires-ou-inadaptees-lagence-du-medicament-met-en-garde-contre-lusage-de-lia-pour-les-conseils-medicaux",
+      "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/pixnio-6000x4000-grand-edited.jpg?resize=1600,900&key=2610c80e",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "x6",
+        "legende": "la dose prescrite"
+      },
+      "titre_tiktok": "Médicaments : [[méfie-toi de l'IA]]",
+      "texte_tiktok": "L'ANSM a recensé huit erreurs de médicaments dues à l'IA, dont une hospitalisation. Son conseil : demande plutôt à un pharmacien.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "WhatsApp te laisse programmer tes messages",
+      "categorie": "TECH",
+      "texte": "Enfin ! WhatsApp ajoute les messages programmés. Appuie longtemps sur le bouton d'envoi et choisis le moment : jusqu'à 14 jours plus tard, en privé comme en groupe. Le message part même si ton téléphone est éteint, et tu peux le modifier ou l'annuler avant. Ça marche avec le texte, les photos et les vidéos, pas les vocaux. Le déploiement mondial prendra quelques semaines.",
+      "lien": "https://9to5google.com/2026/11/25/whatsapp-officially-adds-scheduled-messages-and-the-rollout-is-scheduled-too/",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/image_973698.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "14 j",
+        "legende": "à l'avance maximum"
+      },
+      "ou": "WhatsApp → appui long sur le bouton Envoyer",
+      "titre_tiktok": "WhatsApp [[programme tes messages]]",
+      "texte_tiktok": "Appui long sur Envoyer : ton message part jusqu'à 14 jours plus tard, même téléphone éteint. Déploiement dans les prochaines semaines.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Un club de foot épinglé pour une image IA ratée",
+      "categorie": "UI/UX",
+      "texte": "Crystal Palace, club de foot anglais, a annoncé sur X que son stade pourrait accueillir la Coupe du monde féminine 2035. Problème : l'image, faite avec l'IA, écrit le surnom du club « Eacles » au lieu de « Eagles » dans les tribunes. Les fans se sont déchaînés : « On n'a pas une photo de notre propre stade ? ». Un rappel que relire une image IA reste indispensable.",
+      "lien": "https://www.creativebloq.com/news/crystal-palace-tried-to-get-away-with-posting-ai-and-fans-tore-it-to-shreds",
+      "image": "https://cdn.mos.cms.futurecdn.net/8cSPmHfTFcv3YPqpYYYxJW-1920-80.jpg",
+      "visuel": {
+        "type": "citation",
+        "source": "Fan de Crystal Palace",
+        "date": "nov. 2026",
+        "lignes": [
+          "« Excusez-moi… [[c'est qui les Eacles]] ? »"
+        ]
+      },
+      "titre_tiktok": "Le club qui a écrit [[« Eacles »]]",
+      "texte_tiktok": "Crystal Palace poste une image IA de son stade… avec « Eacles » au lieu de « Eagles » dans les tribunes. Les fans n'ont pas pardonné.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "30 000 carreaux pour une station de métro près de Lyon",
+      "categorie": "UI/UX",
+      "texte": "L'artiste française Camille Walala, connue pour ses motifs colorés à Londres, habille la station Flachet–Alain Gilles à Villeurbanne. Son œuvre, Alley-Oop, compte plus de 30 000 carreaux de céramique faits main. Elle rend hommage au basketteur Alain Gilles et à un bâtiment de la ville. C'est sa première œuvre permanente en France, prévue pour le printemps.",
+      "lien": "https://www.creativeboom.com/news/camille-walala-is-covering-a-lyon-metro-station-in-30000-hand-made-tiles/",
+      "image": "https://media.creativeboom.com/e4bd3566-8d13-46c2-b495-bf8296d8dbc8/conversions/e84d677ffccad03f4b6fa25ec205d856eacfbc9d-large.webp",
+      "image_tiktok": "https://media.creativeboom.com/4082cadd-814a-4dc7-bd41-f49251f6d363/conversions/50940be245583a3b6d785f849671810554573ced-large.webp",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "30 000",
+        "legende": "carreaux faits main"
+      },
+      "ou": "Station Flachet, Villeurbanne · au printemps",
+      "titre_tiktok": "Un métro [[en carreaux faits main]]",
+      "texte_tiktok": "Camille Walala couvre une station près de Lyon de plus de 30 000 carreaux faits main, en hommage au basket. À voir au printemps.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Des polices qui penchent en arrière",
+      "categorie": "UI/UX",
+      "texte": "L'italique penche toujours vers l'avant. Le créateur de caractères Yury Ostromentsky, cofondateur de la fonderie CSTM Fonts, fait l'inverse avec Backslanted : une série de polices inclinées vers l'arrière, parfois jusqu'à devenir presque illisibles. Il explique que le projet traduit son sentiment d'être « renversé » par l'actualité depuis la guerre en Ukraine.",
+      "lien": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
+      "image": "https://m.itsnicethat.com/original_images/yury-ostomentsky-graphic-design-itsnicethat-14.png?class=w1440",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Italique",
+          "À l'envers",
+          "Typo"
+        ]
+      },
+      "titre_tiktok": "L'italique [[à l'envers]]",
+      "texte_tiktok": "Backslanted, de Yury Ostromentsky, fait pencher les lettres vers l'arrière, parfois jusqu'à l'illisible. Une réaction à l'actualité.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Le Grand Rex ouvre une salle de cinéma unique au monde",
+      "categorie": "UI/UX",
+      "texte": "Le Grand Rex, célèbre cinéma parisien, a ouvert la Salle Émeraude : seulement 71 fauteuils, un décor Art déco avec tablettes en noyer et lampes individuelles. Surtout, le son passe par 17 enceintes Devialet Phantom Ultimate, une première mondiale en salle selon le Grand Rex et Devialet. Elle remplace l'ancienne salle 7, qui comptait 109 places.",
+      "lien": "https://www.numerama.com/pop-culture/2384669-le-grand-rex-ouvre-une-salle-unique-au-monde-avec-un-detail-qui-change-tout.html",
+      "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/6e6b7fdca54263fadd4b9a5b.jpg?resize=1600,900&key=9cc50108",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "17",
+        "legende": "enceintes Devialet"
+      },
+      "ou": "Grand Rex, Paris → Salle Émeraude",
+      "titre_tiktok": "Un cinéma [[façon salon Art déco]]",
+      "texte_tiktok": "Au Grand Rex, la Salle Émeraude n'a que 71 fauteuils et 17 enceintes Devialet, une première mondiale selon le cinéma.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Un site web qui tourne au film d'horreur",
+      "categorie": "COMMU",
+      "texte": "Sur Reddit, dans r/ClaudeAI, un utilisateur a demandé à Claude un site qui ressemble à une pub banale puis devient de plus en plus inquiétant en descendant. Résultat : Hearthly, une fausse marque de maison connectée qui se transforme peu à peu en cauchemar. Le site XDA a relayé le post, et tu peux le visiter. Le prompt est public, à toi de tester !",
+      "lien": "https://www.reddit.com/r/ClaudeAI/comments/1xzgq2x/my_prompt_i_want_you_to_create_a_website_that/",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/11/hearthly.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Scroll",
+          "Pub",
+          "Horreur"
+        ]
+      },
+      "ou": "jikol1906.github.io/Hearthly · r/ClaudeAI",
+      "titre_tiktok": "Un site qui [[vire à l'horreur]]",
+      "texte_tiktok": "Un prompt à Claude : un site de pub banal qui devient terrifiant quand on descend. Hearthly est en ligne, le prompt aussi.",
+      "meme": "sticker:scared cat",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "D'un croquis à une maison 3D qui se construit toute seule",
+      "categorie": "COMMU",
+      "texte": "Blueprint est un skill, un mode d'emploi qu'on ajoute à Claude Code. Donne-lui un croquis au stylo, un plan ou quelques images d'inspiration : il en tire les mesures, écrit toute la maison pièce par pièce dans Blender, le logiciel 3D gratuit, puis filme la maison qui se monte sur ton dessin. La maison à cour intérieure compte 2 444 pièces. Le dépôt a plus de 100 étoiles.",
+      "lien": "https://github.com/Nyxera0x/blueprint",
+      "image": "https://raw.githubusercontent.com/Nyxera0x/blueprint/HEAD/docs/hero.gif",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "2 444",
+        "legende": "pièces pour une maison"
+      },
+      "ou": "github.com/Nyxera0x/blueprint (+ Blender)",
+      "titre_tiktok": "Ton croquis [[devient une maison 3D]]",
+      "texte_tiktok": "Un skill gratuit pour Claude Code : un croquis au stylo devient une maison 3D dans Blender, qui se construit sous tes yeux.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Ton IA monte des docus façon vieux journal",
+      "categorie": "COMMU",
+      "texte": "News Documentary Video est un skill pour Claude Code, Codex ou Cursor. Donne un sujet d'actu : l'IA cherche les faits, découpe l'histoire en six scènes, crée des collages de vieux journaux déchirés, des graphiques animés et ajoute la musique, puis sort une vidéo en 1080p. La voix off est en option. Le dépôt approche les 75 étoiles ; la notice est en chinois.",
+      "lien": "https://github.com/SerenaMugua/news-documentary-video-skill",
+      "image": "https://raw.githubusercontent.com/SerenaMugua/news-documentary-video-skill/HEAD/preview/01_newspaper_open.png",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Collage",
+          "Journal",
+          "1080p"
+        ]
+      },
+      "ou": "github.com/SerenaMugua/news-documentary-video-skill",
+      "titre_tiktok": "Des docus [[façon vieux journal]]",
+      "texte_tiktok": "Un skill pour Claude Code : donne un sujet, il fabrique une vidéo documentaire avec collages de journaux et graphiques animés.",
+      "cadrage": "entier"
+    }
+  ],
+  "tiktok": [
+    3,
+    10,
+    15,
+    6,
+    14,
+    9,
+    1
+  ],
+  "couverture_tiktok": "Une IA a-t-elle percé [[un mystère de 200 ans]] ?",
+  "teaser": 1,
+  "tiktok_aprem": [
+    11,
+    4,
+    16,
+    7,
+    13,
+    8,
+    12,
+    2
+  ],
+  "couverture_tiktok_aprem": "Et si une voix disparue [[commentait ton match]] ?",
+  "teaser_aprem": 2
+}
