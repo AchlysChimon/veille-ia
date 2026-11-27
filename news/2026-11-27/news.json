@@ -1,0 +1,291 @@
+{
+  "date": "27 novembre 2026",
+  "accroche": "Des appareils photo débridés grâce à l'IA, 1 000 IA qui codent un chatbot… sans IA, et un robot en stage chez Volvo",
+  "image_couverture": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/imgi-27-car-inspection-new.jpg?resize=1600,900&key=97a7412a",
+  "items": [
+    {
+      "titre": "L'IA réveille les fonctions cachées des appareils photo",
+      "categorie": "IA",
+      "texte": "Des passionnés se servent de l'IA pour fouiller le logiciel de leurs boîtiers. Résultat : un Sony A7 IV filme en « open gate », tout le capteur, idéal pour tirer une vidéo YouTube et un TikTok du même plan. Un autre fait tourner Super Mario 64 sur un Canon R8, un travail recodé en un week-end avec Claude. Ce sont des bidouilles non officielles, à tester à tes risques.",
+      "lien": "https://www.frandroid.com/produits-android/photo/appareil-photo/3339705_votre-appareil-sait-deja-le-faire-grace-a-lia-des-amateurs-debloquent-les-fonctions-bridees-des-appareils-photo-sony-nikon-et-panasonic",
+      "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/ia-camera.png?resize=1600,900&key=0ae34bb7",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Sony",
+          "Canon",
+          "Open gate"
+        ]
+      },
+      "titre_tiktok": "Ton appareil photo [[débridé par l'IA]]",
+      "texte_tiktok": "Grâce à l'IA, des passionnés débloquent l'« open gate » sur un Sony A7 IV : un plan, une vidéo YouTube et un TikTok. Bidouille non officielle, à tes risques.",
+      "image_tiktok": "https://www.sonyalpharumors.com/wp-content/uploads/2026/11/3-2-open-gate-recording-on-a7iv-v0-0rvwdg1tp62i1.jpg",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "1 000 IA codent un chatbot… sans la moindre IA",
+      "categorie": "IA",
+      "texte": "Chez Hugging Face, la grande plateforme de l'IA ouverte, des chercheurs ont lâché 1 000 agents IA, pilotés par Claude, sur un seul projet : PyBot. C'est un chatbot fait uniquement de règles « si… alors », comme ELIZA en 1966, avec des centaines de milliers de lignes de code. Le but : voir comment travaille un essaim d'IA. Souvent, seuls 40 à 60 agents bossaient vraiment.",
+      "lien": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3341787_1-000-ia-ont-code-un-chatbot-qui-ne-contient-pas-la-moindre-ia",
+      "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/image-253.png?resize=1600,900&key=94942e81",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "1 000",
+        "legende": "agents IA sur un seul projet"
+      },
+      "titre_tiktok": "[[1 000 IA]] codent un chatbot sans IA",
+      "texte_tiktok": "Hugging Face a fait coder un chatbot fait uniquement de règles par 1 000 agents IA. En vrai, seuls 40 à 60 travaillaient en même temps : les autres attendaient.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "ChatGPT : tes quotas vont fondre plus vite",
+      "categorie": "IA",
+      "texte": "OpenAI avoue une erreur de facturation depuis la sortie de GPT-6.2, le 17 novembre : ses modèles Astra et Sol étaient décomptés avec une remise de trop. Désormais, tu atteindras tes limites 40 % plus vite avec Astra et 25 % plus vite avec Sol. En échange, les abonnés Go, Plus, Pro et Business reçoivent une remise à zéro de leur quota, à déclencher quand ils veulent.",
+      "lien": "https://www.numerama.com/tech/2385489-on-a-fait-une-erreur-de-facturation-openai-corrige-le-tir-et-vos-quotas-gpt-6-2-vont-fondre-jusqua-40.html",
+      "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/1-22.png?resize=1600,900&key=fbc965fd",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "-40 %",
+        "legende": "de quota en moins sur Astra"
+      },
+      "ou": "ChatGPT → Réglages → Utilisation",
+      "titre_tiktok": "ChatGPT : tes quotas [[fondent]]",
+      "texte_tiktok": "Après une erreur de facturation, tu atteindras tes limites 40 % plus vite avec GPT-6.2 Astra. En échange, OpenAI t'offre une remise à zéro à utiliser quand tu veux.",
+      "meme": "sticker:this is fine",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Gemini décrit ce que filme ton iPhone",
+      "categorie": "IA",
+      "texte": "La « vision guidée » de Gemini Live arrive sur iPhone. Pensée pour les personnes aveugles ou malvoyantes, elle te guide à la voix pour cadrer une étiquette, puis lit les petits caractères, aide à choisir un programme de lave-linge ou à retrouver un écouteur. Elle arrive peu à peu selon les comptes et les pays, et ne remplace pas une canne blanche.",
+      "lien": "https://www.frandroid.com/marques/3339975_jai-teste-la-vision-guidee-de-gemini-live-sur-iphone-super-pour-decrire-mais-bride-par-ios-pour-la-photo",
+      "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/img-20261126-120540-edit-70389932900126.jpg?resize=1600,900&key=f5dc07a3",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Gemini",
+          "iPhone",
+          "Caméra"
+        ]
+      },
+      "ou": "Appli Gemini → Live → partager la caméra",
+      "titre_tiktok": "Gemini [[lit pour toi]] avec la caméra",
+      "texte_tiktok": "Sur iPhone, Gemini Live te guide à la voix pour cadrer une étiquette, puis lit les petits caractères. Déploiement progressif selon les comptes et les pays.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Un robot humanoïde en stage chez Volvo",
+      "categorie": "IA",
+      "texte": "Dans son usine de Gand, en Belgique, Volvo teste AEON, un robot humanoïde de 1,65 m monté sur roues. Pour l'instant, il apprend un geste tout simple, poser une pièce dans un support, en regardant des ouvriers le répéter encore et encore. D'autres robots arriveront début 2027, avant un passage progressif en production mi-2027. BMW utilise déjà le même robot à Leipzig.",
+      "lien": "https://www.frandroid.com/marques/volvo/3341605_volvo-forme-des-robots-humanoides-aeon-dans-son-usine-belge-de-gand-apres-bmw-un-deuxieme-constructeur-europeen-sy-met",
+      "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/imgi-27-car-inspection-new.jpg?resize=1600,900&key=97a7412a",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "1,65 m",
+        "legende": "le robot AEON de Volvo"
+      },
+      "titre_tiktok": "Un robot [[en stage]] chez Volvo",
+      "texte_tiktok": "À Gand, le robot humanoïde AEON apprend à poser une pièce en imitant les ouvriers. D'autres arrivent début 2027, pour un travail en production mi-2027.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Apple retire une appli de compagnons IA",
+      "categorie": "IA",
+      "texte": "Apple a retiré Talkie de l'App Store dans le monde entier. Cette appli du chinois MiniMax permet de discuter avec des personnages IA et comptait près de 11 millions d'utilisateurs par mois. Une enquête du Bureau of Investigative Journalism et d'ABC News a montré que ses personnages envoyaient des messages humiliants ou déplacés à des enfants. Apple évoque des contenus sexuels.",
+      "lien": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/",
+      "image": false,
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "11 M",
+        "legende": "d'utilisateurs par mois"
+      }
+    },
+    {
+      "titre": "Ton iPhone résume tes réunions",
+      "categorie": "IA",
+      "texte": "L'appli Documents de Readdle, sur iPhone et iPad, ajoute Voice Notes : tu enregistres une réunion ou un cours, et l'IA en tire une transcription, un résumé et la liste des choses à faire. Tu peux lancer l'enregistrement avec le bouton Action de l'iPhone. C'est inclus dans l'abonnement Documents Plus, avec 7 jours d'essai gratuit.",
+      "lien": "https://9to5mac.com/2026/11/26/readdles-documents-app-adds-voice-recording-with-transcripts-summaries-more/",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/readdle-documents-voice-notes.jpg?quality=82&strip=all&resize=1200,628",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Notes",
+          "Résumé",
+          "À faire"
+        ]
+      },
+      "ou": "Appli Documents (Readdle) → + → Voice Notes",
+      "titre_tiktok": "Ton iPhone [[résume tes réunions]]",
+      "texte_tiktok": "Dans l'appli Documents de Readdle, enregistre une réunion : l'IA sort la transcription, un résumé et les choses à faire. Inclus dans Documents Plus.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Une dictée vocale qui se trompe beaucoup moins",
+      "categorie": "IA",
+      "texte": "Wispr Flow, une appli qui transforme ta voix en texte propre dans n'importe quelle appli, passe à son nouveau modèle Canto-2. Selon l'éditeur, il fait un tiers d'erreurs en moins sur 14 langues et reconnaît bien mieux les noms difficiles : 69 % contre 41 % avant. Dispo sur Mac, Windows, iPhone et Android, d'abord sur le continent américain, puis dans les autres régions.",
+      "lien": "https://9to5mac.com/2026/11/25/wispr-flow-improves-dictation-accuracy-with-new-canto-2-speech-to-text-model/",
+      "image": "https://cdn.prod.website-files.com/682f84b3838c89f8ff7667db/6a724a4fff322698a57a7d97_dictation-og%20(1).jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "-36 %",
+        "legende": "d'erreurs de dictée"
+      },
+      "ou": "wisprflow.ai (Mac, Windows, iPhone, Android)",
+      "titre_tiktok": "Une dictée vocale [[qui se trompe moins]]",
+      "texte_tiktok": "L'appli Wispr Flow transforme ta voix en texte propre. Son nouveau modèle fait un tiers d'erreurs en moins sur 14 langues. D'abord en Amérique, puis ailleurs.",
+      "image_tiktok": "https://cdn.prod.website-files.com/682f84b3838c89f8ff7667db/6a724a4fff322698a57a7d97_dictation-og%20(1).jpg",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "SpaceX peut envoyer un million d'ordinateurs en orbite",
+      "categorie": "TECH",
+      "texte": "Le gendarme américain des télécoms autorise SpaceX à lancer jusqu'à un million de satellites, baptisés Starmind. Chacun serait un petit centre de calcul pour l'IA, alimenté par le soleil. Les premiers lancements sont prévus fin 2027. Beaucoup de scientifiques doutent : refroidir ces machines, les débris et la gêne pour les astronomes posent problème.",
+      "lien": "https://www.numerama.com/sciences/2385245-un-million-de-satellites-spacex-obtient-le-feu-vert-pour-son-projet-de-data-centers-dans-lespace.html",
+      "image": "https://www.numerama.com/sciences/2385245-un-million-de-satellites-spacex-obtient-le-feu-vert-pour-son-projet-de-data-centers-dans-lespace.html",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "1 000 000",
+        "legende": "satellites autorisés"
+      },
+      "titre_tiktok": "L'IA va [[tourner dans l'espace]]",
+      "texte_tiktok": "SpaceX a le feu vert pour lancer jusqu'à un million de satellites qui feraient tourner de l'IA à l'énergie solaire. Premiers lancements prévus fin 2027.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "1Password piraté : méfie-toi des faux mails",
+      "categorie": "TECH",
+      "texte": "Le gestionnaire de mots de passe 1Password a été piraté via le compte GitHub d'un employé. Le pirate a récupéré les noms et adresses mail de clients, mais pas les mots de passe ni le contenu des coffres. Le vrai risque, ce sont les faux mails « 1Password » qui pourraient suivre pour te piéger. L'entreprise n'a pas dit combien de clients sont touchés.",
+      "lien": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+      "image": false,
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Noms",
+          "Mails",
+          "Phishing"
+        ]
+      }
+    },
+    {
+      "titre": "Le logo de GTA vient d'une police gratuite",
+      "categorie": "UI/UX",
+      "texte": "Avec la sortie de GTA VI, les graphistes se repenchent sur son logo. Depuis GTA III, le titre « Grand Theft Auto » utilise Pricedown, une police du typographe Ray Larabie inspirée du logo du jeu télé américain The Price Is Right, l'ancêtre du Juste Prix. Bonne nouvelle : elle se télécharge gratuitement.",
+      "lien": "https://www.creativebloq.com/news/yes-the-gta-logo-is-based-on-a-free-font-inspired-by-a-game-show-heres-where-to-get-it",
+      "image": "https://cdn.mos.cms.futurecdn.net/DMULBkpVHVkYndNsYxTMCL-1000-80.jpg",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Pricedown",
+          "GTA VI"
+        ]
+      },
+      "ou": "Typodermic Fonts → Pricedown",
+      "titre_tiktok": "Le logo de GTA [[est gratuit]]",
+      "texte_tiktok": "Le titre de GTA utilise Pricedown, une police inspirée du jeu télé The Price Is Right, l'ancêtre du Juste Prix. Et elle se télécharge gratuitement.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "20 panneaux pub de Londres deviennent des œuvres",
+      "categorie": "UI/UX",
+      "texte": "L'illustratrice Fiona Quadri remplace la pub par ses collages ultra colorés sur 20 panneaux d'affichage à Londres. Chaque œuvre, de la série « Abundance of Being », raconte le quartier où elle est posée : marché de Brixton, club de jazz, commerces du coin. Elle a dessiné sur place avant de composer. Le projet vient du programme « Your Space Or Mine » de Buildhollywood.",
+      "lien": "https://www.itsnicethat.com/articles/fiona-quadri-the-abundance-of-being-art-project-261126",
+      "image": "https://m.itsnicethat.com/original_images/jam_afternoon.png?class=w1440",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "20",
+        "legende": "panneaux pub transformés"
+      },
+      "titre_tiktok": "Des pubs remplacées [[par de l'art]]",
+      "texte_tiktok": "À Londres, Fiona Quadri remplace la pub de 20 panneaux par des collages ultra colorés. Chacun raconte le quartier où il est affiché.",
+      "cadrage": "plein"
+    },
+    {
+      "titre": "Une start-up IA fuit le look « tout noir »",
+      "categorie": "UI/UX",
+      "texte": "La plupart des marques d'IA se ressemblent : fond sombre, look crypto. Pour Zero, une start-up finlandaise qui veut remplacer les vieux logiciels de gestion client, l'agence Verve a choisi l'inverse : un monde de pierre et de terre craquelée où les vieux outils se fossilisent. L'idée est née d'une machine à écrire en pierre vue dans un musée d'Helsinki pendant un vol retardé.",
+      "lien": "https://www.creativeboom.com/news/whats-the-answer-to-a-sea-of-lookalike-ai-brands-a-fossilised-typewriter-a-flight-delay-and-some-hand-drawn-cave-art-of-course/",
+      "image": "https://media.creativeboom.com/71373e03-610f-44a4-bf7b-507b07366b0f/conversions/1e2a4b6d2fb84495aff5e11c5c54b0610bbdacc0-medium.webp",
+      "visuel": {
+        "type": "mots",
+        "mots": [
+          "Fossile",
+          "Branding",
+          "IA"
+        ]
+      },
+      "titre_tiktok": "Une marque IA [[à l'âge de pierre]]",
+      "texte_tiktok": "Pour la start-up IA Zero, l'agence Verve fuit le look sombre des marques tech : un monde de pierre où les vieux logiciels se fossilisent.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Ton IA dessine des machines 3D qui bougent",
+      "categorie": "COMMU",
+      "texte": "Inkworks est un skill, un mode d'emploi à ajouter à ton assistant IA de code (Claude Code, Codex, Cursor…). Demande « une page 3D qui montre comment marche un moteur » : il crée un plan technique animé, avec pièces numérotées, que l'on peut mettre en pause, faire tourner ou ralentir. Tout est en code, sans vidéo générée. Il a déjà 479 étoiles sur GitHub.",
+      "lien": "https://github.com/Moh4696/inkworks-skill",
+      "image": "https://raw.githubusercontent.com/Moh4696/inkworks-skill/HEAD/examples/engine-figure.webp",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "479",
+        "legende": "étoiles sur GitHub"
+      },
+      "ou": "github.com/Moh4696/inkworks-skill",
+      "titre_tiktok": "Ton IA dessine [[des machines 3D]]",
+      "texte_tiktok": "Le skill Inkworks fait créer à ton IA des plans techniques 3D animés : un moteur que tu peux faire tourner, ralentir ou mettre en pause.",
+      "cadrage": "entier"
+    },
+    {
+      "titre": "Un skill qui dessine les icônes de ton appli",
+      "categorie": "COMMU",
+      "texte": "Generate-icons est un skill gratuit pour Claude Code et d'autres assistants de code. Il lit les couleurs, polices et icônes de ton projet, en déduit un style, te montre 6 à 8 icônes dans ta vraie interface, puis dessine toute la bibliothèque en SVG, en clair et en sombre. Il ne recopie aucun pack existant. Il a déjà 120 étoiles sur GitHub.",
+      "lien": "https://github.com/sergiobanhos/generate-icons",
+      "image": "https://raw.githubusercontent.com/sergiobanhos/generate-icons/HEAD/docs/real-example-library.png",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "8",
+        "legende": "styles d'icônes de départ"
+      },
+      "ou": "github.com/sergiobanhos/generate-icons",
+      "titre_tiktok": "Ton IA dessine [[tes icônes]]",
+      "texte_tiktok": "Le skill generate-icons lit le style de ton appli, te montre un échantillon, puis dessine toute ta bibliothèque d'icônes en SVG. Gratuit.",
+      "cadrage": "carte"
+    },
+    {
+      "titre": "Ton IA monte tes vidéos avec 100 looks",
+      "categorie": "COMMU",
+      "texte": "ContentSkills est un pack de skills gratuit pour Claude Code et d'autres agents : écrire un script, monter une vidéo à partir d'une seule prise, copier le style d'un Reel, ajouter des effets puis publier sur Instagram ou TikTok. Tu valides un storyboard avant le montage, et tout tourne sur ton ordinateur, sans crédits à acheter. Il a déjà 193 étoiles sur GitHub.",
+      "lien": "https://github.com/blotato/contentskills",
+      "image": "https://raw.githubusercontent.com/blotato/contentskills/HEAD/gallery/showcase/showcase-16x9.jpg",
+      "visuel": {
+        "type": "chiffre",
+        "valeur": "100",
+        "legende": "looks pour une même prise"
+      },
+      "ou": "github.com/blotato/contentskills",
+      "titre_tiktok": "Ton IA [[monte tes vidéos]]",
+      "texte_tiktok": "Le pack ContentSkills fait monter tes vidéos par Claude Code : script, effets, style d'un Reel copié, puis publication. Gratuit, il tourne sur ton ordi.",
+      "cadrage": "carte"
+    }
+  ],
+  "tiktok": [
+    3,
+    11,
+    5,
+    14,
+    12,
+    1,
+    2
+  ],
+  "couverture_tiktok": "Ton appareil photo cache [[des fonctions secrètes]] ?",
+  "teaser": 1,
+  "tiktok_aprem": [
+    4,
+    13,
+    7,
+    15,
+    16,
+    9,
+    8
+  ],
+  "couverture_tiktok_aprem": "Et si l'IA [[tournait dans l'espace]] ?",
+  "teaser_aprem": 9
+}
