@@ -1,0 +1,49 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>FLASH IA · 2026-11-26 aprem</title>
+<style>
+body{margin:0;background:#0b0b0b;color:#fff;font:16px/1.4 system-ui,sans-serif;padding:16px;max-width:640px;margin:auto}
+h1{font-size:22px;margin:4px 0 2px}.sub{color:#aaa;margin:0 0 14px}
+nav a{color:#FFE600;margin-right:12px}
+button{display:block;width:100%;margin:10px 0;padding:16px;border:0;border-radius:12px;font:700 18px system-ui;background:#FFE600;color:#000}
+button.sec{background:#222;color:#fff}
+.ok{color:#7CFC9A;min-height:1.4em;margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:14px}.grid img{width:100%;border-radius:8px}
+pre{white-space:pre-wrap;background:#161616;padding:12px;border-radius:10px;font-size:13px;color:#ddd}
+</style></head><body>
+<nav><a href="../../2026-11-28/aprem/">28/11 17 h</a> <a href="../../2026-11-28/matin/">28/11 matin</a> <a href="../../2026-11-27/aprem/">27/11 17 h</a> <a href="../../2026-11-27/matin/">27/11 matin</a> <a href="../../2026-11-26/aprem/">26/11 17 h</a> <a href="../../2026-11-26/matin/">26/11 matin</a></nav>
+<h1>FLASH IA de l'après-midi</h1><p class="sub">2026-11-26 · 10 slides</p>
+<button onclick="copier()">1. Copier la légende</button>
+<button onclick="partager('photos')">2. Envoyer les 10 photos vers TikTok</button>
+<button class="sec" onclick="partager('video')">ou envoyer la vidéo</button>
+<button class="sec" onclick="telecharger()">Tout télécharger</button>
+<p class="ok" id="ok"></p>
+<pre id="leg">Et si une voix disparue commentait ton match ? 👇
+
+1. Un métro en carreaux faits main — https://www.creativeboom.com/news/camille-walala-is-covering-a-lyon-metro-station-in-30000-hand-made-tiles/
+   👉 Où le trouver : Station Flachet, Villeurbanne · au printemps
+2. Gemini t&#x27;écrit le matin — https://9to5google.com/2026/11/24/google-messages-gemini-tasks/
+   👉 Où le trouver : Google Messages → icône Gemini (États-Unis)
+3. Des docus façon vieux journal — https://github.com/SerenaMugua/news-documentary-video-skill
+   👉 Où le trouver : github.com/SerenaMugua/news-documentary-video-skill
+4. Tes conversations IA aux enchères ? — https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/
+5. Un cinéma façon salon Art déco — https://www.numerama.com/pop-culture/2384669-le-grand-rex-ouvre-une-salle-unique-au-monde-avec-un-detail-qui-change-tout.html
+   👉 Où le trouver : Grand Rex, Paris → Salle Émeraude
+6. Médicaments : méfie-toi de l&#x27;IA — https://www.frandroid.com/culture-tech/intelligence-artificielle/3339573_des-informations-inexactes-contradictoires-ou-inadaptees-lagence-du-medicament-met-en-garde-contre-lusage-de-lia-pour-les-conseils-medicaux
+7. Une voix disparue commente ton match — https://www.bbc.co.uk/news/articles/c65y10j841jpo
+8. L&#x27;italique à l&#x27;envers — https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126
+
+#ia #intelligenceartificielle #veilleia #chatgpt #claude #design #techtok</pre>
+<div class="grid"><img src="00.png" loading="lazy"><img src="01.png" loading="lazy"><img src="02.png" loading="lazy"><img src="03.png" loading="lazy"><img src="04.png" loading="lazy"><img src="05.png" loading="lazy"><img src="06.png" loading="lazy"><img src="07.png" loading="lazy"><img src="08.png" loading="lazy"><img src="09.png" loading="lazy"></div>
+<script>
+const PNG=["00.png", "01.png", "02.png", "03.png", "04.png", "05.png", "06.png", "07.png", "08.png", "09.png"], VIDEO="flash_ia.mp4";
+const ok=t=>document.getElementById('ok').textContent=t;
+async function copier(){const t=document.getElementById('leg').textContent;
+  try{await navigator.clipboard.writeText(t);ok('Légende copiée ✅ Colle-la dans TikTok.')}
+  catch(e){const r=document.createRange();r.selectNode(document.getElementById('leg'));getSelection().removeAllRanges();getSelection().addRange(r);ok('Sélectionnée : appuie sur Copier.')}}
+async function fichiers(noms,type){return Promise.all(noms.map(async n=>new File([await (await fetch(n)).blob()],n,{type})))}
+async function partager(q){try{ok('Préparation…');
+  const f=q==='video'?await fichiers([VIDEO],'video/mp4'):await fichiers(PNG,'image/png');
+  if(!navigator.canShare||!navigator.canShare({files:f})){ok('Partage impossible ici : ouvre la page sur ton téléphone, ou utilise « Tout télécharger ».');return}
+  await navigator.share({files:f});ok('Choisis TikTok dans le menu, puis colle la légende.')}catch(e){ok(e.name==='AbortError'?'':'Oups : '+e.message)}}
+async function telecharger(){for(const n of [...PNG,VIDEO]){const a=document.createElement('a');a.href=n;a.download=n.split('/').pop();document.body.appendChild(a);a.click();a.remove();await new Promise(r=>setTimeout(r,400))}}
+</script></body></html>
