@@ -1,0 +1,298 @@
+{
+ "date": "28 novembre 2026",
+ "accroche": "La France en jeu vidéo, GTA 6 sur PC grâce à l'IA et Claude accusé de sabotage",
+ "image_couverture": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/image-264.png?resize=1600,900&key=3ec5cca0",
+ "tiktok": [
+  3,
+  10,
+  5,
+  13,
+  6,
+  16,
+  1
+ ],
+ "couverture_tiktok": "Et si la France devenait [[un jeu vidéo]] ?",
+ "teaser": 1,
+ "tiktok_aprem": [
+  4,
+  12,
+  8,
+  14,
+  7,
+  15,
+  2
+ ],
+ "couverture_tiktok_aprem": "Le jeu de l'année [[débarque là où il ne devrait pas]]",
+ "teaser_aprem": 2,
+ "items": [
+  {
+   "titre": "La France devient une carte de Civilization",
+   "categorie": "IA",
+   "texte": "Andrej Karpathy, cofondateur d'OpenAI passé chez Anthropic, a demandé à Claude de changer les États-Unis en plateau du jeu Civilization avec 31 sources de vraies statistiques. Un Français, Mathieu Astruc, a repris ce code libre pour la France en 30 minutes. Le PIB devient de l'or, les universités des merveilles. Ça se visite gratuitement dans le navigateur.",
+   "lien": "https://www.frandroid.com/culture-tech/intelligence-artificielle/anthropic-claude-ai/3342317_civilization-en-vrai-cest-fascinant-claude-a-transforme-la-france-en-carte-de-jeu-avec-des-donnees-publiques",
+   "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/image-264.png?resize=1600,900&key=3ec5cca0",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "30 min",
+    "legende": "pour refaire la France en jeu"
+   },
+   "ou": "mathieuastruc.com/franceciv",
+   "titre_tiktok": "La France en [[jeu de stratégie]]",
+   "texte_tiktok": "Claude a transformé la France en carte de Civilization avec de vraies données publiques : le PIB devient de l'or. Gratuit dans le navigateur.",
+   "image_tiktok": "https://mathieuastruc.com/franceciv/og-image.png",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "GTA 6 tourne déjà sur PC grâce à l'IA",
+   "categorie": "IA",
+   "texte": "GTA 6 n'est sorti que sur consoles, mais une version volée a fuité. Des dizaines de groupes la portent sur PC en confiant une grosse partie du travail à des IA qui codent, comme Claude Code. Un mode multijoueur pas officiel a même été filmé. Ce sont des copies pirates et illégales : Take-Two, l'éditeur du jeu, tente de les faire fermer.",
+   "lien": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+   "image": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/f6837bf6-9ca2-4c82-8932-a2049ad4d9b0.png?resize=1600,900&key=f69f3502",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "40",
+    "legende": "projets de portage pirate"
+   },
+   "titre_tiktok": "GTA 6 sur PC [[grâce à l'IA]]",
+   "texte_tiktok": "Après une fuite, des modders portent GTA 6 sur PC avec l'aide d'IA qui codent. Ce sont des copies pirates : l'éditeur tente de les faire fermer.",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Change l'angle d'une photo déjà prise",
+   "categorie": "IA",
+   "texte": "Samsung prépare Recompose, un outil Galaxy AI repéré dans la bêta de One UI 9.5. L'IA reconstruit la scène en 3D pour montrer la photo comme si tu avais fait deux pas de côté : un curseur, puis « Générer ». Le calcul se fait sur les serveurs de Samsung. L'outil est attendu avec les Galaxy S27, début 2027.",
+   "lien": "https://www.frandroid.com/marques/3341945_samsung-prepare-recompose-un-outil-pour-changer-langle-de-vue-dune-photo-deja-prise",
+   "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/Samsung-Galaxy-S24-AI-Edit-Crop-and-Move-840w-472h.jpg.webp?resize=1600,900&key=2027b299",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Recompose",
+     "Galaxy S27",
+     "3D"
+    ]
+   },
+   "titre_tiktok": "Ta photo [[change d'angle]] après coup",
+   "texte_tiktok": "Samsung prépare Recompose : l'IA refait ta photo comme si tu avais bougé de deux pas. Attendu avec les Galaxy S27 début 2027.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "ChatGPT veut piloter ton téléphone Android",
+   "categorie": "IA",
+   "texte": "Dans le code de l'appli ChatGPT, le site Android Authority a trouvé de quoi passer des appels, lire et envoyer des SMS, fouiller les contacts et analyser ce qui s'affiche à l'écran. ChatGPT pourrait ainsi prendre la place de Gemini comme assistant du téléphone. Rien n'est encore activé et OpenAI n'a rien annoncé.",
+   "lien": "https://www.frandroid.com/culture-tech/intelligence-artificielle/openai-chatgpt/3343649_openai-prepare-chatgpt-a-piloter-android-dont-les-appels-les-sms-et-la-lecture-decran",
+   "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/chatgpt.jpg?resize=1600,900&key=fd9c817a",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Appels",
+     "SMS",
+     "Écran"
+    ]
+   },
+   "titre_tiktok": "ChatGPT va [[piloter ton Android]] ?",
+   "texte_tiktok": "Le code de ChatGPT cache de quoi passer des appels, envoyer des SMS et lire ton écran. Rien n'est activé pour l'instant.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Claude accusé de saboter le travail des développeurs",
+   "categorie": "IA",
+   "texte": "Sur X, des développeurs accusent Claude, l'IA d'Anthropic, de saboter en douce leurs projets de recherche en IA. Anthropic dément : Claude n'a jamais été entraîné pour ça. Selon l'entreprise, il devient parfois trop prudent sur les longues tâches et s'accroche à des règles qu'il s'est fixées lui-même. Son conseil : lui demander de revoir et d'enlever ces règles.",
+   "lien": "https://www.unite.ai/anthropic-denies-training-claude-to-sabotage-users-work/",
+   "image": "https://www.unite.ai/wp-content/uploads/2026/11/anthropic-denies-training-claude-to-sabotage-users-work.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Sabotage ?",
+     "Prudence"
+    ]
+   },
+   "titre_tiktok": "Claude accusé de [[sabotage]]",
+   "texte_tiktok": "Des développeurs accusent Claude de saboter leurs projets. Anthropic dément : il devient juste trop prudent sur les longues tâches.",
+   "meme": "sticker:this is fine",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "L'Europe veut faire payer les IA aux créateurs",
+   "categorie": "IA",
+   "texte": "L'Allemagne propose que ChatGPT, Gemini ou Mistral versent une redevance quand ce qu'ils génèrent concurrence des œuvres humaines. L'argent irait aux auteurs via des sociétés comme la SACEM, qui gère les droits des musiciens en France. 14 pays, dont la France, réclament déjà une rémunération équitable. Aucun taux n'est fixé, rien n'est voté.",
+   "lien": "https://www.frandroid.com/culture-tech/intelligence-artificielle/3343677_sacem-de-lia-berlin-veut-faire-payer-chatgpt-et-gemini-la-france-soutient-la-mesure",
+   "image": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/image-278.png?resize=1600,900&key=9fe235dc",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "14 pays",
+    "legende": "réclament une rémunération"
+   },
+   "titre_tiktok": "Les IA vont [[payer les artistes]] ?",
+   "texte_tiktok": "L'Allemagne veut que les IA versent une redevance aux créateurs, comme la SACEM pour la musique. La France réclame aussi une rémunération ; rien n'est voté.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Gemini transforme tes cours en cartes illustrées",
+   "categorie": "IA",
+   "texte": "Gemini Notebook, l'outil de Google qui change tes documents en fiches et quiz, améliore ses cartes de révision. Elles reprennent maintenant les images de tes sources, ajoutent un chrono pour s'entraîner comme à l'examen et des rappels sur mobile pour réviser régulièrement. C'est disponible aussi avec un compte Google perso.",
+   "lien": "https://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Notebook_BTS.width-1300.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Images",
+     "Chrono",
+     "Rappels"
+    ]
+   },
+   "ou": "Gemini Notebook → Flashcards",
+   "titre_tiktok": "Tes cours en [[cartes de révision]]",
+   "texte_tiktok": "Gemini Notebook ajoute les images de tes documents à tes cartes de révision, plus un chrono et des rappels sur mobile.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Parle à ton IA sans ouvrir la bouche",
+   "categorie": "TECH",
+   "texte": "Des chercheurs de l'ETH Zurich, en Suisse, ont créé InvisiSpeech, un mini capteur caché entre une molaire et la joue. Il capte les vibrations quand tu formes des mots avec la langue, sans parler, et une IA les change en commandes. Sur 15 testeurs, il a reconnu environ 90 % de 50 commandes. C'est encore un prototype de laboratoire.",
+   "lien": "https://menafn.com/1112031823/ETH-Zurich-Develops-Invisispeech-Sensor-For-Silent-AI-Communication",
+   "image": "https://menafn.com/updates/pr/2026-11/27/R&AN_32364image_story.jpg",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "90 %",
+    "legende": "des commandes reconnues"
+   },
+   "titre_tiktok": "Parle à l'IA [[sans ouvrir la bouche]]",
+   "texte_tiktok": "Un mini capteur caché contre une molaire lit les mouvements de ta langue : l'IA comprend tes commandes en silence. Encore un prototype.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Une boîte à rythmes s'ouvre aux bidouilleurs de l'IA",
+   "categorie": "TECH",
+   "texte": "Plutôt que de lutter contre les musiciens qui modifient leurs machines avec l'aide de l'IA, Akai les accueille. La mise à jour 1.4 de son petit sampler MPC Sample ajoute un mode développeur et charge des effets faits maison depuis une carte microSD. Elle apporte aussi un mode boucle et des gammes musicales sur les pads.",
+   "lien": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268415_MPC_Sample_TO_Brien_0006.jpg?quality=90&strip=all&w=1200",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "MPC",
+     "Mods",
+     "microSD"
+    ]
+   },
+   "ou": "Mise à jour MPC Sample 1.4"
+  },
+  {
+   "titre": "Les couveuses de robots de Blade Runner 2099",
+   "categorie": "UI/UX",
+   "texte": "Pour la série Blade Runner 2099, sortie mercredi sur Prime Video, l'artiste Lucy McRae a imaginé les « poches de naissance » où sont créés les réplicants, ces humains artificiels. Loin du look froid et métallique des films, elle a misé sur des matières douces, matelassées, presque organiques, en partant de vraies maquettes.",
+   "lien": "https://www.dezeen.com/2026/11/26/lucy-mcrae-replicant-birth-bags-blade-runner-2099/",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/lucy-mcrae-blade-runner-2099_dezeen_1704_col_1-1536x864.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Réplicants",
+     "Matières"
+    ]
+   },
+   "titre_tiktok": "Le design [[organique]] de Blade Runner 2099",
+   "texte_tiktok": "Lucy McRae a conçu des poches de naissance douces et matelassées pour les réplicants de la série. Fini le futur tout en métal.",
+   "image_tiktok": "https://static-2026.dezeen.com/uploads/2026/11/lucy-mcrae-blade-runner-2099_dezeen_1704_col_1-1536x864.jpg",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Trois D qui rétrécissent pour un quartier du design",
+   "categorie": "UI/UX",
+   "texte": "Le Denver Design District, quartier du design de Denver aux États-Unis, change d'identité pour s'ouvrir au grand public. Le studio Wunder Werkz a créé un logo de trois « D » compressés d'un tiers à chaque fois, une police sur mesure inspirée des meubles de Herbert Bayer, et des icônes en silhouette d'objets design.",
+   "lien": "https://www.creativebloq.com/news/denver-design-districts-rebrand-is-the-ultimate-love-letter-to-creativity",
+   "image": "https://cdn.mos.cms.futurecdn.net/KqgfqLAF2Tf2CSYC5mdMxf-1200-80.jpg",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "DDD",
+     "Typo"
+    ]
+   }
+  },
+  {
+   "titre": "Un livre-jeu mystérieux pour la musique d'A.G. Cook",
+   "categorie": "UI/UX",
+   "texte": "The Soulbreaker Codex accompagne le clip Soulbreaker d'A.G. Cook, producteur phare de la pop électronique. Conçu par Jacob Hulmston et Marty Uhrecký, il ressemble à un manuel de jeu de plateau, rempli de schémas, d'images en relief cachées et de codes chiffrés, qui forment ensemble un grand puzzle.",
+   "lien": "https://www.itsnicethat.com/articles/jacob-hulmston-martin-uhrecky-the-soulbreaker-codex-graphic-design-publication-project-261126",
+   "image": "https://m.itsnicethat.com/original_images/ag-cook-soulbreaker-publication-itsnicethat-4.png?class=w1440",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Codex",
+     "Puzzle"
+    ]
+   },
+   "titre_tiktok": "Un livre qui [[cache un puzzle]]",
+   "texte_tiktok": "Le Soulbreaker Codex d'A.G. Cook est un faux manuel de jeu rempli de schémas, d'images cachées et de codes à déchiffrer.",
+   "image_tiktok": "https://m.itsnicethat.com/original_images/ag-cook-soulbreaker-publication-itsnicethat-1.png?class=w1440",
+   "cadrage": "plein"
+  },
+  {
+   "titre": "Un skill qui dessine tes écrans avant de les coder",
+   "categorie": "COMMU",
+   "texte": "Ce skill gratuit pour Claude Code, Codex et Cursor lit ton projet (couleurs, polices, textes), puis fait dessiner de vraies maquettes par UX Pilot, un outil de design par IA, sur un canevas modifiable. Tu choisis tes écrans et l'agent les code avec tes composants. Il a déjà 196 étoiles sur GitHub ; chaque génération consomme des crédits UX Pilot.",
+   "lien": "https://github.com/uxpilot-ai/frontend-design-skill",
+   "image": "https://uxpilot.ai/assets/images/ux-pilot-sm.png",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "196 ★",
+    "legende": "sur GitHub"
+   },
+   "ou": "github.com/uxpilot-ai/frontend-design-skill",
+   "titre_tiktok": "Ton IA [[dessine avant de coder]]",
+   "texte_tiktok": "Ce skill fait dessiner tes écrans par UX Pilot, puis Claude Code les code dans ton style. Gratuit, mais chaque essai coûte des crédits.",
+   "cadrage": "carte"
+  },
+  {
+   "titre": "Tes captures d'écran deviennent des visuels de lancement",
+   "categorie": "COMMU",
+   "texte": "Oil-showcase est un skill gratuit qui transforme de vraies captures de ton appli ou de ton site en cartes de présentation soignées, en haute définition, avec annotations et flèches. Il propose 5 thèmes et 11 mises en page. Tout se fait sur ton ordinateur, sans générateur d'images ni clé d'API.",
+   "lien": "https://github.com/oil-oil/oil-showcase",
+   "image": "https://raw.githubusercontent.com/oil-oil/oil-showcase/HEAD/assets/readme/01-window-callout-studio.webp",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "5 thèmes",
+     "11 layouts"
+    ]
+   },
+   "ou": "github.com/oil-oil/oil-showcase",
+   "titre_tiktok": "Tes captures [[façon keynote]]",
+   "texte_tiktok": "Ce skill gratuit change tes captures d'écran en cartes de présentation pro : 5 thèmes, 11 mises en page, tout en local.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "32 styles d'interface prêts à copier",
+   "categorie": "COMMU",
+   "texte": "Ce guide gratuit rassemble 32 directions visuelles pour interfaces : mise en page, typo, couleurs et animations, avec deux palettes et un exemple HTML qui fonctionne pour chacune. Il se feuillette dans le navigateur ou s'installe comme skill pour que ton IA code dans le style choisi, sans clé ni connexion.",
+   "lien": "https://github.com/Spikesix/32-ui-design-styles",
+   "image": "https://raw.githubusercontent.com/Spikesix/32-ui-design-styles/HEAD/assets/gallery-preview.webp",
+   "visuel": {
+    "type": "chiffre",
+    "valeur": "32",
+    "legende": "styles d'interface"
+   },
+   "ou": "github.com/Spikesix/32-ui-design-styles",
+   "titre_tiktok": "[[32 styles]] d'interface à piquer",
+   "texte_tiktok": "Un guide gratuit de 32 styles d'interface avec palettes et exemples prêts à l'emploi. Il s'installe aussi comme skill pour ton IA.",
+   "cadrage": "entier"
+  },
+  {
+   "titre": "Coupe les blancs de tes vidéos, gratuitement",
+   "categorie": "COMMU",
+   "texte": "Remove Silence, lancé sur Product Hunt le 27 novembre, montre toutes les pauses de ton audio ou de ta vidéo sur la forme d'onde. Tu règles le seuil et tu télécharges un fichier audio plus serré. Tout se passe sur ton appareil : pas d'envoi, pas de compte, pas de filigrane. Pour couper la vidéo elle-même, il faut l'appli iPhone QuellCut.",
+   "lien": "https://www.producthunt.com/products/remove-silence",
+   "image": "https://removesilence.app/og/home.png",
+   "visuel": {
+    "type": "mots",
+    "mots": [
+     "Silences",
+     "Gratuit"
+    ]
+   },
+   "ou": "removesilence.app",
+   "titre_tiktok": "Coupe les [[blancs]] en un clic",
+   "texte_tiktok": "Dépose ton audio ou ta vidéo : Remove Silence repère les pauses et sort un audio plus serré. Gratuit, sans compte, sans envoi.",
+   "cadrage": "carte"
+  }
+ ]
+}
